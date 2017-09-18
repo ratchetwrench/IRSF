@@ -1,10 +1,16 @@
-irsf
-==============================
+![galvanize gschool logo](./images/gschool-logo.png)
 
-A short description of the project.
+_Created By: David Wrench - [Galvanize Data Science](https://galvanize.com) (g44-ds)_
 
-Project Organization
-------------
+IRSF - Insternational Revenue Shared Fraud
+==========================================
+
+Currently companies and individuals are experiencing International Shared Revenue Fraud (ISRF) through web applications, telephony networks, and the like.
+This ranges from insecure online forms, spoofing individual phone numbers to call other individuals, and enumerating over extensions to call business, or any mix of the aforementioned.
+
+
+
+----------------------------------------------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
