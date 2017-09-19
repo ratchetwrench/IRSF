@@ -101,13 +101,18 @@ class Phreak(object):
 
         :return A random phonenumber loosley based on NANPA and other countries.:
         """
-        cc = random.choice(COUNTRY_INFO.prefix, COUNTRY_INFO.proba).lstrip()
+        cc = random.choices(COUNTRY_INFO.prefix, weights=COUNTRY_INFO.proba, k=1)
         if cc == 1:
-            ic_sn = random.randint(0, 9, 10)
-            yield f"+{cc}{ic_sn}"
+            # [2–9] for the first digit, and [0-9] for the second and third digits.
+            prefix = COUNTRY_INFO.code == cc
+            # [2–9] for the first digit, and [0–9] for both the second and third digits
+            nxx = random.randrange(200, 999)
+            # [0–9] for each of the four digits.
+            snx = random.randrange(0000, 9999)
+            yield f"+{cc}{prefix}{nxx}{snx}"
         else:
-            ic_sn = random.randint(0, 9, random.randint(10, (16 - len(cc))))
-            yield f"+{cc}{ic_sn}"
+            ic_sn = random.randrange(1000000000, (16 - len(cc)))
+            yield f"+{cc}{prefix}{ic_sn}"
 
     def cdr(self, fraud=False):
         """Call Data Record
@@ -125,19 +130,19 @@ class Phreak(object):
             self.national = self.count - self.international
 
         for record in range(self.count):
-            record = CDR(provider_id=uuid.uuid4(),
-                         date_called=self.random_datetime_generator(),
-                         to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
-                         to_number=self.random_phonenumber_generator()),
-                         to_phone_type=random.choice(PHONE_INFO.type, PHONE_INFO.proba),
-                            from_country = mimesis.address.country(),
-                            from_number = mimesis.personal.telephone(mask='+###########'),
-                            from_phone_type = np.random.choice([]),
-                            operator_name = np.random.choice([]),
-                            call_duration = np.random.exponential(scale=2.0),
-                            call_charge = np.random.exponential(scale=0.5),
-                            is_fraud = "False"
-                        )
+            # record = CDR(provider_id=uuid.uuid4(),
+            #              date_called=self.random_datetime_generator(),
+            #              to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
+            #              to_number=self.random_phonenumber_generator()),
+            #              to_phone_type=random.choice(PHONE_INFO.type, PHONE_INFO.proba),
+            #                 from_country = mimesis.address.country(),
+            #                 from_number = mimesis.personal.telephone(mask='+###########'),
+            #                 from_phone_type = np.random.choice([]),
+            #                 operator_name = np.random.choice([]),
+            #                 call_duration = np.random.exponential(scale=2.0),
+            #                 call_charge = np.random.exponential(scale=0.5),
+            #                 is_fraud = "False"
+            #             )
 
             yield record
 
@@ -198,23 +203,25 @@ def pstn(self):
         Randomly select from 10 to 70 as a percentage of the fraud calls.
     """
     for record in range(self.count):
-        pstn = PSTN(date_called=self.random_datetime_generator(),
-                    to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
-                    to_number=self.random_phonenumber_generator()),
-                    to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba),
-                    from_country = mimesis.address.country(),
-                    from_number = mimesis.personal.telephone(mask='+###########'),
-                    from_phone_type = np.random.choice([]),
-                    operator_name = np.random.choice([]),
-                    call_duration = np.random.exponential(scale=2.0),
-                    call_charge = np.random.exponential(scale=0.5))
+        # pstn = PSTN(date_called=self.random_datetime_generator(),
+        #             to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
+        #             to_number=self.random_phonenumber_generator()),
+        #             to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba),
+        #             from_country = mimesis.address.country(),
+        #             from_number = mimesis.personal.telephone(mask='+###########'),
+        #             from_phone_type = np.random.choice([]),
+        #             operator_name = np.random.choice([]),
+        #             call_duration = np.random.exponential(scale=2.0),
+        #             call_charge = np.random.exponential(scale=0.5))
         yield pstn
 
+
 if __name__ == '__main__':
-    target_schema = input("Schema: ").lower()
-    if target_schema in ['cdr', 'iprn', 'cfcs', 'pstn', 'mno']:
-        Phreak(count=int(input("Count: ")), schema=table)
+    target_schema = input("Schema: ")
+
+    if target_schema.lower() in ['cdr', 'iprn', 'cfcs', 'pstn', 'mno']:
+        Phreak(count=int(input("Count: ")), schema=target_schema)
     else:
-        print(f"Schema: {table}, not found in the database.")
-    print("Exiting...")
-    sys.exit(1)
+        print(f"Schema: {target_schema}, not found in the database.")
+        print("Exiting...")
+        sys.exit(1)
