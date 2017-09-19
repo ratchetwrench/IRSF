@@ -98,22 +98,26 @@ class Phreak(object):
     @staticmethod
     def random_phonenumber_generator():
         """
+        given a country_name from the caller (calling function)
+        if the COUNTRY_INFO.prefix starts with a '1' use 11 digits. No more, no less.
+        else use between 11 and 15 digits. Minus the
 
-        :return A random phonenumber loosley based on NANPA and other countries.:
+        :return A random phonenumber loosely based on NANPA and other countries.:
         """
         cc = random.choices(COUNTRY_INFO.prefix, weights=COUNTRY_INFO.proba, k=1)
-        if cc == 1:
-            # [2–9] for the first digit, and [0-9] for the second and third digits.
-            prefix = COUNTRY_INFO.code == cc
-            # [2–9] for the first digit, and [0–9] for both the second and third digits
-            nxx = random.randrange(200, 999)
-            # [0–9] for each of the four digits.
-            snx = random.randrange(0000, 9999)
-            yield f"+{cc}{prefix}{nxx}{snx}"
+        prefix = cc.prefix
+        if cc[0] == 1:
+            # [2–9] for the first digit, and [0–9] all remaining digits
+            cc_prefix = 11 - (len(cc) + len(prefix))
+            sn = random.randrange(2000000, 9999999)
+            yield f"+{int(cc)}{int(prefix)}{sn}"
         else:
-            ic_sn = random.randrange(1000000000, (16 - len(cc)))
-            yield f"+{cc}{prefix}{ic_sn}"
+            cc_prefix = 16 - (len(cc) + len(prefix))
+            # [2–9] for the first digit, and [0–9] all remaining digits (11 to 15)
+            sn = random.randrange(2000000, 9999999999)
+            yield f"+{int(cc)}{int(prefix)}{sn}"
 
+    # FIXME: Get working
     def cdr(self, fraud=False):
         """Call Data Record
 
@@ -122,11 +126,13 @@ class Phreak(object):
                 Emerging Country ~= 9% of international calls
             Advanced to Emerging ~= 41% of international calls
                         National ~= What is left over from the above
+
+
         """
         if fraud:
             self.international = 1 - self.international
-            self.emerging = self.advanced
-            self.advanced = self.emerging
+            self.emerging = self.advanced                  # swapped with self.advanced
+            self.advanced = self.emerging                  # swapped with self.emerging
             self.national = self.count - self.international
 
         for record in range(self.count):
