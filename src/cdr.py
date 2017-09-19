@@ -155,30 +155,3 @@ with psycopg2.connect() as conn:
     except Exception as e:
         conn.rollback()
         print(e)
-
-# TODO: Create a dictionary of country info.
-[
-    {
-        {"name": "Aruba",
-         "power": 0.24,
-         "iso": "AW",
-         "code": "533",
-         "prefix": "297",
-         "lat_long": [12.51, -69.96],
-         "operator_type": {
-             "fix": [{"name": "ATT",
-                     "power": .024},
-                     {"name": "T-Mobile",
-                      "power": .014}
-                     ],
-             "mob": {...},
-             "sat": {...}},
-         "bbva": {
-             "eagle": "True",
-             "nest": "False",
-             "other": 'False'}
-         },
-        ...
-    }
-]
-
