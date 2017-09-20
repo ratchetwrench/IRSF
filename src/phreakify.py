@@ -16,15 +16,14 @@ Example:
 """
 import sys
 import random
-import uuid
-from collections import namedtuple
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import os
 import psycopg2
 import numpy as np
+import pandas as pd
 from psycopg2.extras import execute_batch
-from data import country_info
+
 
 # database connection variables
 HOST = os.getenv("")
@@ -38,34 +37,35 @@ START_DATE = END_DATE - relativedelta(years=-1)
 FRAUD_TYPE = None
 SCHEMA_INFO = None
 TEMP_FILE = "data/temp.csv"
-COUNTRY_INFO = country_info
+DATA = pd.read_csv("data/data.csv")
 PHONE_INFO = None
 
 
-class Phreak(object):
+class CDR(object):
     """Fake data generating class"""
-
-    def __init__(self, count=1000, schema=None):
+    def __init__(self, count=1000, schema='cdr', fraud=False):
         self.values = SCHEMA_INFO[schema]._fields  # get the field names
         self.schema = schema  # get the table name
         self.count = count  # num records to create
 
-        # set geographic distribution of calls
+        # 'country_name' from DATA, excluding 'self.from_country'
         self.international = round(count * random.randint(3, 5))
 
-        # emerging = random.choices(COUNTRY_INFO.bbva, COUNTRY_INFO.bbva.proba)
+        # 'country_name' from DATA, where 'is_emerging' == 'True'
         self.emerging = round(self.international * random.randint(7, 11))
 
-        # advanced = random.choices(~COUNTRY_INFO.bbva, COUNTRY_INFO.proba)
+        # 'country_name' from DATA, where 'is_emerging' == 'False'
         self.advanced = self.international - self.emerging
+
+        # one 'country_name' from DATA
         self.national = self.count - self.international
 
-        # call detail records fields
+        # default CDR fields
         self.date_called = self.random_datetime_generator()
         self.to_country = random.choice()
         self.to_number = self.random_phonenumber_generator()
         self.to_operator = random.choice()
-        self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
+        self.to_phone_type = random.choice(DATA, PHONE_INFO.proba)
         self.from_country = random.choice()
         self.from_number = random.choice()
         self.advanced = random.choice()
@@ -73,7 +73,27 @@ class Phreak(object):
         self.call_duration = np.random.exponential(scale=2.0)
         self.call_charge = np.random.exponential(scale=0.5)
 
-    def generate(self, record):
+        if fraud:
+            # override initial variables
+            self.international = 1 - self.international
+            self.emerging = self.advanced  # swapped with self.advanced
+            self.advanced = self.emerging  # swapped with self.emerging
+            self.national = self.count - self.international
+
+            # overwritten CDR fields
+            self.date_called = self.random_datetime_generator()
+            self.to_country = random.choice()
+            self.to_number = self.random_phonenumber_generator()
+            self.to_operator = random.choice()
+            self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
+            self.from_country = mimesis.address.country(),
+            self.from_number = mimesis.personal.telephone(mask='+###########')
+            self.advanced = np.random.choice(),
+            self.from_operator_name = np.random.choice([]),
+            self.call_duration = np.random.exponential(scale=2.0)
+            self.call_charge = np.random.exponential(scale=0.5)
+
+    def bootstrap(self, record):
         """Insert data to database.
 
         :return: None
@@ -115,7 +135,7 @@ class Phreak(object):
         yield datetime.strptime(f"{Y}-{m}-{d} {H}:{M}:{S}", "%Y-%m-%d %H:%M:%S")
 
     @staticmethod
-    def random_phonenumber_generator(to_country):
+    def random_phonenumber_generator():
         """
         given a country_name from the caller (calling function)
         if the COUNTRY_INFO.prefix starts with a '1' use 11 digits. No more, no less.
@@ -123,19 +143,18 @@ class Phreak(object):
 
         :return A random phonenumber loosely based on NANPA and other countries.:
         """
-        cc = random.choices(COUNTRY_INFO.get(to_country.code), weights=COUNTRY_INFO.get("proba"),
+        cc = random.choices(COUNTRY_INFO,
+                            weights=COUNTRY_INFO.get("proba"),
                             k=1)
         prefix = int(cc.get("prefix"))
-        cc_prefix = int(f"{cc}{prefix}")
         if cc[0] == 1:
             # [2–9] for the first digit, and [0–9] all remaining digits
-            sn_len = 11 - (len(cc) + len(cc))
             sn = random.randrange(2000000, 9999999)
-            yield f"+{prefix}{sn}"
+            yield f"+1{prefix}{sn}"
         else:
             # [2–9] for the first digit, and [0–9] all remaining digits (11 to 15)
             sn = random.randrange(20000, 999999999)
-            yield f"+{cc_prefix}{sn}"
+            yield f"+{cc}{prefix}{sn}"
 
         def cfca(self):
             """Communication Fraud Control Association
@@ -202,64 +221,11 @@ class Phreak(object):
             yield pstn
 
 
-# FIXME: Get working
-class CDR(Phreak):
-    """Call Data Record
-
-    Description:
-               International ~= 3 to 4% of all calls
-            Emerging Country ~= 9% of international calls
-        Advanced to Emerging ~= 41% of international calls
-                    National ~= What is left over from the above
-
-    CDR = namedtuple('CDR', 'date_called, '
-                        'to_country, '
-                        'to_number, '
-                        'to_phone_type, '
-                        'from_country, '
-                        'to_phone_type, '
-                        'to_operator, '
-                        'from_country, '
-                        'from_number, '
-                        'from_phone_type, '
-                        'call_duration, '
-                        'call_charge')
-    """
-
-    def __init__(self, fraud=False):
-
-        super().__init__()
-        if fraud:
-            self.international = 1 - self.international
-            self.emerging = self.advanced  # swapped with self.advanced
-            self.advanced = self.emerging  # swapped with self.emerging
-            self.national = self.count - self.international
-            self.date_called = self.random_datetime_generator()
-            self.to_country = random.choice()
-            self.to_number = self.random_phonenumber_generator()
-            self.to_operator = random.choice()
-            self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
-            self.from_country = mimesis.address.country(),
-            self.from_number = mimesis.personal.telephone(mask='+###########')
-            self.advanced = np.random.choice(),
-            self.from_operator_name = np.random.choice([]),
-            self.call_duration = np.random.exponential(scale=2.0)
-            self.call_charge = np.random.exponential(scale=0.5)
-
-    def international(self):
-        pass
-
-        for record in range(self.count):
-            cdr = CDR()
-
-        yield cdr
-
-
 if __name__ == '__main__':
-    target_schema = input("Schema: ")
-    target_count = int(input("Count: "))
+    target_schema = input("Schema [cdr]: ")
+    target_count = int(input("Count [1000]: "))
     if target_schema.lower() in ['cdr', 'iprn', 'cfca', 'pstn', 'mno']:
-        Phreak(count=target_count, schema=target_schema)
+        CDR(count=target_count, schema=target_schema)
     else:
         print(f"Schema: {target_schema}, not found in the database.")
         print("Exiting...")
