@@ -35,21 +35,22 @@ PASSWORD = os.getenv("")
 END_DATE = datetime.utcnow()
 START_DATE = END_DATE - relativedelta(years=-1)
 FRAUD_TYPE = None
-SCHEMA_INFO = None
+SCHEMA = None
 TEMP_FILE = "data/temp.csv"
 DATA = pd.read_csv("data/data.csv")
-PHONE_INFO = None
 
 
 class CDR(object):
     """Fake data generating class"""
     def __init__(self, count=1000, schema='cdr', fraud=False):
-        self.values = SCHEMA_INFO[schema]._fields  # get the field names
+        self.values = SCHEMA[schema]._fields  # get the field names
         self.schema = schema  # get the table name
         self.count = count  # num records to create
 
         # 'country_name' from DATA, excluding 'self.from_country'
         self.international = round(count * random.randint(3, 5))
+        self.call_duration = np.random.poisson(lam=4.0)
+        self.call_charge = np.random.poisson(lam=1.5)
 
         # 'country_name' from DATA, where 'is_emerging' == 'True'
         self.emerging = round(self.international * random.randint(7, 11))
@@ -65,63 +66,65 @@ class CDR(object):
         self.to_country = random.choice()
         self.to_number = self.random_phonenumber_generator()
         self.to_operator = random.choice()
-        self.to_phone_type = random.choice(DATA, PHONE_INFO.proba)
+        self.to_phone_type = random.choice()
         self.from_country = random.choice()
         self.from_number = random.choice()
         self.advanced = random.choice()
         self.from_operator_name = random.choice()
-        self.call_duration = np.random.exponential(scale=2.0)
-        self.call_charge = np.random.exponential(scale=0.5)
+        self.call_duration = np.random.poisson(lam=1.0)
+        self.call_charge = np.random.poisson(lam=0.5)
 
         if fraud:
-            # override initial variables
+            # change initial ratios
             self.international = 1 - self.international
             self.emerging = self.advanced  # swapped with self.advanced
             self.advanced = self.emerging  # swapped with self.emerging
             self.national = self.count - self.international
 
-            # overwritten CDR fields
+            # overwrite CDR fields
             self.date_called = self.random_datetime_generator()
             self.to_country = random.choice()
             self.to_number = self.random_phonenumber_generator()
             self.to_operator = random.choice()
-            self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
-            self.from_country = mimesis.address.country(),
-            self.from_number = mimesis.personal.telephone(mask='+###########')
-            self.advanced = np.random.choice(),
-            self.from_operator_name = np.random.choice([]),
-            self.call_duration = np.random.exponential(scale=2.0)
-            self.call_charge = np.random.exponential(scale=0.5)
+            self.to_phone_type = random.choice()
+            self.from_country = random.choice()
+            self.from_number = self.random_phonenumber_generator()
+            self.advanced = random.choice()
+            self.from_operator_name = np.random.choice([])
+            self.call_duration = np.random.poisson(lam=4.0)
+            self.call_charge = np.random.poisson(lam=10.0)
 
-    def bootstrap(self, record):
+    def bootstrap(self):
         """Insert data to database.
 
         :return: None
         """
-        try:
-            print(f"Trying to connect to {DATABASE} Database...")
-            with psycopg2.connect(host=HOST, database=DATABASE, user=USER,
-                                  password=PASSWORD) as connection:
-                print(f"Connected to {DATABASE}.")
-                cursor = connection.cursor()
-                try:
-                    print(f"Inserting {self.count} records into {self.schema}...")
-                    cursor.execute(
-                        f"PREPARE stmt AS INSERT INTO {self.schema} VALUES {record._fields}")
-                    execute_batch(cursor, "EXECUTE stmt ()", record)
-                    cursor.execute("DEALLOCATE stmt")
-                    print(f"Finished inserting {self.count} records.")
-                    cursor.commit()
-                except Exception as e:
-                    print(f"Failed to insert into {self.schema}.")
-                    print(f"Rolling back commits...")
-                    cursor.rollback()
-                    print(e)
-        except Exception as e:
-            print(f"Failed to connect to {DATABASE}.")
-            print(e)
-        finally:
-            print("Done.")
+        for record in self.count:
+            print(CDR())
+        # try:
+        #     print(f"Trying to connect to {DATABASE} Database...")
+        #     with psycopg2.connect(host=HOST, database=DATABASE, user=USER,
+        #                           password=PASSWORD) as connection:
+        #         print(f"Connected to {DATABASE}.")
+        #         cursor = connection.cursor()
+        #         try:
+        #             print(f"Inserting {self.count} records into {self.schema}...")
+        #             cursor.execute(
+        #                 f"PREPARE stmt AS INSERT INTO {self.schema} VALUES {record._fields}")
+        #             execute_batch(cursor, "EXECUTE stmt ()", record)
+        #             cursor.execute("DEALLOCATE stmt")
+        #             print(f"Finished inserting {self.count} records.")
+        #             cursor.commit()
+        #         except Exception as e:
+        #             print(f"Failed to insert into {self.schema}.")
+        #             print(f"Rolling back commits...")
+        #             cursor.rollback()
+        #             print(e)
+        # except Exception as e:
+        #     print(f"Failed to connect to {DATABASE}.")
+        #     print(e)
+        # finally:
+        #     print("Done.")
 
     @staticmethod
     def random_datetime_generator():
