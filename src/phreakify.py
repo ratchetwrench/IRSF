@@ -22,7 +22,9 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import os
 import psycopg2
+import numpy as np
 from psycopg2.extras import execute_batch
+from data import country_info
 
 # database connection variables
 HOST = os.getenv("")
@@ -36,7 +38,7 @@ START_DATE = END_DATE - relativedelta(years=-1)
 FRAUD_TYPE = None
 SCHEMA_INFO = None
 TEMP_FILE = "data/temp.csv"
-COUNTRY_INFO = None
+COUNTRY_INFO = country_info
 PHONE_INFO = None
 
 
@@ -50,16 +52,27 @@ class Phreak(object):
 
         # set geographic distribution of calls
         self.international = round(count * random.randint(3, 5))
+
         # emerging = random.choices(COUNTRY_INFO.bbva, COUNTRY_INFO.bbva.proba)
         self.emerging = round(self.international * random.randint(7, 11))
+
         # advanced = random.choices(~COUNTRY_INFO.bbva, COUNTRY_INFO.proba)
         self.advanced = self.international - self.emerging
         self.national = self.count - self.international
 
-        for record in range(self.count):
-            pass
+        # call detail records fields
+        self.date_called = self.random_datetime_generator()
+        self.to_country = random.choice()
+        self.to_number = self.random_phonenumber_generator()
+        self.to_operator = random.choice()
+        self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
+        self.from_country = random.choice()
+        self.from_number = random.choice()
+        self.advanced = random.choice()
+        self.from_operator_name = random.choice()
+        self.call_duration = np.random.exponential(scale=2.0)
+        self.call_charge = np.random.exponential(scale=0.5)
 
-    # TODO: Icebox
     def generate(self, record):
         """Insert data to database.
 
@@ -95,10 +108,11 @@ class Phreak(object):
         Y = random.choice(range(2000, 2017))
         m = random.choice(range(1, 13))
         d = random.choice(range(1, 31))
-        HH = random.choice(range(0, 24))
-        MM = random.choice(range(00, 59))
-        SS = random.choice(range(00, 59))
-        yield datetime.strptime(f"{Y}-{m}-{d} {HH}:{MM}:{SS}Z")
+        H = random.choice(range(0, 24))
+        M = random.choice(range(00, 59))
+        S = random.choice(range(00, 59))
+
+        yield datetime.strptime(f"{Y}-{m}-{d} {H}:{M}:{S}", "%Y-%m-%d %H:%M:%S")
 
     @staticmethod
     def random_phonenumber_generator(to_country):
@@ -211,6 +225,7 @@ class CDR(Phreak):
                         'call_duration, '
                         'call_charge')
     """
+
     def __init__(self, fraud=False):
 
         super().__init__()
@@ -219,26 +234,25 @@ class CDR(Phreak):
             self.emerging = self.advanced  # swapped with self.advanced
             self.advanced = self.emerging  # swapped with self.emerging
             self.national = self.count - self.international
+            self.date_called = self.random_datetime_generator()
+            self.to_country = random.choice()
+            self.to_number = self.random_phonenumber_generator()
+            self.to_operator = random.choice()
+            self.to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba)
+            self.from_country = mimesis.address.country(),
+            self.from_number = mimesis.personal.telephone(mask='+###########')
+            self.advanced = np.random.choice(),
+            self.from_operator_name = np.random.choice([]),
+            self.call_duration = np.random.exponential(scale=2.0)
+            self.call_charge = np.random.exponential(scale=0.5)
+
+    def international(self):
+        pass
 
         for record in range(self.count):
-            cdr = CDR(date_called=self.random_datetime_generator(),
-                to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
-                to_number=self.random_phonenumber_generator(),
-            to_operator =
-            to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba),
-            from_country = mimesis.address.country(),
-            from_number = mimesis.personal.telephone(mask='+###########'),
-            from_phone_type = np.random.choice([]),
-            from_operator_name = np.random.choice([]),
-            call_duration = np.random.exponential(scale=2.0),
-            call_charge = np.random.exponential(scale=0.5)
-        )
+            cdr = CDR()
 
         yield cdr
-
-        # TODO: Icebox
-
-
 
 
 if __name__ == '__main__':

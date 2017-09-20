@@ -1,0 +1,7611 @@
+[
+  {
+    "id": null,
+    "country_name": "country_name",
+    "operator_name": "operator_name",
+    "operator_type": "operator_type",
+    "probs": "probs"
+  },
+  {
+    "id": 0.0,
+    "country_name": "Afghanistan",
+    "operator_name": "Afghan Telecom Corp. (AT)",
+    "operator_type": "Mobile",
+    "probs": "0.35746788432571763"
+  },
+  {
+    "id": 1.0,
+    "country_name": "Albania",
+    "operator_name": "Eagle Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.6200889117001518"
+  },
+  {
+    "id": 2.0,
+    "country_name": "Angola",
+    "operator_name": "MoviCel",
+    "operator_type": "Mobile",
+    "probs": "0.9046365361178935"
+  },
+  {
+    "id": 3.0,
+    "country_name": "Armenia",
+    "operator_name": "Karabakh Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.977464017840834"
+  },
+  {
+    "id": 4.0,
+    "country_name": "Australia",
+    "operator_name": "Department of Defense",
+    "operator_type": "Mobile",
+    "probs": "0.46015789496757303"
+  },
+  {
+    "id": 5.0,
+    "country_name": "Australia",
+    "operator_name": "Railcorp\/Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.1655313924816504"
+  },
+  {
+    "id": 6.0,
+    "country_name": "Australia",
+    "operator_name": "Victorian Rail Track Corp. (VicTrack)",
+    "operator_type": "Mobile",
+    "probs": "0.15035385964504802"
+  },
+  {
+    "id": 7.0,
+    "country_name": "Austria",
+    "operator_name": "H3G",
+    "operator_type": "Mobile",
+    "probs": "0.5405778810625057"
+  },
+  {
+    "id": 8.0,
+    "country_name": "Austria",
+    "operator_name": "T-Mobile\/Telering",
+    "operator_type": "Mobile",
+    "probs": "0.3552999673793944"
+  },
+  {
+    "id": 9.0,
+    "country_name": "Bahamas",
+    "operator_name": "Bahamas Telco. Comp.",
+    "operator_type": "Mobile",
+    "probs": "0.9356914591574211"
+  },
+  {
+    "id": 10.0,
+    "country_name": "Bangladesh",
+    "operator_name": "GrameenPhone",
+    "operator_type": "Mobile",
+    "probs": "0.5489514410540165"
+  },
+  {
+    "id": 11.0,
+    "country_name": "Barbados",
+    "operator_name": "Sunbeach",
+    "operator_type": "Mobile",
+    "probs": "0.9973360298460585"
+  },
+  {
+    "id": 12.0,
+    "country_name": "Belgium",
+    "operator_name": "Mobistar\/Orange",
+    "operator_type": "Mobile",
+    "probs": "0.554679752071745"
+  },
+  {
+    "id": 13.0,
+    "country_name": "Benin",
+    "operator_name": "Libercom",
+    "operator_type": "Mobile",
+    "probs": "0.8517021206048568"
+  },
+  {
+    "id": 14.0,
+    "country_name": "Bhutan",
+    "operator_name": "Bhutan Telecom Ltd (BTL)",
+    "operator_type": "Mobile",
+    "probs": "0.6257516993966826"
+  },
+  {
+    "id": 15.0,
+    "country_name": "Brazil",
+    "operator_name": "Claro\/Albra\/America Movil",
+    "operator_type": "Mobile",
+    "probs": "0.5343461875948319"
+  },
+  {
+    "id": 16.0,
+    "country_name": "Brazil",
+    "operator_name": "Nextel (Telet)",
+    "operator_type": "Mobile",
+    "probs": "0.24010665554982386"
+  },
+  {
+    "id": 17.0,
+    "country_name": "Brazil",
+    "operator_name": "CTBC\/Triangulo",
+    "operator_type": "Mobile",
+    "probs": "0.11682329436099248"
+  },
+  {
+    "id": 18.0,
+    "country_name": "Brazil",
+    "operator_name": "Vivo S.A.\/Telemig",
+    "operator_type": "Mobile",
+    "probs": "0.06758972165522328"
+  },
+  {
+    "id": 19.0,
+    "country_name": "Bulgaria",
+    "operator_name": "MobilTel AD",
+    "operator_type": "Mobile",
+    "probs": "0.6174385017553541"
+  },
+  {
+    "id": 20.0,
+    "country_name": "Burundi",
+    "operator_name": "Spacetel \/ Econet \/ Leo",
+    "operator_type": "Mobile",
+    "probs": "0.5292656027815547"
+  },
+  {
+    "id": 21.0,
+    "country_name": "Cambodia",
+    "operator_name": "Smart Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.47723180017175415"
+  },
+  {
+    "id": 22.0,
+    "country_name": "Canada",
+    "operator_name": "Bell Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.26824788228061197"
+  },
+  {
+    "id": 23.0,
+    "country_name": "Canada",
+    "operator_name": "FIDO (Rogers AT&T\/ Microcell)",
+    "operator_type": "Mobile",
+    "probs": "0.1744468878810472"
+  },
+  {
+    "id": 24.0,
+    "country_name": "Canada",
+    "operator_name": "Quebectel Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.10036940665446427"
+  },
+  {
+    "id": 25.0,
+    "country_name": "Canada",
+    "operator_name": "WIND",
+    "operator_type": "Mobile",
+    "probs": "0.0967884467115289"
+  },
+  {
+    "id": 26.0,
+    "country_name": "Chad",
+    "operator_name": "Tigo\/Milicom\/Tchad Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.7385622019453043"
+  },
+  {
+    "id": 27.0,
+    "country_name": "Chile",
+    "operator_name": "Netline Telefonica Movil Ltda",
+    "operator_type": "Mobile",
+    "probs": "0.33954461759700233"
+  },
+  {
+    "id": 28.0,
+    "country_name": "Chile",
+    "operator_name": "Tribe Mobile SPA",
+    "operator_type": "Mobile",
+    "probs": "0.287782170070486"
+  },
+  {
+    "id": 29.0,
+    "country_name": "China",
+    "operator_name": "China Unicom",
+    "operator_type": "Mobile",
+    "probs": "0.5845252598405002"
+  },
+  {
+    "id": 30.0,
+    "country_name": "Colombia",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.48548643378390705"
+  },
+  {
+    "id": 31.0,
+    "country_name": "Costa Rica",
+    "operator_name": "ICE",
+    "operator_type": "Mobile",
+    "probs": "0.42190083181046173"
+  },
+  {
+    "id": 32.0,
+    "country_name": "Curacao",
+    "operator_name": "EOCG Wireless NV",
+    "operator_type": "Mobile",
+    "probs": "0.5967141365256409"
+  },
+  {
+    "id": 33.0,
+    "country_name": "Denmark",
+    "operator_name": "H3G",
+    "operator_type": "Mobile",
+    "probs": "0.30673230817924335"
+  },
+  {
+    "id": 34.0,
+    "country_name": "Denmark",
+    "operator_name": "Telenor\/Sonofon",
+    "operator_type": "Mobile",
+    "probs": "0.28327317479808173"
+  },
+  {
+    "id": 35.0,
+    "country_name": "Dominican Republic",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.6538384931514387"
+  },
+  {
+    "id": 36.0,
+    "country_name": "Egypt",
+    "operator_name": "Vodafone\/Mirsfone",
+    "operator_type": "Mobile",
+    "probs": "0.7558064501980558"
+  },
+  {
+    "id": 37.0,
+    "country_name": "Eritrea",
+    "operator_name": "Eritel",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 38.0,
+    "country_name": "Faroe Islands",
+    "operator_name": "Kall GSM",
+    "operator_type": "Mobile",
+    "probs": "0.7074890475446636"
+  },
+  {
+    "id": 39.0,
+    "country_name": "Finland",
+    "operator_name": "DNA\/Finnet",
+    "operator_type": "Mobile",
+    "probs": "0.5133973832415771"
+  },
+  {
+    "id": 40.0,
+    "country_name": "France",
+    "operator_name": "AFONE SA",
+    "operator_type": "Mobile",
+    "probs": "0.18980485740259567"
+  },
+  {
+    "id": 41.0,
+    "country_name": "France",
+    "operator_name": "GlobalStar",
+    "operator_type": "Mobile",
+    "probs": "0.17998298336529608"
+  },
+  {
+    "id": 42.0,
+    "country_name": "France",
+    "operator_name": "MobiquiThings",
+    "operator_type": "Mobile",
+    "probs": "0.11563960991893149"
+  },
+  {
+    "id": 43.0,
+    "country_name": "France",
+    "operator_name": "S.F.R.",
+    "operator_type": "Mobile",
+    "probs": "0.11057365573404916"
+  },
+  {
+    "id": 44.0,
+    "country_name": "French Guiana",
+    "operator_name": "Orange Caribe",
+    "operator_type": "Mobile",
+    "probs": "0.49231528008875103"
+  },
+  {
+    "id": 45.0,
+    "country_name": "Gabon",
+    "operator_name": "MOOV\/Telecel",
+    "operator_type": "Mobile",
+    "probs": "0.7190089013375139"
+  },
+  {
+    "id": 46.0,
+    "country_name": "Georgia",
+    "operator_name": "Magti GSM Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.3104355758329863"
+  },
+  {
+    "id": 47.0,
+    "country_name": "Germany",
+    "operator_name": "E-Plus",
+    "operator_type": "Mobile",
+    "probs": "0.3185442070363367"
+  },
+  {
+    "id": 48.0,
+    "country_name": "Germany",
+    "operator_name": "O2",
+    "operator_type": "Mobile",
+    "probs": "0.27767577070454175"
+  },
+  {
+    "id": 49.0,
+    "country_name": "Germany",
+    "operator_name": "Vodafone D2",
+    "operator_type": "Mobile",
+    "probs": "0.17692285106659222"
+  },
+  {
+    "id": 50.0,
+    "country_name": "Gibraltar",
+    "operator_name": "eazi telecom",
+    "operator_type": "Mobile",
+    "probs": "0.6133221314720751"
+  },
+  {
+    "id": 51.0,
+    "country_name": "Greece",
+    "operator_name": "Tim\/Wind",
+    "operator_type": "Mobile",
+    "probs": "0.5735055056283102"
+  },
+  {
+    "id": 52.0,
+    "country_name": "Guam",
+    "operator_name": "Docomo",
+    "operator_type": "Mobile",
+    "probs": "0.8603814340120505"
+  },
+  {
+    "id": 53.0,
+    "country_name": "Guatemala",
+    "operator_name": "TIGO\/COMCEL",
+    "operator_type": "Mobile",
+    "probs": "0.6292630111410732"
+  },
+  {
+    "id": 54.0,
+    "country_name": "Guinea-Bissau",
+    "operator_name": "SpaceTel",
+    "operator_type": "Mobile",
+    "probs": "0.7178121704076466"
+  },
+  {
+    "id": 55.0,
+    "country_name": "Honduras",
+    "operator_name": "SERCOM\/CLARO",
+    "operator_type": "Mobile",
+    "probs": "0.9748988292104428"
+  },
+  {
+    "id": 56.0,
+    "country_name": "Iceland",
+    "operator_name": "Landssiminn",
+    "operator_type": "Mobile",
+    "probs": "0.40670272847531397"
+  },
+  {
+    "id": 57.0,
+    "country_name": "India",
+    "operator_name": "Aircel",
+    "operator_type": "Mobile",
+    "probs": "0.7056341571268685"
+  },
+  {
+    "id": 58.0,
+    "country_name": "India",
+    "operator_name": "AirTel",
+    "operator_type": "Mobile",
+    "probs": "0.05294881874650604"
+  },
+  {
+    "id": 59.0,
+    "country_name": "India",
+    "operator_name": "BSNL",
+    "operator_type": "Mobile",
+    "probs": "0.04406834032627063"
+  },
+  {
+    "id": 61.0,
+    "country_name": "India",
+    "operator_name": "Bharti Airtel Limited (Delhi)",
+    "operator_type": "Mobile",
+    "probs": "0.039082835507062756"
+  },
+  {
+    "id": 62.0,
+    "country_name": "India",
+    "operator_name": "Escotel Mobile Communications",
+    "operator_type": "Mobile",
+    "probs": "0.0290796173514413"
+  },
+  {
+    "id": 63.0,
+    "country_name": "India",
+    "operator_name": "Idea Cellular Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.021115194097946762"
+  },
+  {
+    "id": 64.0,
+    "country_name": "India",
+    "operator_name": "Reliance Telecom Private",
+    "operator_type": "Mobile",
+    "probs": "0.020315511317973014"
+  },
+  {
+    "id": 65.0,
+    "country_name": "India",
+    "operator_name": "Sterling Cellular Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.017421825094256552"
+  },
+  {
+    "id": 66.0,
+    "country_name": "Indonesia",
+    "operator_name": "Indosat\/Satelindo\/M3",
+    "operator_type": "Mobile",
+    "probs": "0.7377793176716058"
+  },
+  {
+    "id": 67.0,
+    "country_name": "Iran",
+    "operator_name": "MTCE",
+    "operator_type": "Mobile",
+    "probs": "0.6118465255782759"
+  },
+  {
+    "id": 68.0,
+    "country_name": "Iraq",
+    "operator_name": "Korek",
+    "operator_type": "Mobile",
+    "probs": "0.40019153879562147"
+  },
+  {
+    "id": 69.0,
+    "country_name": "Ireland",
+    "operator_name": "eircom Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.2541150849685842"
+  },
+  {
+    "id": 70.0,
+    "country_name": "Israel",
+    "operator_name": "Cellcom ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.7021070359685413"
+  },
+  {
+    "id": 71.0,
+    "country_name": "Israel",
+    "operator_name": "Telzar\/AZI",
+    "operator_type": "Mobile",
+    "probs": "0.1281679388741832"
+  },
+  {
+    "id": 72.0,
+    "country_name": "Italy",
+    "operator_name": "Noverca Italia Srl",
+    "operator_type": "Mobile",
+    "probs": "0.554170035629059"
+  },
+  {
+    "id": 73.0,
+    "country_name": "Italy",
+    "operator_name": "VOIP Line",
+    "operator_type": "Mobile",
+    "probs": "0.19042782571459851"
+  },
+  {
+    "id": 74.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.5453827702480967"
+  },
+  {
+    "id": 75.0,
+    "country_name": "Japan",
+    "operator_name": "KDDI Corporation",
+    "operator_type": "Mobile",
+    "probs": "0.5464744457271309"
+  },
+  {
+    "id": 78.0,
+    "country_name": "Japan",
+    "operator_name": "NTT Docomo",
+    "operator_type": "Mobile",
+    "probs": "0.1254553773798944"
+  },
+  {
+    "id": 86.0,
+    "country_name": "Japan",
+    "operator_name": "SoftBank Mobile Corp",
+    "operator_type": "Mobile",
+    "probs": "0.12355403088820424"
+  },
+  {
+    "id": 90.0,
+    "country_name": "Kazakhstan",
+    "operator_name": "Tele2\/NEO\/MTS",
+    "operator_type": "Mobile",
+    "probs": "0.6068175684840734"
+  },
+  {
+    "id": 91.0,
+    "country_name": "Kuwait",
+    "operator_name": "Zain",
+    "operator_type": "Mobile",
+    "probs": "0.9388357075142225"
+  },
+  {
+    "id": 92.0,
+    "country_name": "Latvia",
+    "operator_name": "SIA IZZI",
+    "operator_type": "Mobile",
+    "probs": "0.6020150987784985"
+  },
+  {
+    "id": 93.0,
+    "country_name": "Lebanon",
+    "operator_name": "FTML Cellis",
+    "operator_type": "Mobile",
+    "probs": "0.5668251417217766"
+  },
+  {
+    "id": 94.0,
+    "country_name": "Lesotho",
+    "operator_name": "Vodacom Lesotho",
+    "operator_type": "Mobile",
+    "probs": "0.5962371844456077"
+  },
+  {
+    "id": 95.0,
+    "country_name": "Libya",
+    "operator_name": "Hatef",
+    "operator_type": "Mobile",
+    "probs": "0.5008200752524699"
+  },
+  {
+    "id": 96.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "Telecom FL1 AG",
+    "operator_type": "Mobile",
+    "probs": "0.27042241121566796"
+  },
+  {
+    "id": 97.0,
+    "country_name": "Macedonia",
+    "operator_name": "ONE\/Cosmofone",
+    "operator_type": "Mobile",
+    "probs": "0.7485672664166932"
+  },
+  {
+    "id": 98.0,
+    "country_name": "Malawi",
+    "operator_name": "Airtel\/Zain\/Celtel ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.5065068454627566"
+  },
+  {
+    "id": 99.0,
+    "country_name": "Malaysia",
+    "operator_name": "Maxis",
+    "operator_type": "Mobile",
+    "probs": "0.5378850986746726"
+  },
+  {
+    "id": 100.0,
+    "country_name": "Malaysia",
+    "operator_name": "YES",
+    "operator_type": "Mobile",
+    "probs": "0.36864599441492807"
+  },
+  {
+    "id": 101.0,
+    "country_name": "Mauritania",
+    "operator_name": "Chinguitel SA",
+    "operator_type": "Mobile",
+    "probs": "0.5973786593226151"
+  },
+  {
+    "id": 102.0,
+    "country_name": "Mexico",
+    "operator_name": "IUSACell\/UneFon",
+    "operator_type": "Mobile",
+    "probs": "0.8501864186407287"
+  },
+  {
+    "id": 103.0,
+    "country_name": "Mexico",
+    "operator_name": "NEXTEL",
+    "operator_type": "Mobile",
+    "probs": "0.07135569371327631"
+  },
+  {
+    "id": 104.0,
+    "country_name": "Moldova",
+    "operator_name": "IDC\/Unite",
+    "operator_type": "Mobile",
+    "probs": "0.852923565043319"
+  },
+  {
+    "id": 105.0,
+    "country_name": "Mongolia",
+    "operator_name": "Mobicom",
+    "operator_type": "Mobile",
+    "probs": "0.9629891969867563"
+  },
+  {
+    "id": 106.0,
+    "country_name": "Morocco",
+    "operator_name": "INWI\/WANA",
+    "operator_type": "Mobile",
+    "probs": "0.4403318923456115"
+  },
+  {
+    "id": 107.0,
+    "country_name": "Nepal",
+    "operator_name": "Ncell",
+    "operator_type": "Mobile",
+    "probs": "0.6426306621522941"
+  },
+  {
+    "id": 108.0,
+    "country_name": "Netherlands",
+    "operator_name": "KPN Telecom B.V.",
+    "operator_type": "Mobile",
+    "probs": "0.19727279896522024"
+  },
+  {
+    "id": 109.0,
+    "country_name": "Netherlands",
+    "operator_name": "T-Mobile B.V.",
+    "operator_type": "Mobile",
+    "probs": "0.1414524299003919"
+  },
+  {
+    "id": 110.0,
+    "country_name": "Netherlands",
+    "operator_name": "Voiceworks Mobile BV",
+    "operator_type": "Mobile",
+    "probs": "0.13866026670293696"
+  },
+  {
+    "id": 111.0,
+    "country_name": "New Zealand",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.44659088253953666"
+  },
+  {
+    "id": 112.0,
+    "country_name": "Niger",
+    "operator_name": "Airtel\/Zain\/CelTel",
+    "operator_type": "Mobile",
+    "probs": "0.44698800640834135"
+  },
+  {
+    "id": 113.0,
+    "country_name": "Nigeria",
+    "operator_name": "Visafone",
+    "operator_type": "Mobile",
+    "probs": "0.36011704815321616"
+  },
+  {
+    "id": 114.0,
+    "country_name": "Norway",
+    "operator_name": "Network Norway AS",
+    "operator_type": "Mobile",
+    "probs": "0.3600930546751095"
+  },
+  {
+    "id": 115.0,
+    "country_name": "Norway",
+    "operator_name": "Ventelo AS",
+    "operator_type": "Mobile",
+    "probs": "0.3406877075661656"
+  },
+  {
+    "id": 116.0,
+    "country_name": "Pakistan",
+    "operator_name": "ZONG\/CMPak",
+    "operator_type": "Mobile",
+    "probs": "0.7443728811485943"
+  },
+  {
+    "id": 117.0,
+    "country_name": "Papua New Guinea",
+    "operator_name": "Pacific Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.5010132625589799"
+  },
+  {
+    "id": 118.0,
+    "country_name": "Peru",
+    "operator_name": "GlobalStar",
+    "operator_type": "Mobile",
+    "probs": "0.623084219901546"
+  },
+  {
+    "id": 119.0,
+    "country_name": "Philippines",
+    "operator_name": "Globe Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.6650608931019634"
+  },
+  {
+    "id": 120.0,
+    "country_name": "Poland",
+    "operator_name": "Cyfrowy POLSAT S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.4027367317285584"
+  },
+  {
+    "id": 121.0,
+    "country_name": "Poland",
+    "operator_name": "Orange\/IDEA\/Centertel",
+    "operator_type": "Mobile",
+    "probs": "0.26654921827942374"
+  },
+  {
+    "id": 122.0,
+    "country_name": "Poland",
+    "operator_name": "T-Mobile\/ERA",
+    "operator_type": "Mobile",
+    "probs": "0.09778449271821238"
+  },
+  {
+    "id": 123.0,
+    "country_name": "Portugal",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.6793198496118441"
+  },
+  {
+    "id": 124.0,
+    "country_name": "Romania",
+    "operator_name": "Cosmote",
+    "operator_type": "Mobile",
+    "probs": "0.5086132834578275"
+  },
+  {
+    "id": 125.0,
+    "country_name": "Rwanda",
+    "operator_name": "Airtel",
+    "operator_type": "Mobile",
+    "probs": "0.799810399401922"
+  },
+  {
+    "id": 126.0,
+    "country_name": "Saint Lucia",
+    "operator_name": "Digicel (St Lucia) Limited",
+    "operator_type": "Mobile",
+    "probs": "0.5125892769317809"
+  },
+  {
+    "id": 127.0,
+    "country_name": "Saudi Arabia",
+    "operator_name": "Zain",
+    "operator_type": "Mobile",
+    "probs": "0.48318753776647866"
+  },
+  {
+    "id": 128.0,
+    "country_name": "Seychelles",
+    "operator_name": "Airtel",
+    "operator_type": "Mobile",
+    "probs": "0.9192030625167301"
+  },
+  {
+    "id": 129.0,
+    "country_name": "Sierra Leone",
+    "operator_name": "Mobitel",
+    "operator_type": "Mobile",
+    "probs": "0.7746788056674164"
+  },
+  {
+    "id": 130.0,
+    "country_name": "Slovakia",
+    "operator_name": "4Ka",
+    "operator_type": "Mobile",
+    "probs": "0.5832987739749869"
+  },
+  {
+    "id": 131.0,
+    "country_name": "Slovenia",
+    "operator_name": "Mobitel",
+    "operator_type": "Mobile",
+    "probs": "0.6746332467830131"
+  },
+  {
+    "id": 132.0,
+    "country_name": "Somalia",
+    "operator_name": "Golis",
+    "operator_type": "Mobile",
+    "probs": "0.9823578613372258"
+  },
+  {
+    "id": 133.0,
+    "country_name": "South Africa",
+    "operator_name": "Cape Town Metropolitan",
+    "operator_type": "Mobile",
+    "probs": "0.3461934843384761"
+  },
+  {
+    "id": 134.0,
+    "country_name": "Spain",
+    "operator_name": "Digi Spain Telecom SL",
+    "operator_type": "Mobile",
+    "probs": "0.8372746087082827"
+  },
+  {
+    "id": 135.0,
+    "country_name": "Spain",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.02778878079618824"
+  },
+  {
+    "id": 136.0,
+    "country_name": "Spain",
+    "operator_name": "Truphone",
+    "operator_type": "Mobile",
+    "probs": "0.016023947301620167"
+  },
+  {
+    "id": 137.0,
+    "country_name": "Sri Lanka",
+    "operator_name": "MTN\/Dialog",
+    "operator_type": "Mobile",
+    "probs": "0.5587603768420256"
+  },
+  {
+    "id": 138.0,
+    "country_name": "Sudan",
+    "operator_name": "ZAIN\/Mobitel",
+    "operator_type": "Mobile",
+    "probs": "0.7894526823900572"
+  },
+  {
+    "id": 139.0,
+    "country_name": "Sweden",
+    "operator_name": "42 Telecom AB",
+    "operator_type": "Mobile",
+    "probs": "0.2785833819537135"
+  },
+  {
+    "id": 140.0,
+    "country_name": "Sweden",
+    "operator_name": "Generic Mobile Systems Sweden AB",
+    "operator_type": "Mobile",
+    "probs": "0.15372367609446652"
+  },
+  {
+    "id": 141.0,
+    "country_name": "Sweden",
+    "operator_name": "Mercury International Carrier Services",
+    "operator_type": "Mobile",
+    "probs": "0.11673300951141649"
+  },
+  {
+    "id": 142.0,
+    "country_name": "Sweden",
+    "operator_name": "Telenor (Vodafone)",
+    "operator_type": "Mobile",
+    "probs": "0.0954571506223474"
+  },
+  {
+    "id": 143.0,
+    "country_name": "Switzerland",
+    "operator_name": "TDC Sunrise",
+    "operator_type": "Mobile",
+    "probs": "0.3965708250781416"
+  },
+  {
+    "id": 144.0,
+    "country_name": "Switzerland",
+    "operator_name": "upc cablecom GmbH",
+    "operator_type": "Mobile",
+    "probs": "0.24518652171365563"
+  },
+  {
+    "id": 145.0,
+    "country_name": "Taiwan",
+    "operator_name": "Far EasTone",
+    "operator_type": "Mobile",
+    "probs": "0.301372039409664"
+  },
+  {
+    "id": 146.0,
+    "country_name": "Taiwan",
+    "operator_name": "T-Star\/VIBO",
+    "operator_type": "Mobile",
+    "probs": "0.18425235137685836"
+  },
+  {
+    "id": 147.0,
+    "country_name": "Tanzania",
+    "operator_name": "Benson Informatics Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.3443707199535544"
+  },
+  {
+    "id": 148.0,
+    "country_name": "Tanzania",
+    "operator_name": "Airtel\/ZAIN\/Celtel",
+    "operator_type": "Mobile",
+    "probs": "0.21325279244588535"
+  },
+  {
+    "id": 149.0,
+    "country_name": "Thailand",
+    "operator_name": "Total Access (DTAC)",
+    "operator_type": "Mobile",
+    "probs": "0.6555767503350894"
+  },
+  {
+    "id": 150.0,
+    "country_name": "Tonga",
+    "operator_name": "Tonga Communications",
+    "operator_type": "Mobile",
+    "probs": "0.9773479957933254"
+  },
+  {
+    "id": 151.0,
+    "country_name": "Turkey",
+    "operator_name": "AVEA\/Aria",
+    "operator_type": "Mobile",
+    "probs": "0.7938366597907992"
+  },
+  {
+    "id": 152.0,
+    "country_name": "Turks and Caicos Islands",
+    "operator_name": "IslandCom Communications Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.8993251834486544"
+  },
+  {
+    "id": 153.0,
+    "country_name": "Uganda",
+    "operator_name": "Suretelecom Uganda Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.6417223303736751"
+  },
+  {
+    "id": 154.0,
+    "country_name": "Ukraine",
+    "operator_name": "KyivStar",
+    "operator_type": "Mobile",
+    "probs": "0.4721700266446833"
+  },
+  {
+    "id": 155.0,
+    "country_name": "United Arab Emirates",
+    "operator_name": "Etisalat",
+    "operator_type": "Mobile",
+    "probs": "0.8964131943036332"
+  },
+  {
+    "id": 156.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Cable and Wireless Isle of Man",
+    "operator_type": "Mobile",
+    "probs": "0.30296197932541336"
+  },
+  {
+    "id": 157.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Inquam Telecom Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.16703100702529872"
+  },
+  {
+    "id": 158.0,
+    "country_name": "United Kingdom",
+    "operator_name": "O2 Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.1403211866914913"
+  },
+  {
+    "id": 159.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Routotelecom",
+    "operator_type": "Mobile",
+    "probs": "0.08396316061697613"
+  },
+  {
+    "id": 160.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Truphone",
+    "operator_type": "Mobile",
+    "probs": "0.06136145114559381"
+  },
+  {
+    "id": 161.0,
+    "country_name": "United States",
+    "operator_name": "Unknown",
+    "operator_type": "Mobile",
+    "probs": "0.1746796184158784"
+  },
+  {
+    "id": 162.0,
+    "country_name": "United States",
+    "operator_name": "AT&T Wireless Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.12661216804953898"
+  },
+  {
+    "id": 163.0,
+    "country_name": "United States",
+    "operator_name": "Cambridge Telephone Company Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0693168584774247"
+  },
+  {
+    "id": 164.0,
+    "country_name": "United States",
+    "operator_name": "Verizon Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.05104191978869288"
+  },
+  {
+    "id": 169.0,
+    "country_name": "United States",
+    "operator_name": "Coleman County Telco \/Trans TX",
+    "operator_type": "Mobile",
+    "probs": "0.049971557243487695"
+  },
+  {
+    "id": 170.0,
+    "country_name": "United States",
+    "operator_name": "E.N.M.R. Telephone Coop.",
+    "operator_type": "Mobile",
+    "probs": "0.04335115763887425"
+  },
+  {
+    "id": 171.0,
+    "country_name": "United States",
+    "operator_name": "GCI Communication Corp.",
+    "operator_type": "Mobile",
+    "probs": "0.04225444638597001"
+  },
+  {
+    "id": 172.0,
+    "country_name": "United States",
+    "operator_name": "Kaplan Telephone Company Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.028179456486884566"
+  },
+  {
+    "id": 173.0,
+    "country_name": "United States",
+    "operator_name": "Minnesota South. Wirel. Co. \/ Hickory",
+    "operator_type": "Mobile",
+    "probs": "0.02717354713599899"
+  },
+  {
+    "id": 174.0,
+    "country_name": "United States",
+    "operator_name": "NEP Cellcorp Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.025942529283684176"
+  },
+  {
+    "id": 175.0,
+    "country_name": "United States",
+    "operator_name": "Northeast Wireless Networks LLC",
+    "operator_type": "Mobile",
+    "probs": "0.024376102763858473"
+  },
+  {
+    "id": 176.0,
+    "country_name": "United States",
+    "operator_name": "Plateau Telecommunications Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0239058430189493"
+  },
+  {
+    "id": 177.0,
+    "country_name": "United States",
+    "operator_name": "Smith Bagley Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.021919315305298392"
+  },
+  {
+    "id": 178.0,
+    "country_name": "United States",
+    "operator_name": "Sprint Spectrum",
+    "operator_type": "Mobile",
+    "probs": "0.020883031605799577"
+  },
+  {
+    "id": 179.0,
+    "country_name": "United States",
+    "operator_name": "T-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.014848282479795753"
+  },
+  {
+    "id": 181.0,
+    "country_name": "United States",
+    "operator_name": "TMP Corporation",
+    "operator_type": "Mobile",
+    "probs": "0.014665571944508552"
+  },
+  {
+    "id": 182.0,
+    "country_name": "United States",
+    "operator_name": "United Wireless Communications Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.013669873376757053"
+  },
+  {
+    "id": 184.0,
+    "country_name": "Uzbekistan",
+    "operator_name": "Bee Line\/Unitel",
+    "operator_type": "Mobile",
+    "probs": "0.5722703051534377"
+  },
+  {
+    "id": 185.0,
+    "country_name": "Venezuela",
+    "operator_name": "DigiTel C.A.",
+    "operator_type": "Mobile",
+    "probs": "0.8595868296181906"
+  },
+  {
+    "id": 186.0,
+    "country_name": "Zambia",
+    "operator_name": "Zamtel\/Cell Z\/MTS",
+    "operator_type": "Mobile",
+    "probs": "0.5294790590887496"
+  },
+  {
+    "id": 187.0,
+    "country_name": "China",
+    "operator_name": "China Mobile",
+    "operator_type": "Fixed",
+    "probs": "0.22402921608911916"
+  },
+  {
+    "id": 188.0,
+    "country_name": "France",
+    "operator_name": "Orange",
+    "operator_type": "Fixed",
+    "probs": "0.10407255479695514"
+  },
+  {
+    "id": 189.0,
+    "country_name": "Canada",
+    "operator_name": "BCE",
+    "operator_type": "Fixed",
+    "probs": "0.087021078185281"
+  },
+  {
+    "id": 190.0,
+    "country_name": "Switzerland",
+    "operator_name": "Swisscom",
+    "operator_type": "Fixed",
+    "probs": "0.1592521506250906"
+  },
+  {
+    "id": 191.0,
+    "country_name": "South Korea",
+    "operator_name": "LG Uplus",
+    "operator_type": "Fixed",
+    "probs": "0.5039599114847253"
+  },
+  {
+    "id": 192.0,
+    "country_name": "Luxembourg",
+    "operator_name": "Millicom",
+    "operator_type": "Fixed",
+    "probs": "0.5287648651241458"
+  },
+  {
+    "id": 193.0,
+    "country_name": "Germany",
+    "operator_name": "United Internet",
+    "operator_type": "Fixed",
+    "probs": "0.05782180211543003"
+  },
+  {
+    "id": 194.0,
+    "country_name": "United States",
+    "operator_name": "SBA Communications",
+    "operator_type": "Fixed",
+    "probs": "0.012672162646062203"
+  },
+  {
+    "id": 196.0,
+    "country_name": "Albania",
+    "operator_name": "PLUS Communication Sh.a",
+    "operator_type": "Mobile",
+    "probs": "0.27214046706451533"
+  },
+  {
+    "id": 197.0,
+    "country_name": "Angola",
+    "operator_name": "Unitel",
+    "operator_type": "Mobile",
+    "probs": "0.09536346388210645"
+  },
+  {
+    "id": 198.0,
+    "country_name": "Armenia",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.012272051887425962"
+  },
+  {
+    "id": 199.0,
+    "country_name": "Australia",
+    "operator_name": "Dialogue Communications Pty Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.05426615413538737"
+  },
+  {
+    "id": 200.0,
+    "country_name": "Australia",
+    "operator_name": "Singtel Optus",
+    "operator_type": "Mobile",
+    "probs": "0.02871155700216127"
+  },
+  {
+    "id": 201.0,
+    "country_name": "Australia",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.019977592070069362"
+  },
+  {
+    "id": 203.0,
+    "country_name": "Austria",
+    "operator_name": "A1 MobilKom",
+    "operator_type": "Mobile",
+    "probs": "0.054527566475359765"
+  },
+  {
+    "id": 204.0,
+    "country_name": "Bahamas",
+    "operator_name": "Smart Communications",
+    "operator_type": "Mobile",
+    "probs": "0.06430854084257884"
+  },
+  {
+    "id": 205.0,
+    "country_name": "Bangladesh",
+    "operator_name": "Orascom\/Banglalink",
+    "operator_type": "Mobile",
+    "probs": "0.19492992869582848"
+  },
+  {
+    "id": 206.0,
+    "country_name": "Belarus",
+    "operator_name": "BelCel JV",
+    "operator_type": "Mobile",
+    "probs": "0.8910472608649306"
+  },
+  {
+    "id": 207.0,
+    "country_name": "Belgium",
+    "operator_name": "SNCT\/NMBS",
+    "operator_type": "Mobile",
+    "probs": "0.17696922015673613"
+  },
+  {
+    "id": 208.0,
+    "country_name": "Benin",
+    "operator_name": "MTN\/Spacetel",
+    "operator_type": "Mobile",
+    "probs": "0.09216221440284635"
+  },
+  {
+    "id": 209.0,
+    "country_name": "Bhutan",
+    "operator_name": "TashiCell",
+    "operator_type": "Mobile",
+    "probs": "0.1873932889290655"
+  },
+  {
+    "id": 214.0,
+    "country_name": "Burkina Faso",
+    "operator_name": "TeleCel",
+    "operator_type": "Mobile",
+    "probs": "0.8934337006165234"
+  },
+  {
+    "id": 218.0,
+    "country_name": "Canada",
+    "operator_name": "mobilicity",
+    "operator_type": "Mobile",
+    "probs": "0.05322715839551917"
+  },
+  {
+    "id": 219.0,
+    "country_name": "Canada",
+    "operator_name": "Rogers AT&T Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.04362676572085042"
+  },
+  {
+    "id": 220.0,
+    "country_name": "Cape Verde",
+    "operator_name": "CV Movel",
+    "operator_type": "Mobile",
+    "probs": "0.8987679826445274"
+  },
+  {
+    "id": 221.0,
+    "country_name": "Chad",
+    "operator_name": "Airtel\/ZAIN\/Celtel",
+    "operator_type": "Mobile",
+    "probs": "0.10150672399987938"
+  },
+  {
+    "id": 222.0,
+    "country_name": "Chile",
+    "operator_name": "Nextel SA",
+    "operator_type": "Mobile",
+    "probs": "0.17134061745289503"
+  },
+  {
+    "id": 223.0,
+    "country_name": "Chile",
+    "operator_name": "VTR Banda Ancha SA",
+    "operator_type": "Mobile",
+    "probs": "0.05976687878985043"
+  },
+  {
+    "id": 225.0,
+    "country_name": "Colombia",
+    "operator_name": "TIGO\/Colombia Movil",
+    "operator_type": "Mobile",
+    "probs": "0.18815541779932957"
+  },
+  {
+    "id": 227.0,
+    "country_name": "Curacao",
+    "operator_name": "Polycom N.V.\/ Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.403285863474359"
+  },
+  {
+    "id": 228.0,
+    "country_name": "Denmark",
+    "operator_name": "Lycamobile Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.115332581761365"
+  },
+  {
+    "id": 229.0,
+    "country_name": "Denmark",
+    "operator_name": "Telia",
+    "operator_type": "Mobile",
+    "probs": "0.09800523211869795"
+  },
+  {
+    "id": 230.0,
+    "country_name": "Dominican Republic",
+    "operator_name": "TRIcom",
+    "operator_type": "Mobile",
+    "probs": "0.22685538717442694"
+  },
+  {
+    "id": 231.0,
+    "country_name": "El Salvador",
+    "operator_name": "CLARO\/CTE",
+    "operator_type": "Mobile",
+    "probs": "0.7331154785578384"
+  },
+  {
+    "id": 232.0,
+    "country_name": "Estonia",
+    "operator_name": "EMT GSM",
+    "operator_type": "Mobile",
+    "probs": "0.6523454102658133"
+  },
+  {
+    "id": 233.0,
+    "country_name": "Fiji",
+    "operator_name": "DigiCell",
+    "operator_type": "Mobile",
+    "probs": "0.9616006068630514"
+  },
+  {
+    "id": 234.0,
+    "country_name": "Finland",
+    "operator_name": "Elisa\/Saunalahti",
+    "operator_type": "Mobile",
+    "probs": "0.25722967937858854"
+  },
+  {
+    "id": 235.0,
+    "country_name": "France",
+    "operator_name": "Association Plate-forme Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.0609389076705333"
+  },
+  {
+    "id": 237.0,
+    "country_name": "France",
+    "operator_name": "Mundio Mobile (France) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.05342575467192334"
+  },
+  {
+    "id": 239.0,
+    "country_name": "French Guiana",
+    "operator_name": "Outremer Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.2603743603680982"
+  },
+  {
+    "id": 240.0,
+    "country_name": "Gabon",
+    "operator_name": "Airtel\/ZAIN\/Celtel Gabon S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.26149994679582184"
+  },
+  {
+    "id": 241.0,
+    "country_name": "Georgia",
+    "operator_name": "MobiTel\/Beeline",
+    "operator_type": "Mobile",
+    "probs": "0.26261896739424523"
+  },
+  {
+    "id": 243.0,
+    "country_name": "Germany",
+    "operator_name": "Talkline",
+    "operator_type": "Mobile",
+    "probs": "0.049599062633860325"
+  },
+  {
+    "id": 244.0,
+    "country_name": "Ghana",
+    "operator_name": "Expresso Ghana Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.652664898963672"
+  },
+  {
+    "id": 245.0,
+    "country_name": "Gibraltar",
+    "operator_name": "Gibtel GSM",
+    "operator_type": "Mobile",
+    "probs": "0.31334930389012644"
+  },
+  {
+    "id": 248.0,
+    "country_name": "Guinea",
+    "operator_name": "MTN\/Areeba",
+    "operator_type": "Mobile",
+    "probs": "0.3136709210550533"
+  },
+  {
+    "id": 249.0,
+    "country_name": "Guyana",
+    "operator_name": "Cellink Plus",
+    "operator_type": "Mobile",
+    "probs": "0.9704562126376276"
+  },
+  {
+    "id": 250.0,
+    "country_name": "Honduras",
+    "operator_name": "Telefonica\/CELTEL",
+    "operator_type": "Mobile",
+    "probs": "0.017058526285257926"
+  },
+  {
+    "id": 253.0,
+    "country_name": "India",
+    "operator_name": "Barakhamba Sales & Serv.",
+    "operator_type": "Mobile",
+    "probs": "0.015609066790049768"
+  },
+  {
+    "id": 256.0,
+    "country_name": "India",
+    "operator_name": "Bharti Airtel Limited (Karnataka) (India)",
+    "operator_type": "Mobile",
+    "probs": "0.010553456519603105"
+  },
+  {
+    "id": 260.0,
+    "country_name": "India",
+    "operator_name": "TATA \/ Karnataka",
+    "operator_type": "Mobile",
+    "probs": "0.008785275224363476"
+  },
+  {
+    "id": 261.0,
+    "country_name": "Indonesia",
+    "operator_name": "PT Pasifik Satelit Nusantara (PSN)",
+    "operator_type": "Mobile",
+    "probs": "0.09293580739532101"
+  },
+  {
+    "id": 262.0,
+    "country_name": "Iran",
+    "operator_name": "MTN\/IranCell",
+    "operator_type": "Mobile",
+    "probs": "0.3175392175506943"
+  },
+  {
+    "id": 264.0,
+    "country_name": "Ireland",
+    "operator_name": "Three\/H3G",
+    "operator_type": "Mobile",
+    "probs": "0.23823029522767308"
+  },
+  {
+    "id": 265.0,
+    "country_name": "Israel",
+    "operator_name": "Golan Telekom",
+    "operator_type": "Mobile",
+    "probs": "0.10939222861846465"
+  },
+  {
+    "id": 266.0,
+    "country_name": "Italy",
+    "operator_name": "BT Italia SpA",
+    "operator_type": "Mobile",
+    "probs": "0.07595223111317716"
+  },
+  {
+    "id": 267.0,
+    "country_name": "Italy",
+    "operator_name": "Premium Number(s)",
+    "operator_type": "Mobile",
+    "probs": "0.04311884053051101"
+  },
+  {
+    "id": 268.0,
+    "country_name": "Italy",
+    "operator_name": "WIND (Blu) -",
+    "operator_type": "Mobile",
+    "probs": "0.03356578304830425"
+  },
+  {
+    "id": 269.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "OriCell",
+    "operator_type": "Mobile",
+    "probs": "0.34837397631685346"
+  },
+  {
+    "id": 280.0,
+    "country_name": "Japan",
+    "operator_name": "Okinawa Cellular Telephone",
+    "operator_type": "Mobile",
+    "probs": "0.07128974308349734"
+  },
+  {
+    "id": 284.0,
+    "country_name": "Jordan",
+    "operator_name": "Orange\/Petra",
+    "operator_type": "Mobile",
+    "probs": "0.9867773726183757"
+  },
+  {
+    "id": 285.0,
+    "country_name": "Kenya",
+    "operator_name": "Econet Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.44914192768304495"
+  },
+  {
+    "id": 286.0,
+    "country_name": "Kyrgyzstan",
+    "operator_name": "AkTel LLC",
+    "operator_type": "Mobile",
+    "probs": "0.703279122795562"
+  },
+  {
+    "id": 287.0,
+    "country_name": "Latvia",
+    "operator_name": "SIA Master Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.18850699457933157"
+  },
+  {
+    "id": 288.0,
+    "country_name": "Lebanon",
+    "operator_name": "MIC2\/LibanCell\/MTC",
+    "operator_type": "Mobile",
+    "probs": "0.2963406026607814"
+  },
+  {
+    "id": 289.0,
+    "country_name": "Liberia",
+    "operator_name": "CELLCOM",
+    "operator_type": "Mobile",
+    "probs": "0.716701069156236"
+  },
+  {
+    "id": 290.0,
+    "country_name": "Libya",
+    "operator_name": "Libyana",
+    "operator_type": "Mobile",
+    "probs": "0.32105484895493563"
+  },
+  {
+    "id": 291.0,
+    "country_name": "Lithuania",
+    "operator_name": "Bite",
+    "operator_type": "Mobile",
+    "probs": "0.576515342773914"
+  },
+  {
+    "id": 292.0,
+    "country_name": "Macedonia",
+    "operator_name": "T-Mobile\/Mobimak",
+    "operator_type": "Mobile",
+    "probs": "0.22188397146822889"
+  },
+  {
+    "id": 293.0,
+    "country_name": "Malaysia",
+    "operator_name": "Art900",
+    "operator_type": "Mobile",
+    "probs": "0.021570302056350778"
+  },
+  {
+    "id": 295.0,
+    "country_name": "Maldives",
+    "operator_name": "Dhiraagu\/C&W",
+    "operator_type": "Mobile",
+    "probs": "0.6031088601029431"
+  },
+  {
+    "id": 296.0,
+    "country_name": "Mauritania",
+    "operator_name": "Mattel",
+    "operator_type": "Mobile",
+    "probs": "0.39823738236436046"
+  },
+  {
+    "id": 298.0,
+    "country_name": "Mexico",
+    "operator_name": "Operadora Unefon SA de CV",
+    "operator_type": "Mobile",
+    "probs": "0.038889809842181045"
+  },
+  {
+    "id": 300.0,
+    "country_name": "Mongolia",
+    "operator_name": "Skytel Co. Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.02141002773205275"
+  },
+  {
+    "id": 301.0,
+    "country_name": "Morocco",
+    "operator_name": "Medi Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.3043106174533336"
+  },
+  {
+    "id": 302.0,
+    "country_name": "Nepal",
+    "operator_name": "NT Mobile \/ Namaste",
+    "operator_type": "Mobile",
+    "probs": "0.24213268153682044"
+  },
+  {
+    "id": 305.0,
+    "country_name": "Netherlands",
+    "operator_name": "Ziggo BV",
+    "operator_type": "Mobile",
+    "probs": "0.1358768942159436"
+  },
+  {
+    "id": 306.0,
+    "country_name": "New Zealand",
+    "operator_name": "Walker Wireless Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.4251874029169992"
+  },
+  {
+    "id": 307.0,
+    "country_name": "Nigeria",
+    "operator_name": "Airtel\/ZAIN\/Econet",
+    "operator_type": "Mobile",
+    "probs": "0.26469548994085623"
+  },
+  {
+    "id": 308.0,
+    "country_name": "Niue",
+    "operator_name": "Niue Telecom",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 309.0,
+    "country_name": "Norway",
+    "operator_name": "ICE Nordisk Mobiltelefon AS",
+    "operator_type": "Mobile",
+    "probs": "0.09244885309263852"
+  },
+  {
+    "id": 310.0,
+    "country_name": "Oman",
+    "operator_name": "Nawras",
+    "operator_type": "Mobile",
+    "probs": "0.8136726778003383"
+  },
+  {
+    "id": 311.0,
+    "country_name": "Panama",
+    "operator_name": "Cable & W.\/Mas Movil",
+    "operator_type": "Mobile",
+    "probs": "0.4074003941502429"
+  },
+  {
+    "id": 312.0,
+    "country_name": "Paraguay",
+    "operator_name": "Claro\/Hutchison",
+    "operator_type": "Mobile",
+    "probs": "0.9672284188888974"
+  },
+  {
+    "id": 314.0,
+    "country_name": "Philippines",
+    "operator_name": "Next Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.18422851375298654"
+  },
+  {
+    "id": 315.0,
+    "country_name": "Poland",
+    "operator_name": "e-Telko",
+    "operator_type": "Mobile",
+    "probs": "0.05994639283575484"
+  },
+  {
+    "id": 316.0,
+    "country_name": "Poland",
+    "operator_name": "PKP Polskie Linie Kolejowe S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.04949685605370655"
+  },
+  {
+    "id": 318.0,
+    "country_name": "Puerto Rico",
+    "operator_name": "Puerto Rico Telephone Company Inc. (PRTC)",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 319.0,
+    "country_name": "Romania",
+    "operator_name": "Enigma Systems",
+    "operator_type": "Mobile",
+    "probs": "0.23253124813445689"
+  },
+  {
+    "id": 320.0,
+    "country_name": "Rwanda",
+    "operator_name": "MTN\/Rwandacell",
+    "operator_type": "Mobile",
+    "probs": "0.13690889788248917"
+  },
+  {
+    "id": 321.0,
+    "country_name": "Samoa",
+    "operator_name": "Samoatel Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.9666956396620242"
+  },
+  {
+    "id": 322.0,
+    "country_name": "Senegal",
+    "operator_name": "Expresso\/Sudatel",
+    "operator_type": "Mobile",
+    "probs": "0.4170586026569552"
+  },
+  {
+    "id": 323.0,
+    "country_name": "Seychelles",
+    "operator_name": "C&W",
+    "operator_type": "Mobile",
+    "probs": "0.06470093059553574"
+  },
+  {
+    "id": 324.0,
+    "country_name": "Singapore",
+    "operator_name": "GRID Communications Pte Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.8740372917710115"
+  },
+  {
+    "id": 325.0,
+    "country_name": "Slovakia",
+    "operator_name": "O2",
+    "operator_type": "Mobile",
+    "probs": "0.16097220206999882"
+  },
+  {
+    "id": 326.0,
+    "country_name": "Slovenia",
+    "operator_name": "SI.Mobil",
+    "operator_type": "Mobile",
+    "probs": "0.15833951859358766"
+  },
+  {
+    "id": 327.0,
+    "country_name": "Somalia",
+    "operator_name": "HorTel",
+    "operator_type": "Mobile",
+    "probs": "0.006681144302079941"
+  },
+  {
+    "id": 328.0,
+    "country_name": "South Africa",
+    "operator_name": "Cell C",
+    "operator_type": "Mobile",
+    "probs": "0.34131476493818397"
+  },
+  {
+    "id": 329.0,
+    "country_name": "Spain",
+    "operator_name": "BT Espana  SAU",
+    "operator_type": "Mobile",
+    "probs": "0.01497431959465636"
+  },
+  {
+    "id": 331.0,
+    "country_name": "Spain",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.013847346376207248"
+  },
+  {
+    "id": 332.0,
+    "country_name": "Sudan",
+    "operator_name": "Canar Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.13933485716050395"
+  },
+  {
+    "id": 335.0,
+    "country_name": "Sweden",
+    "operator_name": "Gotalandsnatet AB",
+    "operator_type": "Mobile",
+    "probs": "0.06356018489878956"
+  },
+  {
+    "id": 336.0,
+    "country_name": "Sweden",
+    "operator_name": "Mundio Mobile (Sweden) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.04890514586862409"
+  },
+  {
+    "id": 337.0,
+    "country_name": "Sweden",
+    "operator_name": "Telia Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.032417641398144764"
+  },
+  {
+    "id": 338.0,
+    "country_name": "Switzerland",
+    "operator_name": "Lycamobile AG",
+    "operator_type": "Mobile",
+    "probs": "0.05664920984498266"
+  },
+  {
+    "id": 339.0,
+    "country_name": "Taiwan",
+    "operator_name": "ACeS Taiwan - ACeS Taiwan Telecommunications Co Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.12870534939400513"
+  },
+  {
+    "id": 341.0,
+    "country_name": "Taiwan",
+    "operator_name": "VMAX Telecom Co. Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.09315705045799724"
+  },
+  {
+    "id": 342.0,
+    "country_name": "Tanzania",
+    "operator_name": "Dovetel (T) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.20330212025436734"
+  },
+  {
+    "id": 343.0,
+    "country_name": "Tanzania",
+    "operator_name": "Zantel\/Zanzibar Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.08913406288740637"
+  },
+  {
+    "id": 345.0,
+    "country_name": "Trinidad and Tobago",
+    "operator_name": "Bmobile\/TSTT",
+    "operator_type": "Mobile",
+    "probs": "0.9817241232191316"
+  },
+  {
+    "id": 347.0,
+    "country_name": "Tuvalu",
+    "operator_name": "Tuvalu Telecommunication Corporation (TTC)",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 348.0,
+    "country_name": "Uganda",
+    "operator_name": "Uganda Telecom Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.163274139663866"
+  },
+  {
+    "id": 349.0,
+    "country_name": "Ukraine",
+    "operator_name": "Telesystems Of Ukraine CJSC (TSU)",
+    "operator_type": "Mobile",
+    "probs": "0.2475714997707184"
+  },
+  {
+    "id": 351.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Cloud9\/wire9 Tel.",
+    "operator_type": "Mobile",
+    "probs": "0.05002213470210729"
+  },
+  {
+    "id": 352.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Jersey Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.03823097828403255"
+  },
+  {
+    "id": 354.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Stour Marine",
+    "operator_type": "Mobile",
+    "probs": "0.018352856762187453"
+  },
+  {
+    "id": 356.0,
+    "country_name": "United States",
+    "operator_name": "Allied Wireless Communications Corporation",
+    "operator_type": "Mobile",
+    "probs": "0.012534827990247117"
+  },
+  {
+    "id": 358.0,
+    "country_name": "United States",
+    "operator_name": "Caprock Cellular Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.01240255953023418"
+  },
+  {
+    "id": 363.0,
+    "country_name": "United States",
+    "operator_name": "Cellular Network Partnership LLC",
+    "operator_type": "Mobile",
+    "probs": "0.010325924763893417"
+  },
+  {
+    "id": 364.0,
+    "country_name": "United States",
+    "operator_name": "Consolidated Telcom",
+    "operator_type": "Mobile",
+    "probs": "0.009953373416415695"
+  },
+  {
+    "id": 365.0,
+    "country_name": "United States",
+    "operator_name": "East Kentucky Network LLC",
+    "operator_type": "Mobile",
+    "probs": "0.009340213259089025"
+  },
+  {
+    "id": 367.0,
+    "country_name": "United States",
+    "operator_name": "Keystone Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.007757016755479859"
+  },
+  {
+    "id": 368.0,
+    "country_name": "United States",
+    "operator_name": "Missouri RSA No 5 Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.006946888750867434"
+  },
+  {
+    "id": 369.0,
+    "country_name": "United States",
+    "operator_name": "Nevada Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.006319123755164905"
+  },
+  {
+    "id": 370.0,
+    "country_name": "United States",
+    "operator_name": "Northstar",
+    "operator_type": "Mobile",
+    "probs": "0.006274952799803342"
+  },
+  {
+    "id": 371.0,
+    "country_name": "United States",
+    "operator_name": "Poka Lambro Telco Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.005564772906957726"
+  },
+  {
+    "id": 376.0,
+    "country_name": "United States",
+    "operator_name": "Triton PCS",
+    "operator_type": "Mobile",
+    "probs": "0.005554737808282585"
+  },
+  {
+    "id": 377.0,
+    "country_name": "United States",
+    "operator_name": "USA 3650 AT&T",
+    "operator_type": "Mobile",
+    "probs": "0.005250433194518578"
+  },
+  {
+    "id": 378.0,
+    "country_name": "United States",
+    "operator_name": "Westlink Communications LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0051013019388625735"
+  },
+  {
+    "id": 379.0,
+    "country_name": "Uzbekistan",
+    "operator_name": "Buztel",
+    "operator_type": "Mobile",
+    "probs": "0.17448583842233328"
+  },
+  {
+    "id": 381.0,
+    "country_name": "Zambia",
+    "operator_name": "MTN\/Telecel",
+    "operator_type": "Mobile",
+    "probs": "0.39916524151582716"
+  },
+  {
+    "id": 382.0,
+    "country_name": "Japan",
+    "operator_name": "Nippon Telegraph & Tel",
+    "operator_type": "Fixed",
+    "probs": "0.06911284537110678"
+  },
+  {
+    "id": 383.0,
+    "country_name": "China",
+    "operator_name": "China Unicom",
+    "operator_type": "Fixed",
+    "probs": "0.08263319139082159"
+  },
+  {
+    "id": 384.0,
+    "country_name": "Norway",
+    "operator_name": "Telenor",
+    "operator_type": "Fixed",
+    "probs": "0.06953343339662825"
+  },
+  {
+    "id": 385.0,
+    "country_name": "France",
+    "operator_name": "Vivendi",
+    "operator_type": "Fixed",
+    "probs": "0.05005704066013918"
+  },
+  {
+    "id": 386.0,
+    "country_name": "Qatar",
+    "operator_name": "Ooredoo",
+    "operator_type": "Fixed",
+    "probs": "0.7070788407243932"
+  },
+  {
+    "id": 387.0,
+    "country_name": "Belgium",
+    "operator_name": "Belgacom",
+    "operator_type": "Fixed",
+    "probs": "0.1450293183185696"
+  },
+  {
+    "id": 388.0,
+    "country_name": "Philippines",
+    "operator_name": "PLDT",
+    "operator_type": "Fixed",
+    "probs": "0.06689577566430664"
+  },
+  {
+    "id": 389.0,
+    "country_name": "Afghanistan",
+    "operator_name": "Afghan Wireless\/AWCC",
+    "operator_type": "Mobile",
+    "probs": "0.31753487643578315"
+  },
+  {
+    "id": 390.0,
+    "country_name": "Albania",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.08232447778366149"
+  },
+  {
+    "id": 391.0,
+    "country_name": "Anguilla",
+    "operator_name": "Cable and Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.7788271015132252"
+  },
+  {
+    "id": 392.0,
+    "country_name": "Armenia",
+    "operator_name": "Vivacell",
+    "operator_type": "Mobile",
+    "probs": "0.009005765111541759"
+  },
+  {
+    "id": 393.0,
+    "country_name": "Australia",
+    "operator_name": "H3G Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.019269805074723603"
+  },
+  {
+    "id": 396.0,
+    "country_name": "Austria",
+    "operator_name": "3\/Orange\/One Connect",
+    "operator_type": "Mobile",
+    "probs": "0.026303714524552935"
+  },
+  {
+    "id": 397.0,
+    "country_name": "Azerbaijan",
+    "operator_name": "Azercell Telekom B.M.",
+    "operator_type": "Mobile",
+    "probs": "0.5851397293227066"
+  },
+  {
+    "id": 398.0,
+    "country_name": "Bahrain",
+    "operator_name": "Batelco",
+    "operator_type": "Mobile",
+    "probs": "0.8337937746096342"
+  },
+  {
+    "id": 399.0,
+    "country_name": "Bangladesh",
+    "operator_name": "TeleTalk",
+    "operator_type": "Mobile",
+    "probs": "0.09872597586323882"
+  },
+  {
+    "id": 400.0,
+    "country_name": "Belarus",
+    "operator_name": "BeST",
+    "operator_type": "Mobile",
+    "probs": "0.07269291402666608"
+  },
+  {
+    "id": 401.0,
+    "country_name": "Belgium",
+    "operator_name": "Telenet BidCo NV",
+    "operator_type": "Mobile",
+    "probs": "0.05675204378863613"
+  },
+  {
+    "id": 402.0,
+    "country_name": "Bermuda",
+    "operator_name": "Bermuda Digital Communications Ltd (BDC)",
+    "operator_type": "Mobile",
+    "probs": "0.41769113052276846"
+  },
+  {
+    "id": 403.0,
+    "country_name": "Bolivia",
+    "operator_name": "Entel Pcs",
+    "operator_type": "Mobile",
+    "probs": "0.5653544377574428"
+  },
+  {
+    "id": 405.0,
+    "country_name": "Brazil",
+    "operator_name": "Oi (TNL PCS \/ Oi)",
+    "operator_type": "Mobile",
+    "probs": "0.010531276041703903"
+  },
+  {
+    "id": 406.0,
+    "country_name": "Brazil",
+    "operator_name": "TIM",
+    "operator_type": "Mobile",
+    "probs": "0.01023518174935302"
+  },
+  {
+    "id": 407.0,
+    "country_name": "British Virgin Islands",
+    "operator_name": "Caribbean Cellular",
+    "operator_type": "Mobile",
+    "probs": "0.4866609390042835"
+  },
+  {
+    "id": 408.0,
+    "country_name": "Burkina Faso",
+    "operator_name": "TeleMob-OnaTel",
+    "operator_type": "Mobile",
+    "probs": "0.08435143601589601"
+  },
+  {
+    "id": 409.0,
+    "country_name": "Cambodia",
+    "operator_name": "Cambodia Advance Communications Co. Ltd (CADCOMMS)",
+    "operator_type": "Mobile",
+    "probs": "0.4704456369289763"
+  },
+  {
+    "id": 410.0,
+    "country_name": "Cambodia",
+    "operator_name": "Sotelco\/Beeline",
+    "operator_type": "Mobile",
+    "probs": "0.016632614422931447"
+  },
+  {
+    "id": 411.0,
+    "country_name": "Canada",
+    "operator_name": "CityWest Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.033266835203689976"
+  },
+  {
+    "id": 412.0,
+    "country_name": "Canada",
+    "operator_name": "MT&T Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.018927551365307885"
+  },
+  {
+    "id": 413.0,
+    "country_name": "Canada",
+    "operator_name": "Sask Tel Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.018657814983192127"
+  },
+  {
+    "id": 414.0,
+    "country_name": "Cape Verde",
+    "operator_name": "T+ Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.10123201735547256"
+  },
+  {
+    "id": 415.0,
+    "country_name": "Chile",
+    "operator_name": "Blue Two Chile SA",
+    "operator_type": "Mobile",
+    "probs": "0.04794714214157713"
+  },
+  {
+    "id": 417.0,
+    "country_name": "China",
+    "operator_name": "China Mobile GSM",
+    "operator_type": "Mobile",
+    "probs": "0.054155262038762926"
+  },
+  {
+    "id": 418.0,
+    "country_name": "Colombia",
+    "operator_name": "Avantel SAS",
+    "operator_type": "Mobile",
+    "probs": "0.15658102442701813"
+  },
+  {
+    "id": 419.0,
+    "country_name": "Colombia",
+    "operator_name": "UNE EPM Telecomunicaciones SA ESP",
+    "operator_type": "Mobile",
+    "probs": "0.05959975765246584"
+  },
+  {
+    "id": 420.0,
+    "country_name": "Costa Rica",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.3459415595026521"
+  },
+  {
+    "id": 421.0,
+    "country_name": "Cyprus",
+    "operator_name": "MTN\/Areeba",
+    "operator_type": "Mobile",
+    "probs": "0.9509963394899996"
+  },
+  {
+    "id": 422.0,
+    "country_name": "Denmark",
+    "operator_name": "Mach Connectivity ApS",
+    "operator_type": "Mobile",
+    "probs": "0.09486182422451053"
+  },
+  {
+    "id": 424.0,
+    "country_name": "Dominican Republic",
+    "operator_name": "Trilogy Dominicana S. A.",
+    "operator_type": "Mobile",
+    "probs": "0.06057008241448437"
+  },
+  {
+    "id": 425.0,
+    "country_name": "El Salvador",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.16763986774117737"
+  },
+  {
+    "id": 426.0,
+    "country_name": "Estonia",
+    "operator_name": "Radiolinja Eesti",
+    "operator_type": "Mobile",
+    "probs": "0.19671191290377243"
+  },
+  {
+    "id": 427.0,
+    "country_name": "Fiji",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.03839939313694867"
+  },
+  {
+    "id": 429.0,
+    "country_name": "France",
+    "operator_name": "Astrium",
+    "operator_type": "Mobile",
+    "probs": "0.03664485298428465"
+  },
+  {
+    "id": 430.0,
+    "country_name": "France",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.025169288213389145"
+  },
+  {
+    "id": 431.0,
+    "country_name": "France",
+    "operator_name": "NRJ",
+    "operator_type": "Mobile",
+    "probs": "0.019404981133307925"
+  },
+  {
+    "id": 433.0,
+    "country_name": "French Guiana",
+    "operator_name": "TelCell GSM",
+    "operator_type": "Mobile",
+    "probs": "0.22737120625837345"
+  },
+  {
+    "id": 434.0,
+    "country_name": "Gambia",
+    "operator_name": "Africel",
+    "operator_type": "Mobile",
+    "probs": "0.7722810683712378"
+  },
+  {
+    "id": 435.0,
+    "country_name": "Georgia",
+    "operator_name": "Silknet",
+    "operator_type": "Mobile",
+    "probs": "0.1859186002192323"
+  },
+  {
+    "id": 437.0,
+    "country_name": "Germany",
+    "operator_name": "T-mobile\/Telekom",
+    "operator_type": "Mobile",
+    "probs": "0.046304202578431645"
+  },
+  {
+    "id": 438.0,
+    "country_name": "Ghana",
+    "operator_name": "GloMobile",
+    "operator_type": "Mobile",
+    "probs": "0.24735193061354077"
+  },
+  {
+    "id": 439.0,
+    "country_name": "Greece",
+    "operator_name": "AMD Telecom SA",
+    "operator_type": "Mobile",
+    "probs": "0.3539569481363872"
+  },
+  {
+    "id": 440.0,
+    "country_name": "Greece",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.059926946381412036"
+  },
+  {
+    "id": 441.0,
+    "country_name": "Guam",
+    "operator_name": "GTA Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.0674138361966597"
+  },
+  {
+    "id": 442.0,
+    "country_name": "Guinea",
+    "operator_name": "Celcom",
+    "operator_type": "Mobile",
+    "probs": "0.2697891188781494"
+  },
+  {
+    "id": 443.0,
+    "country_name": "Guyana",
+    "operator_name": "DigiCel",
+    "operator_type": "Mobile",
+    "probs": "0.029543787362372405"
+  },
+  {
+    "id": 444.0,
+    "country_name": "Hungary",
+    "operator_name": "Pannon\/Telenor",
+    "operator_type": "Mobile",
+    "probs": "0.6752538892899816"
+  },
+  {
+    "id": 445.0,
+    "country_name": "Iceland",
+    "operator_name": "NOVA",
+    "operator_type": "Mobile",
+    "probs": "0.19764814069026557"
+  },
+  {
+    "id": 450.0,
+    "country_name": "India",
+    "operator_name": "CellOne A&N",
+    "operator_type": "Mobile",
+    "probs": "0.007926109693025273"
+  },
+  {
+    "id": 451.0,
+    "country_name": "India",
+    "operator_name": "Fascel Limited",
+    "operator_type": "Mobile",
+    "probs": "0.006194867206618846"
+  },
+  {
+    "id": 454.0,
+    "country_name": "India",
+    "operator_name": "Usha Martin Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.003541512197342203"
+  },
+  {
+    "id": 455.0,
+    "country_name": "Indonesia",
+    "operator_name": "PT Sampoerna Telekomunikasi Indonesia (STI)",
+    "operator_type": "Mobile",
+    "probs": "0.055499995224142055"
+  },
+  {
+    "id": 456.0,
+    "country_name": "Iran",
+    "operator_name": "Rightel",
+    "operator_type": "Mobile",
+    "probs": "0.031199688436851013"
+  },
+  {
+    "id": 457.0,
+    "country_name": "Iraq",
+    "operator_name": "Mobitel (Iraq-Kurdistan) and Moutiny",
+    "operator_type": "Mobile",
+    "probs": "0.1992275406322336"
+  },
+  {
+    "id": 458.0,
+    "country_name": "Ireland",
+    "operator_name": "Liffey Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.16687186277275828"
+  },
+  {
+    "id": 459.0,
+    "country_name": "Israel",
+    "operator_name": "Home Cellular Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.020038994812474353"
+  },
+  {
+    "id": 460.0,
+    "country_name": "Italy",
+    "operator_name": "Elsacom",
+    "operator_type": "Mobile",
+    "probs": "0.03114018307879377"
+  },
+  {
+    "id": 461.0,
+    "country_name": "Italy",
+    "operator_name": "RFI Rete Ferroviaria Italiana SpA",
+    "operator_type": "Mobile",
+    "probs": "0.017774513441691946"
+  },
+  {
+    "id": 463.0,
+    "country_name": "Jamaica",
+    "operator_name": "Cable & Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.888923721600052"
+  },
+  {
+    "id": 478.0,
+    "country_name": "Jordan",
+    "operator_name": "Umniah Mobile Co.",
+    "operator_type": "Mobile",
+    "probs": "0.011722294354172061"
+  },
+  {
+    "id": 479.0,
+    "country_name": "Kenya",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.42299439295053876"
+  },
+  {
+    "id": 480.0,
+    "country_name": "Kyrgyzstan",
+    "operator_name": "Beeline\/Bitel",
+    "operator_type": "Mobile",
+    "probs": "0.2066553125782121"
+  },
+  {
+    "id": 481.0,
+    "country_name": "Latvia",
+    "operator_name": "SIA Rigatta",
+    "operator_type": "Mobile",
+    "probs": "0.07226286067030051"
+  },
+  {
+    "id": 483.0,
+    "country_name": "Liberia",
+    "operator_name": "Comium BVI",
+    "operator_type": "Mobile",
+    "probs": "0.16252505551894758"
+  },
+  {
+    "id": 485.0,
+    "country_name": "Lithuania",
+    "operator_name": "Omnitel",
+    "operator_type": "Mobile",
+    "probs": "0.32096403741623514"
+  },
+  {
+    "id": 486.0,
+    "country_name": "Macedonia",
+    "operator_name": "VIP Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.029548762115077797"
+  },
+  {
+    "id": 487.0,
+    "country_name": "Malaysia",
+    "operator_name": "Baraka Telecom Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.018146426274315286"
+  },
+  {
+    "id": 488.0,
+    "country_name": "Malaysia",
+    "operator_name": "MTX Utara",
+    "operator_type": "Mobile",
+    "probs": "0.016802451325798808"
+  },
+  {
+    "id": 489.0,
+    "country_name": "Maldives",
+    "operator_name": "Wataniya\/WMOBILE",
+    "operator_type": "Mobile",
+    "probs": "0.39689113989705693"
+  },
+  {
+    "id": 490.0,
+    "country_name": "Mauritania",
+    "operator_name": "Mauritel",
+    "operator_type": "Mobile",
+    "probs": "0.004383958313024279"
+  },
+  {
+    "id": 494.0,
+    "country_name": "Mongolia",
+    "operator_name": "Unitel",
+    "operator_type": "Mobile",
+    "probs": "0.012687406210377193"
+  },
+  {
+    "id": 495.0,
+    "country_name": "Mozambique",
+    "operator_name": "mCel",
+    "operator_type": "Mobile",
+    "probs": "0.997779432346143"
+  },
+  {
+    "id": 496.0,
+    "country_name": "Nepal",
+    "operator_name": "Smart Cell",
+    "operator_type": "Mobile",
+    "probs": "0.11523665631088546"
+  },
+  {
+    "id": 497.0,
+    "country_name": "Netherlands",
+    "operator_name": "KPN\/Telfort",
+    "operator_type": "Mobile",
+    "probs": "0.08023428892279279"
+  },
+  {
+    "id": 498.0,
+    "country_name": "Netherlands",
+    "operator_name": "T-mobile\/former Orange",
+    "operator_type": "Mobile",
+    "probs": "0.05782645635052914"
+  },
+  {
+    "id": 499.0,
+    "country_name": "New Caledonia",
+    "operator_name": "OPT Mobilis",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 500.0,
+    "country_name": "Nicaragua",
+    "operator_name": "Empresa Nicaraguense de Telecomunicaciones SA (ENITEL)",
+    "operator_type": "Mobile",
+    "probs": "0.5095836524429795"
+  },
+  {
+    "id": 501.0,
+    "country_name": "Nigeria",
+    "operator_name": "ETISALAT",
+    "operator_type": "Mobile",
+    "probs": "0.17131882850070554"
+  },
+  {
+    "id": 502.0,
+    "country_name": "Norway",
+    "operator_name": "Com4 AS",
+    "operator_type": "Mobile",
+    "probs": "0.05017412672132281"
+  },
+  {
+    "id": 503.0,
+    "country_name": "Norway",
+    "operator_name": "TDC Mobil A\/S",
+    "operator_type": "Mobile",
+    "probs": "0.04638238575806086"
+  },
+  {
+    "id": 504.0,
+    "country_name": "Oman",
+    "operator_name": "Oman Mobile\/GTO",
+    "operator_type": "Mobile",
+    "probs": "0.1863273221996616"
+  },
+  {
+    "id": 505.0,
+    "country_name": "Panama",
+    "operator_name": "Claro",
+    "operator_type": "Mobile",
+    "probs": "0.2998210935320385"
+  },
+  {
+    "id": 506.0,
+    "country_name": "Paraguay",
+    "operator_name": "Compa",
+    "operator_type": "Mobile",
+    "probs": "0.01977001670534206"
+  },
+  {
+    "id": 507.0,
+    "country_name": "Peru",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.2767202754119234"
+  },
+  {
+    "id": 508.0,
+    "country_name": "Philippines",
+    "operator_name": "RED Mobile\/Cure",
+    "operator_type": "Mobile",
+    "probs": "0.04990156276088453"
+  },
+  {
+    "id": 509.0,
+    "country_name": "Poland",
+    "operator_name": "Lycamobile",
+    "operator_type": "Mobile",
+    "probs": "0.017144196046599097"
+  },
+  {
+    "id": 510.0,
+    "country_name": "Poland",
+    "operator_name": "Play\/P4",
+    "operator_type": "Mobile",
+    "probs": "0.01558911944323652"
+  },
+  {
+    "id": 511.0,
+    "country_name": "Poland",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.015377869220293992"
+  },
+  {
+    "id": 513.0,
+    "country_name": "Romania",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.15513058471962263"
+  },
+  {
+    "id": 514.0,
+    "country_name": "Rwanda",
+    "operator_name": "TIGO",
+    "operator_type": "Mobile",
+    "probs": "0.06328070271558876"
+  },
+  {
+    "id": 515.0,
+    "country_name": "Samoa",
+    "operator_name": "Telecom Samoa Cellular Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.03330436033797576"
+  },
+  {
+    "id": 516.0,
+    "country_name": "Senegal",
+    "operator_name": "Orange\/Sonatel",
+    "operator_type": "Mobile",
+    "probs": "0.3285149450574038"
+  },
+  {
+    "id": 517.0,
+    "country_name": "Seychelles",
+    "operator_name": "Smartcom",
+    "operator_type": "Mobile",
+    "probs": "0.016096006887734157"
+  },
+  {
+    "id": 518.0,
+    "country_name": "Singapore",
+    "operator_name": "MobileOne Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.06683294377184044"
+  },
+  {
+    "id": 519.0,
+    "country_name": "Slovakia",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.14142362722869312"
+  },
+  {
+    "id": 520.0,
+    "country_name": "Slovenia",
+    "operator_name": "Slovenske zeleznice d.o.o.",
+    "operator_type": "Mobile",
+    "probs": "0.1254732431630055"
+  },
+  {
+    "id": 521.0,
+    "country_name": "Somalia",
+    "operator_name": "Nationlink",
+    "operator_type": "Mobile",
+    "probs": "0.004792166416812063"
+  },
+  {
+    "id": 522.0,
+    "country_name": "South Africa",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.12907735643610016"
+  },
+  {
+    "id": 523.0,
+    "country_name": "Spain",
+    "operator_name": "Cableuropa SAU (ONO)",
+    "operator_type": "Mobile",
+    "probs": "0.013430880275120873"
+  },
+  {
+    "id": 524.0,
+    "country_name": "Spain",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.011489913484331"
+  },
+  {
+    "id": 525.0,
+    "country_name": "Spain",
+    "operator_name": "Vodafone Enabler Espana SL",
+    "operator_type": "Mobile",
+    "probs": "0.010720042791328623"
+  },
+  {
+    "id": 526.0,
+    "country_name": "Sudan",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.03991033276932118"
+  },
+  {
+    "id": 527.0,
+    "country_name": "Suriname",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.8191358876328362"
+  },
+  {
+    "id": 528.0,
+    "country_name": "Sweden",
+    "operator_name": "Beepsend",
+    "operator_type": "Mobile",
+    "probs": "0.032367465082725345"
+  },
+  {
+    "id": 529.0,
+    "country_name": "Sweden",
+    "operator_name": "H3G Access AB",
+    "operator_type": "Mobile",
+    "probs": "0.02991557838232739"
+  },
+  {
+    "id": 530.0,
+    "country_name": "Sweden",
+    "operator_name": "Spring Mobil AB",
+    "operator_type": "Mobile",
+    "probs": "0.028927648542706717"
+  },
+  {
+    "id": 531.0,
+    "country_name": "Sweden",
+    "operator_name": "Ventelo Sverige AB",
+    "operator_type": "Mobile",
+    "probs": "0.024068365730376524"
+  },
+  {
+    "id": 532.0,
+    "country_name": "Switzerland",
+    "operator_name": "Mundio Mobile AG",
+    "operator_type": "Mobile",
+    "probs": "0.05488117492040213"
+  },
+  {
+    "id": 533.0,
+    "country_name": "Taiwan",
+    "operator_name": "Asia Pacific Telecom Co. Ltd (APT)",
+    "operator_type": "Mobile",
+    "probs": "0.0928903897609147"
+  },
+  {
+    "id": 534.0,
+    "country_name": "Taiwan",
+    "operator_name": "Global Mobile Corp.",
+    "operator_type": "Mobile",
+    "probs": "0.07900283020467648"
+  },
+  {
+    "id": 535.0,
+    "country_name": "Tajikistan",
+    "operator_name": "Babilon-M",
+    "operator_type": "Mobile",
+    "probs": "0.5450641171820043"
+  },
+  {
+    "id": 536.0,
+    "country_name": "Tanzania",
+    "operator_name": "ExcellentCom (T) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.07315416950968072"
+  },
+  {
+    "id": 537.0,
+    "country_name": "Thailand",
+    "operator_name": "ACeS Thailand - ACeS Regional Services Co Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.14151536224949016"
+  },
+  {
+    "id": 538.0,
+    "country_name": "Thailand",
+    "operator_name": "True Move\/Orange",
+    "operator_type": "Mobile",
+    "probs": "0.09236674738080358"
+  },
+  {
+    "id": 540.0,
+    "country_name": "Turkey",
+    "operator_name": "Turkcell",
+    "operator_type": "Mobile",
+    "probs": "0.16807035510307877"
+  },
+  {
+    "id": 541.0,
+    "country_name": "Uganda",
+    "operator_name": "Airtel\/Celtel",
+    "operator_type": "Mobile",
+    "probs": "0.07794756187709649"
+  },
+  {
+    "id": 542.0,
+    "country_name": "Uganda",
+    "operator_name": "Airtel\/Warid",
+    "operator_type": "Mobile",
+    "probs": "0.03514024375263353"
+  },
+  {
+    "id": 543.0,
+    "country_name": "Ukraine",
+    "operator_name": "TriMob LLC",
+    "operator_type": "Mobile",
+    "probs": "0.08216594865685722"
+  },
+  {
+    "id": 545.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Everyth. Ev.wh.",
+    "operator_type": "Mobile",
+    "probs": "0.014856175049640178"
+  },
+  {
+    "id": 546.0,
+    "country_name": "United Kingdom",
+    "operator_name": "JSC Ingenicum",
+    "operator_type": "Mobile",
+    "probs": "0.012342257354525082"
+  },
+  {
+    "id": 547.0,
+    "country_name": "United Kingdom",
+    "operator_name": "OnePhone",
+    "operator_type": "Mobile",
+    "probs": "0.011753786639873778"
+  },
+  {
+    "id": 548.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Synectiv Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.010673142217951365"
+  },
+  {
+    "id": 549.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Vectofone Mobile Wifi",
+    "operator_type": "Mobile",
+    "probs": "0.01012996318343773"
+  },
+  {
+    "id": 550.0,
+    "country_name": "United States",
+    "operator_name": "Arctic Slope Telephone Association Cooperative Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.005038505909588174"
+  },
+  {
+    "id": 560.0,
+    "country_name": "United States",
+    "operator_name": "Get Mobile Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.004979211539705339"
+  },
+  {
+    "id": 563.0,
+    "country_name": "United States",
+    "operator_name": "New-Cell Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.004856008363365522"
+  },
+  {
+    "id": 565.0,
+    "country_name": "United States",
+    "operator_name": "Public Service Cellular Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.004278610377216611"
+  },
+  {
+    "id": 566.0,
+    "country_name": "United States",
+    "operator_name": "Southern Communications Services Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.004115181545658693"
+  },
+  {
+    "id": 569.0,
+    "country_name": "United States",
+    "operator_name": "Telemetrix Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0038675526229716996"
+  },
+  {
+    "id": 570.0,
+    "country_name": "United States",
+    "operator_name": "Uintah Basin Electronics Telecommunications Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.003715597968967795"
+  },
+  {
+    "id": 571.0,
+    "country_name": "United States",
+    "operator_name": "VeriSign",
+    "operator_type": "Mobile",
+    "probs": "0.0031357018955921407"
+  },
+  {
+    "id": 572.0,
+    "country_name": "United States",
+    "operator_name": "Wisconsin RSA #7 Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.0030462261722973725"
+  },
+  {
+    "id": 573.0,
+    "country_name": "Uzbekistan",
+    "operator_name": "MTS\/Uzdunrobita",
+    "operator_type": "Mobile",
+    "probs": "0.16702846324244444"
+  },
+  {
+    "id": 574.0,
+    "country_name": "Venezuela",
+    "operator_name": "Movilnet C.A.",
+    "operator_type": "Mobile",
+    "probs": "0.12442670271134973"
+  },
+  {
+    "id": 575.0,
+    "country_name": "Zambia",
+    "operator_name": "Airtel\/Zain\/Celtel",
+    "operator_type": "Mobile",
+    "probs": "0.07135569939542319"
+  },
+  {
+    "id": 576.0,
+    "country_name": "Germany",
+    "operator_name": "Deutsche Telekom",
+    "operator_type": "Fixed",
+    "probs": "0.02606478576043959"
+  },
+  {
+    "id": 577.0,
+    "country_name": "Japan",
+    "operator_name": "KDDI",
+    "operator_type": "Fixed",
+    "probs": "0.041463608016032834"
+  },
+  {
+    "id": 578.0,
+    "country_name": "South Korea",
+    "operator_name": "SK Telecom",
+    "operator_type": "Fixed",
+    "probs": "0.38100342031766693"
+  },
+  {
+    "id": 579.0,
+    "country_name": "Russia",
+    "operator_name": "Sistema",
+    "operator_type": "Fixed",
+    "probs": "0.5630922073540315"
+  },
+  {
+    "id": 580.0,
+    "country_name": "United States",
+    "operator_name": "Level 3 Communications",
+    "operator_type": "Fixed",
+    "probs": "0.0029575478636165086"
+  },
+  {
+    "id": 581.0,
+    "country_name": "United States",
+    "operator_name": "Frontier Communications",
+    "operator_type": "Fixed",
+    "probs": "0.002847166619435487"
+  },
+  {
+    "id": 582.0,
+    "country_name": "Kuwait",
+    "operator_name": "Zain",
+    "operator_type": "Fixed",
+    "probs": "0.032676407510259055"
+  },
+  {
+    "id": 583.0,
+    "country_name": "Afghanistan",
+    "operator_name": "Areeba\/MTN",
+    "operator_type": "Mobile",
+    "probs": "0.2749455355841491"
+  },
+  {
+    "id": 584.0,
+    "country_name": "Algeria",
+    "operator_name": "ATM Mobils",
+    "operator_type": "Mobile",
+    "probs": "0.8863813876013339"
+  },
+  {
+    "id": 585.0,
+    "country_name": "Anguilla",
+    "operator_name": "Digicell \/ Wireless Vent. Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.2211728984867748"
+  },
+  {
+    "id": 586.0,
+    "country_name": "Aruba",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.5654405878995246"
+  },
+  {
+    "id": 588.0,
+    "country_name": "Australia",
+    "operator_name": "Telstra Corp. Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.017272164997483047"
+  },
+  {
+    "id": 591.0,
+    "country_name": "Azerbaijan",
+    "operator_name": "Azerfon.",
+    "operator_type": "Mobile",
+    "probs": "0.2233629174250037"
+  },
+  {
+    "id": 592.0,
+    "country_name": "Bahrain",
+    "operator_name": "ZAIN\/Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.09613703027144503"
+  },
+  {
+    "id": 593.0,
+    "country_name": "Bangladesh",
+    "operator_name": "Airtel\/Warid",
+    "operator_type": "Mobile",
+    "probs": "0.08822452119767855"
+  },
+  {
+    "id": 594.0,
+    "country_name": "Belarus",
+    "operator_name": "Mobile Digital Communications",
+    "operator_type": "Mobile",
+    "probs": "0.03229594733688661"
+  },
+  {
+    "id": 595.0,
+    "country_name": "Belize",
+    "operator_name": "DigiCell",
+    "operator_type": "Mobile",
+    "probs": "0.5102417856219623"
+  },
+  {
+    "id": 596.0,
+    "country_name": "Bermuda",
+    "operator_name": "CellOne Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.2746991190635778"
+  },
+  {
+    "id": 597.0,
+    "country_name": "Bolivia",
+    "operator_name": "Nuevatel",
+    "operator_type": "Mobile",
+    "probs": "0.2526010297603813"
+  },
+  {
+    "id": 601.0,
+    "country_name": "British Virgin Islands",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.46197649304325245"
+  },
+  {
+    "id": 602.0,
+    "country_name": "Burkina Faso",
+    "operator_name": "Airtel\/ZAIN\/CelTel",
+    "operator_type": "Mobile",
+    "probs": "0.022214863367580655"
+  },
+  {
+    "id": 603.0,
+    "country_name": "Cambodia",
+    "operator_name": "Hello\/Malaysia Telcom",
+    "operator_type": "Mobile",
+    "probs": "0.010226140427517379"
+  },
+  {
+    "id": 604.0,
+    "country_name": "Cameroon",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.6882252055017558"
+  },
+  {
+    "id": 605.0,
+    "country_name": "Canada",
+    "operator_name": "Clearnet",
+    "operator_type": "Mobile",
+    "probs": "0.014364527686646271"
+  },
+  {
+    "id": 606.0,
+    "country_name": "Canada",
+    "operator_name": "MTS Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.013900010297456316"
+  },
+  {
+    "id": 608.0,
+    "country_name": "Cayman Islands",
+    "operator_name": "Digicel Cayman Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.5350035509090769"
+  },
+  {
+    "id": 609.0,
+    "country_name": "Chile",
+    "operator_name": "Celupago SA",
+    "operator_type": "Mobile",
+    "probs": "0.03032923572634875"
+  },
+  {
+    "id": 614.0,
+    "country_name": "Costa Rica",
+    "operator_name": "Virtualis",
+    "operator_type": "Mobile",
+    "probs": "0.1369944720418826"
+  },
+  {
+    "id": 615.0,
+    "country_name": "Cyprus",
+    "operator_name": "PrimeTel PLC",
+    "operator_type": "Mobile",
+    "probs": "0.043405643107833916"
+  },
+  {
+    "id": 616.0,
+    "country_name": "Denmark",
+    "operator_name": "Mundio Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.053228761677746615"
+  },
+  {
+    "id": 617.0,
+    "country_name": "Djibouti",
+    "operator_name": "Djibouti Telecom SA (Evatis)",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 618.0,
+    "country_name": "Ecuador",
+    "operator_name": "Alegro\/Telcsa",
+    "operator_type": "Mobile",
+    "probs": "0.7989135027806478"
+  },
+  {
+    "id": 619.0,
+    "country_name": "El Salvador",
+    "operator_name": "INTELFON SA de CV",
+    "operator_type": "Mobile",
+    "probs": "0.03403586752454124"
+  },
+  {
+    "id": 620.0,
+    "country_name": "Estonia",
+    "operator_name": "Tele2 Eesti AS",
+    "operator_type": "Mobile",
+    "probs": "0.12708437777192824"
+  },
+  {
+    "id": 621.0,
+    "country_name": "Finland",
+    "operator_name": "Alands",
+    "operator_type": "Mobile",
+    "probs": "0.08057037313073567"
+  },
+  {
+    "id": 622.0,
+    "country_name": "Finland",
+    "operator_name": "ID-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.06799780480760777"
+  },
+  {
+    "id": 623.0,
+    "country_name": "France",
+    "operator_name": "Bouygues Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.0161911391269287"
+  },
+  {
+    "id": 624.0,
+    "country_name": "France",
+    "operator_name": "Legos - Local Exchange Global Operation Services SA",
+    "operator_type": "Mobile",
+    "probs": "0.015005576628513725"
+  },
+  {
+    "id": 625.0,
+    "country_name": "France",
+    "operator_name": "Virgin Mobile\/Omer",
+    "operator_type": "Mobile",
+    "probs": "0.0089414396614613"
+  },
+  {
+    "id": 628.0,
+    "country_name": "Gambia",
+    "operator_name": "Comium",
+    "operator_type": "Mobile",
+    "probs": "0.22086338463017086"
+  },
+  {
+    "id": 630.0,
+    "country_name": "Germany",
+    "operator_name": "Group 3G UMTS",
+    "operator_type": "Mobile",
+    "probs": "0.013684917917226393"
+  },
+  {
+    "id": 632.0,
+    "country_name": "Ghana",
+    "operator_name": "Milicom\/Tigo",
+    "operator_type": "Mobile",
+    "probs": "0.06435909298287304"
+  },
+  {
+    "id": 633.0,
+    "country_name": "Greece",
+    "operator_name": "Cosmote",
+    "operator_type": "Mobile",
+    "probs": "0.006521422679024817"
+  },
+  {
+    "id": 634.0,
+    "country_name": "Greenland",
+    "operator_name": "Tele Greenland",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 635.0,
+    "country_name": "Guam",
+    "operator_name": "Guam Teleph. Auth.",
+    "operator_type": "Mobile",
+    "probs": "0.06529067234626248"
+  },
+  {
+    "id": 636.0,
+    "country_name": "Guinea",
+    "operator_name": "Intercel",
+    "operator_type": "Mobile",
+    "probs": "0.2677116361896317"
+  },
+  {
+    "id": 637.0,
+    "country_name": "Haiti",
+    "operator_name": "Comcel",
+    "operator_type": "Mobile",
+    "probs": "0.8994289417124393"
+  },
+  {
+    "id": 638.0,
+    "country_name": "Hungary",
+    "operator_name": "T-mobile\/Magyar",
+    "operator_type": "Mobile",
+    "probs": "0.20970077342919094"
+  },
+  {
+    "id": 639.0,
+    "country_name": "Iceland",
+    "operator_name": "VIKING\/IMC",
+    "operator_type": "Mobile",
+    "probs": "0.18529103142830539"
+  },
+  {
+    "id": 644.0,
+    "country_name": "India",
+    "operator_name": "Escorts Telecom Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.0034668430140427004"
+  },
+  {
+    "id": 645.0,
+    "country_name": "India",
+    "operator_name": "Fascel",
+    "operator_type": "Mobile",
+    "probs": "0.002766726830346355"
+  },
+  {
+    "id": 646.0,
+    "country_name": "India",
+    "operator_name": "Mahanagar Telephone Nigam",
+    "operator_type": "Mobile",
+    "probs": "0.00240128664414604"
+  },
+  {
+    "id": 648.0,
+    "country_name": "Indonesia",
+    "operator_name": "Axis\/Natrindo",
+    "operator_type": "Mobile",
+    "probs": "0.04638496236265603"
+  },
+  {
+    "id": 649.0,
+    "country_name": "Indonesia",
+    "operator_name": "PT Smartfren Telecom Tbk",
+    "operator_type": "Mobile",
+    "probs": "0.034987683019561955"
+  },
+  {
+    "id": 650.0,
+    "country_name": "Iran",
+    "operator_name": "Taliya",
+    "operator_type": "Mobile",
+    "probs": "0.024154086335568495"
+  },
+  {
+    "id": 651.0,
+    "country_name": "Iraq",
+    "operator_name": "ZAIN\/Atheer\/Orascom",
+    "operator_type": "Mobile",
+    "probs": "0.18358995038638798"
+  },
+  {
+    "id": 652.0,
+    "country_name": "Ireland",
+    "operator_name": "Lycamobile",
+    "operator_type": "Mobile",
+    "probs": "0.1397017385396217"
+  },
+  {
+    "id": 653.0,
+    "country_name": "Israel",
+    "operator_name": "Hot Mobile\/Mirs",
+    "operator_type": "Mobile",
+    "probs": "0.01759808227224357"
+  },
+  {
+    "id": 654.0,
+    "country_name": "Italy",
+    "operator_name": "Fastweb SpA",
+    "operator_type": "Mobile",
+    "probs": "0.015496262430770912"
+  },
+  {
+    "id": 655.0,
+    "country_name": "Italy",
+    "operator_name": "TIM",
+    "operator_type": "Mobile",
+    "probs": "0.011004553918987263"
+  },
+  {
+    "id": 656.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "Aircomm SA",
+    "operator_type": "Mobile",
+    "probs": "0.037688808321043654"
+  },
+  {
+    "id": 672.0,
+    "country_name": "Jordan",
+    "operator_name": "Xpress",
+    "operator_type": "Mobile",
+    "probs": "0.0011630678263324413"
+  },
+  {
+    "id": 673.0,
+    "country_name": "Kenya",
+    "operator_name": "Airtel\/Safaricom Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.09411148228006679"
+  },
+  {
+    "id": 674.0,
+    "country_name": "Kyrgyzstan",
+    "operator_name": "MEGACOM",
+    "operator_type": "Mobile",
+    "probs": "0.06541409593899723"
+  },
+  {
+    "id": 675.0,
+    "country_name": "Latvia",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.06787864195219098"
+  },
+  {
+    "id": 677.0,
+    "country_name": "Liberia",
+    "operator_name": "Libercell",
+    "operator_type": "Mobile",
+    "probs": "0.11279050070911106"
+  },
+  {
+    "id": 678.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "CUBIC (Liechtenstein",
+    "operator_type": "Mobile",
+    "probs": "0.22311860927065352"
+  },
+  {
+    "id": 679.0,
+    "country_name": "Lithuania",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.10252061980985085"
+  },
+  {
+    "id": 680.0,
+    "country_name": "Madagascar",
+    "operator_name": "Airtel\/MADACOM",
+    "operator_type": "Mobile",
+    "probs": "0.47809216610360755"
+  },
+  {
+    "id": 681.0,
+    "country_name": "Malaysia",
+    "operator_name": "CelCom",
+    "operator_type": "Mobile",
+    "probs": "0.012591912777837649"
+  },
+  {
+    "id": 682.0,
+    "country_name": "Malaysia",
+    "operator_name": "Packet One Networks (Malaysia) Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.006671592902891878"
+  },
+  {
+    "id": 683.0,
+    "country_name": "Mali",
+    "operator_name": "Malitel",
+    "operator_type": "Mobile",
+    "probs": "0.9890771876400719"
+  },
+  {
+    "id": 684.0,
+    "country_name": "Mauritius",
+    "operator_name": "Emtel Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.4378761621919185"
+  },
+  {
+    "id": 685.0,
+    "country_name": "Mexico",
+    "operator_name": "Movistar\/Pegaso",
+    "operator_type": "Mobile",
+    "probs": "0.016395539308767963"
+  },
+  {
+    "id": 686.0,
+    "country_name": "Mexico",
+    "operator_name": "SAI PCS",
+    "operator_type": "Mobile",
+    "probs": "0.015385985320315244"
+  },
+  {
+    "id": 687.0,
+    "country_name": "Moldova",
+    "operator_name": "Moldcell",
+    "operator_type": "Mobile",
+    "probs": "0.09925510695970674"
+  },
+  {
+    "id": 688.0,
+    "country_name": "Montenegro",
+    "operator_name": "Monet\/T-mobile",
+    "operator_type": "Mobile",
+    "probs": "0.8777662107185541"
+  },
+  {
+    "id": 689.0,
+    "country_name": "Mozambique",
+    "operator_name": "Movitel",
+    "operator_type": "Mobile",
+    "probs": "0.0021413957077423065"
+  },
+  {
+    "id": 690.0,
+    "country_name": "Netherlands",
+    "operator_name": "6GMOBILE BV",
+    "operator_type": "Mobile",
+    "probs": "0.050094277391488834"
+  },
+  {
+    "id": 691.0,
+    "country_name": "Netherlands",
+    "operator_name": "Lancelot BV",
+    "operator_type": "Mobile",
+    "probs": "0.04258083967610605"
+  },
+  {
+    "id": 692.0,
+    "country_name": "Netherlands",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.032517631831618786"
+  },
+  {
+    "id": 693.0,
+    "country_name": "New Zealand",
+    "operator_name": "2degrees",
+    "operator_type": "Mobile",
+    "probs": "0.07128921989144675"
+  },
+  {
+    "id": 694.0,
+    "country_name": "Nicaragua",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.4639124994691265"
+  },
+  {
+    "id": 695.0,
+    "country_name": "Nigeria",
+    "operator_name": "Glo Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.11747571040188143"
+  },
+  {
+    "id": 696.0,
+    "country_name": "Norway",
+    "operator_name": "Jernbaneverket (GSM-R)",
+    "operator_type": "Mobile",
+    "probs": "0.014353444872903636"
+  },
+  {
+    "id": 697.0,
+    "country_name": "Norway",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.008491695036729054"
+  },
+  {
+    "id": 698.0,
+    "country_name": "Pakistan",
+    "operator_name": "Instaphone",
+    "operator_type": "Mobile",
+    "probs": "0.2095923591922495"
+  },
+  {
+    "id": 699.0,
+    "country_name": "Panama",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.18645990715148825"
+  },
+  {
+    "id": 700.0,
+    "country_name": "Paraguay",
+    "operator_name": "Hola\/VOX",
+    "operator_type": "Mobile",
+    "probs": "0.009760711012671454"
+  },
+  {
+    "id": 701.0,
+    "country_name": "Peru",
+    "operator_name": "Nextel",
+    "operator_type": "Mobile",
+    "probs": "0.07336581660352676"
+  },
+  {
+    "id": 702.0,
+    "country_name": "Philippines",
+    "operator_name": "Smart",
+    "operator_type": "Mobile",
+    "probs": "0.022378813729435225"
+  },
+  {
+    "id": 703.0,
+    "country_name": "Poland",
+    "operator_name": "Mobyland",
+    "operator_type": "Mobile",
+    "probs": "0.015159006776903898"
+  },
+  {
+    "id": 706.0,
+    "country_name": "Qatar",
+    "operator_name": "Qtel",
+    "operator_type": "Mobile",
+    "probs": "0.24480125667963293"
+  },
+  {
+    "id": 707.0,
+    "country_name": "Romania",
+    "operator_name": "RCS&RDS Digi Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.04186760568575362"
+  },
+  {
+    "id": 708.0,
+    "country_name": "Saint Kitts and Nevis",
+    "operator_name": "Cable & Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.856676484772703"
+  },
+  {
+    "id": 709.0,
+    "country_name": "San Marino",
+    "operator_name": "Prima Telecom",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 710.0,
+    "country_name": "Senegal",
+    "operator_name": "TIGO\/Sentel GSM",
+    "operator_type": "Mobile",
+    "probs": "0.254426452285641"
+  },
+  {
+    "id": 711.0,
+    "country_name": "Sierra Leone",
+    "operator_name": "Africel",
+    "operator_type": "Mobile",
+    "probs": "0.14389378505294287"
+  },
+  {
+    "id": 712.0,
+    "country_name": "Singapore",
+    "operator_name": "Singtel",
+    "operator_type": "Mobile",
+    "probs": "0.04664087326101568"
+  },
+  {
+    "id": 714.0,
+    "country_name": "Slovenia",
+    "operator_name": "T-2 d.o.o.",
+    "operator_type": "Mobile",
+    "probs": "0.02406132365822397"
+  },
+  {
+    "id": 717.0,
+    "country_name": "Spain",
+    "operator_name": "Euskaltel SA",
+    "operator_type": "Mobile",
+    "probs": "0.008130080008708506"
+  },
+  {
+    "id": 719.0,
+    "country_name": "Spain",
+    "operator_name": "Yoigo",
+    "operator_type": "Mobile",
+    "probs": "0.007731648734849065"
+  },
+  {
+    "id": 721.0,
+    "country_name": "Suriname",
+    "operator_name": "Telesur",
+    "operator_type": "Mobile",
+    "probs": "0.10468415013611845"
+  },
+  {
+    "id": 722.0,
+    "country_name": "Sweden",
+    "operator_name": "NextGen Mobile Ltd (CardBoardFish)",
+    "operator_type": "Mobile",
+    "probs": "0.02364413637212648"
+  },
+  {
+    "id": 724.0,
+    "country_name": "Sweden",
+    "operator_name": "Svenska UMTS-N",
+    "operator_type": "Mobile",
+    "probs": "0.018676825823629645"
+  },
+  {
+    "id": 725.0,
+    "country_name": "Sweden",
+    "operator_name": "Wireless Maingate AB",
+    "operator_type": "Mobile",
+    "probs": "0.009840925847750018"
+  },
+  {
+    "id": 726.0,
+    "country_name": "Switzerland",
+    "operator_name": "Salt\/Orange",
+    "operator_type": "Mobile",
+    "probs": "0.046258193582181716"
+  },
+  {
+    "id": 727.0,
+    "country_name": "Taiwan",
+    "operator_name": "Chunghwa Telecom LDM",
+    "operator_type": "Mobile",
+    "probs": "0.03497319723015223"
+  },
+  {
+    "id": 728.0,
+    "country_name": "Taiwan",
+    "operator_name": "International Telecom Co. Ltd (FITEL)",
+    "operator_type": "Mobile",
+    "probs": "0.027481102308181127"
+  },
+  {
+    "id": 729.0,
+    "country_name": "Tajikistan",
+    "operator_name": "Bee Line",
+    "operator_type": "Mobile",
+    "probs": "0.29741744525007474"
+  },
+  {
+    "id": 730.0,
+    "country_name": "Tanzania",
+    "operator_name": "Smile Communications Tanzania Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.03991354081710335"
+  },
+  {
+    "id": 731.0,
+    "country_name": "Thailand",
+    "operator_name": "ACT Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.03102282389565314"
+  },
+  {
+    "id": 733.0,
+    "country_name": "Trinidad and Tobago",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.01692223381517593"
+  },
+  {
+    "id": 734.0,
+    "country_name": "Turkey",
+    "operator_name": "Vodafone-Telsim",
+    "operator_type": "Mobile",
+    "probs": "0.03056004732735509"
+  },
+  {
+    "id": 735.0,
+    "country_name": "Uganda",
+    "operator_name": "i-Tel Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.02732864378147751"
+  },
+  {
+    "id": 736.0,
+    "country_name": "Ukraine",
+    "operator_name": "Astelit\/LIFE",
+    "operator_type": "Mobile",
+    "probs": "0.07062574577837429"
+  },
+  {
+    "id": 737.0,
+    "country_name": "Ukraine",
+    "operator_name": "UMC\/MTS",
+    "operator_type": "Mobile",
+    "probs": "0.05446159698703899"
+  },
+  {
+    "id": 738.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Airtel\/Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.009561066534810442"
+  },
+  {
+    "id": 739.0,
+    "country_name": "United Kingdom",
+    "operator_name": "FlexTel",
+    "operator_type": "Mobile",
+    "probs": "0.009353625608246818"
+  },
+  {
+    "id": 740.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Lycamobile",
+    "operator_type": "Mobile",
+    "probs": "0.007167818728685888"
+  },
+  {
+    "id": 741.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Opal Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.007131805575087572"
+  },
+  {
+    "id": 742.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Everyth. Ev.wh.\/T-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.005796538991751999"
+  },
+  {
+    "id": 743.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.004800558946165399"
+  },
+  {
+    "id": 745.0,
+    "country_name": "United States",
+    "operator_name": "Bluegrass Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.002825740912804752"
+  },
+  {
+    "id": 752.0,
+    "country_name": "United States",
+    "operator_name": "Cross Valliant Cellular Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.002778850311142165"
+  },
+  {
+    "id": 754.0,
+    "country_name": "United States",
+    "operator_name": "Illinois Valley Cellular RSA 2 Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.002712447546315729"
+  },
+  {
+    "id": 755.0,
+    "country_name": "United States",
+    "operator_name": "Lamar County Cellular",
+    "operator_type": "Mobile",
+    "probs": "0.0026652964397722453"
+  },
+  {
+    "id": 757.0,
+    "country_name": "United States",
+    "operator_name": "Nexus Communications Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0025959332767980835"
+  },
+  {
+    "id": 758.0,
+    "country_name": "United States",
+    "operator_name": "Northwest Missouri Cellular Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.0025210284845616367"
+  },
+  {
+    "id": 759.0,
+    "country_name": "United States",
+    "operator_name": "RSA 1 Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.0024644244867567076"
+  },
+  {
+    "id": 763.0,
+    "country_name": "United States",
+    "operator_name": "Testing",
+    "operator_type": "Mobile",
+    "probs": "0.002347686322840496"
+  },
+  {
+    "id": 766.0,
+    "country_name": "United States",
+    "operator_name": "Yorkville Telephone Cooperative",
+    "operator_type": "Mobile",
+    "probs": "0.0022571427971668483"
+  },
+  {
+    "id": 767.0,
+    "country_name": "Uzbekistan",
+    "operator_name": "Ucell\/Coscom",
+    "operator_type": "Mobile",
+    "probs": "0.05006190213442003"
+  },
+  {
+    "id": 768.0,
+    "country_name": "Venezuela",
+    "operator_name": "Movistar\/TelCel",
+    "operator_type": "Mobile",
+    "probs": "0.015986467670459872"
+  },
+  {
+    "id": 769.0,
+    "country_name": "Zimbabwe",
+    "operator_name": "Econet",
+    "operator_type": "Mobile",
+    "probs": "0.4047334450573677"
+  },
+  {
+    "id": 770.0,
+    "country_name": "Japan",
+    "operator_name": "Softbank",
+    "operator_type": "Fixed",
+    "probs": "0.02036377147131105"
+  },
+  {
+    "id": 771.0,
+    "country_name": "United Kingdom",
+    "operator_name": "BT Group",
+    "operator_type": "Fixed",
+    "probs": "0.0044196975406674294"
+  },
+  {
+    "id": 772.0,
+    "country_name": "India",
+    "operator_name": "Bharti Airtel",
+    "operator_type": "Fixed",
+    "probs": "0.001983042533294172"
+  },
+  {
+    "id": 773.0,
+    "country_name": "Sweden",
+    "operator_name": "Teliasonera",
+    "operator_type": "Fixed",
+    "probs": "0.009376131701872237"
+  },
+  {
+    "id": 774.0,
+    "country_name": "Brazil",
+    "operator_name": "Oi",
+    "operator_type": "Fixed",
+    "probs": "0.007302864188179447"
+  },
+  {
+    "id": 775.0,
+    "country_name": "India",
+    "operator_name": "Idea Cellular",
+    "operator_type": "Fixed",
+    "probs": "0.001974905465219942"
+  },
+  {
+    "id": 776.0,
+    "country_name": "United States",
+    "operator_name": "Crown Castle International",
+    "operator_type": "Fixed",
+    "probs": "0.0022401982214920574"
+  },
+  {
+    "id": 777.0,
+    "country_name": "Afghanistan",
+    "operator_name": "Etisalat",
+    "operator_type": "Mobile",
+    "probs": "0.03060981970950464"
+  },
+  {
+    "id": 778.0,
+    "country_name": "Algeria",
+    "operator_name": "Orascom \/ DJEZZY",
+    "operator_type": "Mobile",
+    "probs": "0.06918386503312261"
+  },
+  {
+    "id": 779.0,
+    "country_name": "Antigua and Barbuda",
+    "operator_name": "APUA PCS",
+    "operator_type": "Mobile",
+    "probs": "0.8932951245460492"
+  },
+  {
+    "id": 780.0,
+    "country_name": "Aruba",
+    "operator_name": "Setar GSM",
+    "operator_type": "Mobile",
+    "probs": "0.43455941210047544"
+  },
+  {
+    "id": 781.0,
+    "country_name": "Australia",
+    "operator_name": "Localstar Holding Pty. Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.017082729372884034"
+  },
+  {
+    "id": 785.0,
+    "country_name": "Azerbaijan",
+    "operator_name": "Caspian American Telecommunications LLC (CATEL)",
+    "operator_type": "Mobile",
+    "probs": "0.18451167176481129"
+  },
+  {
+    "id": 786.0,
+    "country_name": "Bahrain",
+    "operator_name": "VIVA",
+    "operator_type": "Mobile",
+    "probs": "0.07006919511892075"
+  },
+  {
+    "id": 787.0,
+    "country_name": "Barbados",
+    "operator_name": "C & W BET Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.0017985159143789622"
+  },
+  {
+    "id": 788.0,
+    "country_name": "Belarus",
+    "operator_name": "MTS",
+    "operator_type": "Mobile",
+    "probs": "0.003963877771516677"
+  },
+  {
+    "id": 789.0,
+    "country_name": "Belize",
+    "operator_name": "International Telco (INTELCO)",
+    "operator_type": "Mobile",
+    "probs": "0.4897582143780377"
+  },
+  {
+    "id": 790.0,
+    "country_name": "Bermuda",
+    "operator_name": "DigiCel \/ Cingular",
+    "operator_type": "Mobile",
+    "probs": "0.27227702423517913"
+  },
+  {
+    "id": 791.0,
+    "country_name": "Bolivia",
+    "operator_name": "TELECEL BOLIVIA",
+    "operator_type": "Mobile",
+    "probs": "0.18204453248217597"
+  },
+  {
+    "id": 792.0,
+    "country_name": "Brazil",
+    "operator_name": "CTBC Celular SA (CTBC)",
+    "operator_type": "Mobile",
+    "probs": "0.006516469836530535"
+  },
+  {
+    "id": 793.0,
+    "country_name": "Brazil",
+    "operator_name": "Brazil Telcom",
+    "operator_type": "Mobile",
+    "probs": "0.0031936207286672133"
+  },
+  {
+    "id": 795.0,
+    "country_name": "British Virgin Islands",
+    "operator_name": "LIME",
+    "operator_type": "Mobile",
+    "probs": "0.051362567952464105"
+  },
+  {
+    "id": 796.0,
+    "country_name": "Burundi",
+    "operator_name": "Africel \/ Safaris",
+    "operator_type": "Mobile",
+    "probs": "0.27246682573486464"
+  },
+  {
+    "id": 797.0,
+    "country_name": "Cambodia",
+    "operator_name": "Metfone",
+    "operator_type": "Mobile",
+    "probs": "0.00953749900119348"
+  },
+  {
+    "id": 798.0,
+    "country_name": "Cameroon",
+    "operator_name": "Nextel",
+    "operator_type": "Mobile",
+    "probs": "0.23682836864822582"
+  },
+  {
+    "id": 801.0,
+    "country_name": "Canada",
+    "operator_name": "Tbay Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.013358885141720242"
+  },
+  {
+    "id": 802.0,
+    "country_name": "Cayman Islands",
+    "operator_name": "Digicel Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.32754841521472683"
+  },
+  {
+    "id": 803.0,
+    "country_name": "Chile",
+    "operator_name": "Cibeles Telecom SA",
+    "operator_type": "Mobile",
+    "probs": "0.0277775696214188"
+  },
+  {
+    "id": 804.0,
+    "country_name": "Chile",
+    "operator_name": "TELEFONICA",
+    "operator_type": "Mobile",
+    "probs": "0.016552963284714492"
+  },
+  {
+    "id": 807.0,
+    "country_name": "Colombia",
+    "operator_name": "Virgin Mobile Colombia SAS",
+    "operator_type": "Mobile",
+    "probs": "0.052151915766300204"
+  },
+  {
+    "id": 808.0,
+    "country_name": "Croatia",
+    "operator_name": "T-Mobile\/Cronet",
+    "operator_type": "Mobile",
+    "probs": "0.569764334604897"
+  },
+  {
+    "id": 809.0,
+    "country_name": "Cyprus",
+    "operator_name": "Vodafone\/CyTa",
+    "operator_type": "Mobile",
+    "probs": "0.005598017402166519"
+  },
+  {
+    "id": 810.0,
+    "country_name": "Denmark",
+    "operator_name": "NextGen Mobile Ltd (CardBoardFish)",
+    "operator_type": "Mobile",
+    "probs": "0.03541685510323092"
+  },
+  {
+    "id": 811.0,
+    "country_name": "Dominica",
+    "operator_name": "C & W",
+    "operator_type": "Mobile",
+    "probs": "0.9439405044144248"
+  },
+  {
+    "id": 812.0,
+    "country_name": "Ecuador",
+    "operator_name": "MOVISTAR\/OteCel",
+    "operator_type": "Mobile",
+    "probs": "0.1804784185512578"
+  },
+  {
+    "id": 813.0,
+    "country_name": "El Salvador",
+    "operator_name": "Telefonica",
+    "operator_type": "Mobile",
+    "probs": "0.03306354713231442"
+  },
+  {
+    "id": 814.0,
+    "country_name": "Estonia",
+    "operator_name": "Top Connect OU",
+    "operator_type": "Mobile",
+    "probs": "0.02385829905848609"
+  },
+  {
+    "id": 815.0,
+    "country_name": "Finland",
+    "operator_name": "Compatel Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.03162080067392782"
+  },
+  {
+    "id": 816.0,
+    "country_name": "Finland",
+    "operator_name": "Mundio Mobile (Finland) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.02536348810797981"
+  },
+  {
+    "id": 818.0,
+    "country_name": "France",
+    "operator_name": "Lliad\/FREE Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.006677372408202218"
+  },
+  {
+    "id": 820.0,
+    "country_name": "France",
+    "operator_name": "SISTEER",
+    "operator_type": "Mobile",
+    "probs": "0.0022753272235652763"
+  },
+  {
+    "id": 821.0,
+    "country_name": "French Polynesia",
+    "operator_name": "Pacific Mobile Telecom (PMT)",
+    "operator_type": "Mobile",
+    "probs": "0.6872085142870348"
+  },
+  {
+    "id": 822.0,
+    "country_name": "Gambia",
+    "operator_name": "Gamcel",
+    "operator_type": "Mobile",
+    "probs": "0.00518362627298209"
+  },
+  {
+    "id": 823.0,
+    "country_name": "Germany",
+    "operator_name": "DB Netz AG",
+    "operator_type": "Mobile",
+    "probs": "0.011688573305138224"
+  },
+  {
+    "id": 824.0,
+    "country_name": "Germany",
+    "operator_name": "Lycamobile",
+    "operator_type": "Mobile",
+    "probs": "0.008136771841920536"
+  },
+  {
+    "id": 826.0,
+    "country_name": "Ghana",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.028360200300423057"
+  },
+  {
+    "id": 828.0,
+    "country_name": "Grenada",
+    "operator_name": "Cable & Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.6966534212336003"
+  },
+  {
+    "id": 829.0,
+    "country_name": "Guam",
+    "operator_name": "IT&E OverSeas",
+    "operator_type": "Mobile",
+    "probs": "0.003932037845353878"
+  },
+  {
+    "id": 830.0,
+    "country_name": "Guinea",
+    "operator_name": "Orange\/Sonatel\/Spacetel",
+    "operator_type": "Mobile",
+    "probs": "0.14676401119523086"
+  },
+  {
+    "id": 831.0,
+    "country_name": "Haiti",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.0999988529549394"
+  },
+  {
+    "id": 832.0,
+    "country_name": "Hungary",
+    "operator_name": "UPC Magyarorszag Kft.",
+    "operator_type": "Mobile",
+    "probs": "0.09429184177289984"
+  },
+  {
+    "id": 833.0,
+    "country_name": "Iceland",
+    "operator_name": "Vodafone\/Tal hf",
+    "operator_type": "Mobile",
+    "probs": "0.09501043165308846"
+  },
+  {
+    "id": 839.0,
+    "country_name": "India",
+    "operator_name": "Hexacom India",
+    "operator_type": "Mobile",
+    "probs": "0.0016446016075124484"
+  },
+  {
+    "id": 842.0,
+    "country_name": "Indonesia",
+    "operator_name": "Esia (PT Bakrie Telecom) (CDMA)",
+    "operator_type": "Mobile",
+    "probs": "0.01698388747958469"
+  },
+  {
+    "id": 844.0,
+    "country_name": "Iran",
+    "operator_name": "MCI\/TCI",
+    "operator_type": "Mobile",
+    "probs": "0.006517738471445041"
+  },
+  {
+    "id": 845.0,
+    "country_name": "Iraq",
+    "operator_name": "Orascom Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.10749479197434991"
+  },
+  {
+    "id": 846.0,
+    "country_name": "Ireland",
+    "operator_name": "Meteor Mobile Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.07982372623059225"
+  },
+  {
+    "id": 848.0,
+    "country_name": "Italy",
+    "operator_name": "Fix Line",
+    "operator_type": "Mobile",
+    "probs": "0.010874045660120199"
+  },
+  {
+    "id": 849.0,
+    "country_name": "Italy",
+    "operator_name": "Telecom Italia Mobile SpA",
+    "operator_type": "Mobile",
+    "probs": "0.004899772805390809"
+  },
+  {
+    "id": 850.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "Atlantik Tel.\/Moov",
+    "operator_type": "Mobile",
+    "probs": "0.028103163254671357"
+  },
+  {
+    "id": 866.0,
+    "country_name": "Jordan",
+    "operator_name": "ZAIN \/J.M.T.S",
+    "operator_type": "Mobile",
+    "probs": "0.00033726520111965604"
+  },
+  {
+    "id": 867.0,
+    "country_name": "Kenya",
+    "operator_name": "Airtel\/Zain\/Celtel Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.03375219708634947"
+  },
+  {
+    "id": 868.0,
+    "country_name": "Kyrgyzstan",
+    "operator_name": "O!\/NUR Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.02465146868722869"
+  },
+  {
+    "id": 869.0,
+    "country_name": "Latvia",
+    "operator_name": "TRIATEL\/Telekom Baltija",
+    "operator_type": "Mobile",
+    "probs": "0.04115944215031619"
+  },
+  {
+    "id": 870.0,
+    "country_name": "Lebanon",
+    "operator_name": "MIC1 (Alfa)",
+    "operator_type": "Mobile",
+    "probs": "0.10307128080771363"
+  },
+  {
+    "id": 871.0,
+    "country_name": "Liberia",
+    "operator_name": "LibTelco",
+    "operator_type": "Mobile",
+    "probs": "0.006301604139551974"
+  },
+  {
+    "id": 872.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "First Mobile AG",
+    "operator_type": "Mobile",
+    "probs": "0.2194555481829108"
+  },
+  {
+    "id": 873.0,
+    "country_name": "Luxembourg",
+    "operator_name": "Millicom Tango GSM",
+    "operator_type": "Mobile",
+    "probs": "0.3314063006987866"
+  },
+  {
+    "id": 874.0,
+    "country_name": "Madagascar",
+    "operator_name": "Orange\/Soci",
+    "operator_type": "Mobile",
+    "probs": "0.36624667705622793"
+  },
+  {
+    "id": 876.0,
+    "country_name": "Malaysia",
+    "operator_name": "Samata Communications Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.00515586710875697"
+  },
+  {
+    "id": 877.0,
+    "country_name": "Mali",
+    "operator_name": "Orange\/IKATEL",
+    "operator_type": "Mobile",
+    "probs": "0.010922812359928149"
+  },
+  {
+    "id": 878.0,
+    "country_name": "Mauritius",
+    "operator_name": "Mahanagar Telephone",
+    "operator_type": "Mobile",
+    "probs": "0.30224740221842417"
+  },
+  {
+    "id": 880.0,
+    "country_name": "Mexico",
+    "operator_name": "TelCel\/America Movil",
+    "operator_type": "Mobile",
+    "probs": "0.005626004708686313"
+  },
+  {
+    "id": 881.0,
+    "country_name": "Moldova",
+    "operator_name": "Orange\/Voxtel",
+    "operator_type": "Mobile",
+    "probs": "0.046621772013956536"
+  },
+  {
+    "id": 882.0,
+    "country_name": "Montenegro",
+    "operator_name": "Mtel",
+    "operator_type": "Mobile",
+    "probs": "0.10416888136584415"
+  },
+  {
+    "id": 883.0,
+    "country_name": "Mozambique",
+    "operator_name": "Vodacom",
+    "operator_type": "Mobile",
+    "probs": "7.9171946114683e-05"
+  },
+  {
+    "id": 884.0,
+    "country_name": "Netherlands",
+    "operator_name": "Aspider Solutions",
+    "operator_type": "Mobile",
+    "probs": "0.028569872262174667"
+  },
+  {
+    "id": 885.0,
+    "country_name": "Netherlands",
+    "operator_name": "Lycamobile Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.020254886825951463"
+  },
+  {
+    "id": 886.0,
+    "country_name": "Netherlands",
+    "operator_name": "Teleena Holding BV",
+    "operator_type": "Mobile",
+    "probs": "0.01506888184530458"
+  },
+  {
+    "id": 887.0,
+    "country_name": "New Zealand",
+    "operator_name": "NZ Telecom CDMA",
+    "operator_type": "Mobile",
+    "probs": "0.021609838065117626"
+  },
+  {
+    "id": 888.0,
+    "country_name": "Nicaragua",
+    "operator_name": "Claro",
+    "operator_type": "Mobile",
+    "probs": "0.02650384808789392"
+  },
+  {
+    "id": 889.0,
+    "country_name": "Nigeria",
+    "operator_name": "M-Tel\/Nigeria Telecom. Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.041302316641186596"
+  },
+  {
+    "id": 891.0,
+    "country_name": "Norway",
+    "operator_name": "Telenor",
+    "operator_type": "Mobile",
+    "probs": "0.00691579840897561"
+  },
+  {
+    "id": 892.0,
+    "country_name": "Pakistan",
+    "operator_name": "Mobilink",
+    "operator_type": "Mobile",
+    "probs": "0.024426995853830534"
+  },
+  {
+    "id": 893.0,
+    "country_name": "Panama",
+    "operator_name": "Movistar",
+    "operator_type": "Mobile",
+    "probs": "0.10631860516623029"
+  },
+  {
+    "id": 894.0,
+    "country_name": "Paraguay",
+    "operator_name": "TIM\/Nucleo\/Personal",
+    "operator_type": "Mobile",
+    "probs": "0.0027952451771552774"
+  },
+  {
+    "id": 896.0,
+    "country_name": "Philippines",
+    "operator_name": "SUN\/Digitel",
+    "operator_type": "Mobile",
+    "probs": "0.0072099230389524845"
+  },
+  {
+    "id": 897.0,
+    "country_name": "Poland",
+    "operator_name": "Mundio Mobile Sp. z o.o.",
+    "operator_type": "Mobile",
+    "probs": "0.013171885647418778"
+  },
+  {
+    "id": 898.0,
+    "country_name": "Poland",
+    "operator_name": "Polkomtel\/Plus",
+    "operator_type": "Mobile",
+    "probs": "0.012536827877285495"
+  },
+  {
+    "id": 899.0,
+    "country_name": "Portugal",
+    "operator_name": "CTT - Correios de Portugal SA",
+    "operator_type": "Mobile",
+    "probs": "0.19563170202611488"
+  },
+  {
+    "id": 900.0,
+    "country_name": "Qatar",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.04811990259597389"
+  },
+  {
+    "id": 901.0,
+    "country_name": "Romania",
+    "operator_name": "Romtelecom SA",
+    "operator_type": "Mobile",
+    "probs": "0.038952015660528576"
+  },
+  {
+    "id": 902.0,
+    "country_name": "Saint Kitts and Nevis",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.14285727212768634"
+  },
+  {
+    "id": 904.0,
+    "country_name": "Serbia",
+    "operator_name": "MTS\/Telekom Srbija",
+    "operator_type": "Mobile",
+    "probs": "0.6691652756295486"
+  },
+  {
+    "id": 905.0,
+    "country_name": "Sierra Leone",
+    "operator_name": "Airtel\/Zain\/Celtel",
+    "operator_type": "Mobile",
+    "probs": "0.03115701917561537"
+  },
+  {
+    "id": 908.0,
+    "country_name": "Slovenia",
+    "operator_name": "Telemach\/TusMobil\/VEGA",
+    "operator_type": "Mobile",
+    "probs": "0.017492667802169765"
+  },
+  {
+    "id": 909.0,
+    "country_name": "Somalia",
+    "operator_name": "Somafone",
+    "operator_type": "Mobile",
+    "probs": "0.004336787467711543"
+  },
+  {
+    "id": 910.0,
+    "country_name": "South Africa",
+    "operator_name": "Sentech",
+    "operator_type": "Mobile",
+    "probs": "0.09290147980128075"
+  },
+  {
+    "id": 911.0,
+    "country_name": "Spain",
+    "operator_name": "fonYou Wireless SL",
+    "operator_type": "Mobile",
+    "probs": "0.006609216391911738"
+  },
+  {
+    "id": 913.0,
+    "country_name": "Sri Lanka",
+    "operator_name": "Airtel",
+    "operator_type": "Mobile",
+    "probs": "0.34683168640827544"
+  },
+  {
+    "id": 914.0,
+    "country_name": "Sudan",
+    "operator_name": "Sudani One",
+    "operator_type": "Mobile",
+    "probs": "0.018806639664135538"
+  },
+  {
+    "id": 915.0,
+    "country_name": "Suriname",
+    "operator_name": "Telecommunicatiebedrijf Suriname (TELESUR)",
+    "operator_type": "Mobile",
+    "probs": "0.06382175078706179"
+  },
+  {
+    "id": 916.0,
+    "country_name": "Sweden",
+    "operator_name": "CoolTEL Aps",
+    "operator_type": "Mobile",
+    "probs": "0.009253252754064996"
+  },
+  {
+    "id": 917.0,
+    "country_name": "Sweden",
+    "operator_name": "ID Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0054533918057858115"
+  },
+  {
+    "id": 918.0,
+    "country_name": "Sweden",
+    "operator_name": "TDC Sverige AB",
+    "operator_type": "Mobile",
+    "probs": "0.003739152246578542"
+  },
+  {
+    "id": 919.0,
+    "country_name": "Sweden",
+    "operator_name": "Wireless Maingate Nordic AB",
+    "operator_type": "Mobile",
+    "probs": "0.0035637976435770134"
+  },
+  {
+    "id": 920.0,
+    "country_name": "Switzerland",
+    "operator_name": "Swisscom",
+    "operator_type": "Mobile",
+    "probs": "0.020911990098290086"
+  },
+  {
+    "id": 922.0,
+    "country_name": "Taiwan",
+    "operator_name": "KG Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.016717783955138097"
+  },
+  {
+    "id": 923.0,
+    "country_name": "Tajikistan",
+    "operator_name": "CJSC Indigo Tajikistan",
+    "operator_type": "Mobile",
+    "probs": "0.07623008663735896"
+  },
+  {
+    "id": 924.0,
+    "country_name": "Tanzania",
+    "operator_name": "Tanzania Telecommunications Company Ltd (TTCL)",
+    "operator_type": "Mobile",
+    "probs": "0.013640322779692347"
+  },
+  {
+    "id": 925.0,
+    "country_name": "Thailand",
+    "operator_name": "Advanced Wireless Networks\/AWN",
+    "operator_type": "Mobile",
+    "probs": "0.027070114328406236"
+  },
+  {
+    "id": 926.0,
+    "country_name": "Togo",
+    "operator_name": "Telecel\/MOOV",
+    "operator_type": "Mobile",
+    "probs": "0.5930529149816082"
+  },
+  {
+    "id": 927.0,
+    "country_name": "Trinidad and Tobago",
+    "operator_name": "LaqTel Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.0013536429656925786"
+  },
+  {
+    "id": 928.0,
+    "country_name": "Turkmenistan",
+    "operator_name": "MTS\/Barash Communication",
+    "operator_type": "Mobile",
+    "probs": "0.642854643634404"
+  },
+  {
+    "id": 929.0,
+    "country_name": "Uganda",
+    "operator_name": "K2 Telecom Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.02408894248046981"
+  },
+  {
+    "id": 930.0,
+    "country_name": "Ukraine",
+    "operator_name": "Golden Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.04524904672359471"
+  },
+  {
+    "id": 931.0,
+    "country_name": "Ukraine",
+    "operator_name": "Beeline",
+    "operator_type": "Mobile",
+    "probs": "0.017398639343327516"
+  },
+  {
+    "id": 932.0,
+    "country_name": "United Kingdom",
+    "operator_name": "BT Group",
+    "operator_type": "Mobile",
+    "probs": "0.004058063619346552"
+  },
+  {
+    "id": 933.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Guernsey Telecoms",
+    "operator_type": "Mobile",
+    "probs": "0.0038463546342565333"
+  },
+  {
+    "id": 934.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Manx Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.0037897119400193482"
+  },
+  {
+    "id": 935.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Everyth. Ev.wh.\/Orange",
+    "operator_type": "Mobile",
+    "probs": "0.003373132142069007"
+  },
+  {
+    "id": 945.0,
+    "country_name": "United States",
+    "operator_name": "Choice Phone LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0022054040226407645"
+  },
+  {
+    "id": 946.0,
+    "country_name": "United States",
+    "operator_name": "Cross Wireless Telephone Co.",
+    "operator_type": "Mobile",
+    "probs": "0.002192378154973748"
+  },
+  {
+    "id": 947.0,
+    "country_name": "United States",
+    "operator_name": "Edge Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0021389345860372984"
+  },
+  {
+    "id": 948.0,
+    "country_name": "United States",
+    "operator_name": "Iowa RSA No. 2 Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.0021370216806164697"
+  },
+  {
+    "id": 949.0,
+    "country_name": "United States",
+    "operator_name": "Leap Wireless International Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0019378864796994694"
+  },
+  {
+    "id": 951.0,
+    "country_name": "United States",
+    "operator_name": "North Carolina RSA 3 Cellular Tel. Co.",
+    "operator_type": "Mobile",
+    "probs": "0.0018876557561435753"
+  },
+  {
+    "id": 952.0,
+    "country_name": "United States",
+    "operator_name": "Panhandle Telephone Cooperative Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0018356494157396512"
+  },
+  {
+    "id": 960.0,
+    "country_name": "Uruguay",
+    "operator_name": "Ancel\/Antel",
+    "operator_type": "Mobile",
+    "probs": "0.632236302240256"
+  },
+  {
+    "id": 961.0,
+    "country_name": "Uzbekistan",
+    "operator_name": "Uzmacom",
+    "operator_type": "Mobile",
+    "probs": "0.036153491047364594"
+  },
+  {
+    "id": 962.0,
+    "country_name": "Yemen",
+    "operator_name": "HITS\/Y Unitel",
+    "operator_type": "Mobile",
+    "probs": "0.48093925584523434"
+  },
+  {
+    "id": 963.0,
+    "country_name": "Zimbabwe",
+    "operator_name": "Net One",
+    "operator_type": "Mobile",
+    "probs": "0.3498582093323881"
+  },
+  {
+    "id": 964.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Vodafone",
+    "operator_type": "Fixed",
+    "probs": "0.0033197607060093215"
+  },
+  {
+    "id": 965.0,
+    "country_name": "Italy",
+    "operator_name": "Telecom Italia",
+    "operator_type": "Fixed",
+    "probs": "0.0035079308306159218"
+  },
+  {
+    "id": 966.0,
+    "country_name": "United Arab Emirates",
+    "operator_name": "Etisalat",
+    "operator_type": "Fixed",
+    "probs": "0.08169520496883605"
+  },
+  {
+    "id": 967.0,
+    "country_name": "South Africa",
+    "operator_name": "MTN Group",
+    "operator_type": "Fixed",
+    "probs": "0.07377634711380032"
+  },
+  {
+    "id": 968.0,
+    "country_name": "Netherlands",
+    "operator_name": "KPN",
+    "operator_type": "Fixed",
+    "probs": "0.014130799902198116"
+  },
+  {
+    "id": 969.0,
+    "country_name": "Turkey",
+    "operator_name": "Turk Telekom",
+    "operator_type": "Fixed",
+    "probs": "0.005016151464123591"
+  },
+  {
+    "id": 970.0,
+    "country_name": "Taiwan",
+    "operator_name": "Taiwan Mobile",
+    "operator_type": "Fixed",
+    "probs": "0.01175899083579196"
+  },
+  {
+    "id": 971.0,
+    "country_name": "Afghanistan",
+    "operator_name": "WaselTelecom (WT)",
+    "operator_type": "Mobile",
+    "probs": "0.013360356698285027"
+  },
+  {
+    "id": 972.0,
+    "country_name": "American Samoa",
+    "operator_name": "Blue Sky Communications",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 973.0,
+    "country_name": "Antigua and Barbuda",
+    "operator_name": "DigiCel\/Cing. Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.07005097839324967"
+  },
+  {
+    "id": 974.0,
+    "country_name": "Australia",
+    "operator_name": "Advanced Comm Tech Pty.",
+    "operator_type": "Mobile",
+    "probs": "0.016287219486251954"
+  },
+  {
+    "id": 980.0,
+    "country_name": "Bangladesh",
+    "operator_name": "Citycell",
+    "operator_type": "Mobile",
+    "probs": "0.06813928608969927"
+  },
+  {
+    "id": 981.0,
+    "country_name": "Barbados",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.0007983728393717322"
+  },
+  {
+    "id": 982.0,
+    "country_name": "Belgium",
+    "operator_name": "Belgacom\/Proximus",
+    "operator_type": "Mobile",
+    "probs": "0.030645303195087528"
+  },
+  {
+    "id": 983.0,
+    "country_name": "Benin",
+    "operator_name": "Etisalat\/MOOV",
+    "operator_type": "Mobile",
+    "probs": "0.023180987788038027"
+  },
+  {
+    "id": 984.0,
+    "country_name": "Bermuda",
+    "operator_name": "Telecommunications (Bermuda & West Indies) Ltd (Digicel Bermuda)",
+    "operator_type": "Mobile",
+    "probs": "0.031066970059633766"
+  },
+  {
+    "id": 985.0,
+    "country_name": "Botswana",
+    "operator_name": "Mascom Wireless (Pty) Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.9226484678248311"
+  },
+  {
+    "id": 987.0,
+    "country_name": "Brazil",
+    "operator_name": "PORTO SEGURO TELECOMUNICACOES",
+    "operator_type": "Mobile",
+    "probs": "0.0026347145920520305"
+  },
+  {
+    "id": 989.0,
+    "country_name": "Bulgaria",
+    "operator_name": "BTC Mobile EOOD (vivatel)",
+    "operator_type": "Mobile",
+    "probs": "0.30169147138432556"
+  },
+  {
+    "id": 990.0,
+    "country_name": "Burundi",
+    "operator_name": "Onatel \/ Telecel",
+    "operator_type": "Mobile",
+    "probs": "0.09294921855300439"
+  },
+  {
+    "id": 991.0,
+    "country_name": "Cambodia",
+    "operator_name": "Mobitel\/Cam GSM",
+    "operator_type": "Mobile",
+    "probs": "0.007837183925383089"
+  },
+  {
+    "id": 992.0,
+    "country_name": "Canada",
+    "operator_name": "BC Tel Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.010982774069000532"
+  },
+  {
+    "id": 993.0,
+    "country_name": "Canada",
+    "operator_name": "Globalstar Canada",
+    "operator_type": "Mobile",
+    "probs": "0.010801189125828376"
+  },
+  {
+    "id": 994.0,
+    "country_name": "Canada",
+    "operator_name": "New Tel Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.00934830710691478"
+  },
+  {
+    "id": 995.0,
+    "country_name": "Canada",
+    "operator_name": "Telus Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.00862194766575224"
+  },
+  {
+    "id": 996.0,
+    "country_name": "Chad",
+    "operator_name": "Salam\/Sotel",
+    "operator_type": "Mobile",
+    "probs": "0.09131882220059256"
+  },
+  {
+    "id": 997.0,
+    "country_name": "Chile",
+    "operator_name": "Entel Telefonia",
+    "operator_type": "Mobile",
+    "probs": "0.008437840703209331"
+  },
+  {
+    "id": 998.0,
+    "country_name": "Chile",
+    "operator_name": "Telestar Movil SA",
+    "operator_type": "Mobile",
+    "probs": "0.0054295136917414276"
+  },
+  {
+    "id": 999.0,
+    "country_name": "China",
+    "operator_name": "China Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.03682107784162638"
+  },
+  {
+    "id": 1000.0,
+    "country_name": "Colombia",
+    "operator_name": "Comcel S.A. Occel S.A.\/Celcaribe",
+    "operator_type": "Mobile",
+    "probs": "0.031347496211452185"
+  },
+  {
+    "id": 1001.0,
+    "country_name": "Cook Islands",
+    "operator_name": "Telecom Cook Islands",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1002.0,
+    "country_name": "Croatia",
+    "operator_name": "VIPnet d.o.o.",
+    "operator_type": "Mobile",
+    "probs": "0.35263650914349043"
+  },
+  {
+    "id": 1003.0,
+    "country_name": "Denmark",
+    "operator_name": "Banedanmark",
+    "operator_type": "Mobile",
+    "probs": "0.005058113438244501"
+  },
+  {
+    "id": 1004.0,
+    "country_name": "Denmark",
+    "operator_name": "TDC Denmark",
+    "operator_type": "Mobile",
+    "probs": "0.0027805977141381654"
+  },
+  {
+    "id": 1005.0,
+    "country_name": "Dominica",
+    "operator_name": "Wireless Ventures (Dominica) Ltd (Digicel Dominica)",
+    "operator_type": "Mobile",
+    "probs": "0.054237652627569743"
+  },
+  {
+    "id": 1006.0,
+    "country_name": "Egypt",
+    "operator_name": "EMS - Mobinil",
+    "operator_type": "Mobile",
+    "probs": "0.15120674518025193"
+  },
+  {
+    "id": 1007.0,
+    "country_name": "Equatorial Guinea",
+    "operator_name": "HiTs-GE",
+    "operator_type": "Mobile",
+    "probs": "0.9000630266648721"
+  },
+  {
+    "id": 1008.0,
+    "country_name": "Faroe Islands",
+    "operator_name": "Edge Mobile Sp\/F",
+    "operator_type": "Mobile",
+    "probs": "0.16038973124932815"
+  },
+  {
+    "id": 1010.0,
+    "country_name": "Finland",
+    "operator_name": "TDC Oy Finland",
+    "operator_type": "Mobile",
+    "probs": "0.012169790648051335"
+  },
+  {
+    "id": 1012.0,
+    "country_name": "France",
+    "operator_name": "Lycamobile SARL",
+    "operator_type": "Mobile",
+    "probs": "0.002174590059322495"
+  },
+  {
+    "id": 1014.0,
+    "country_name": "France",
+    "operator_name": "Transatel SA",
+    "operator_type": "Mobile",
+    "probs": "0.0015134210849277751"
+  },
+  {
+    "id": 1015.0,
+    "country_name": "Gabon",
+    "operator_name": "Azur\/Usan S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.01755518451358591"
+  },
+  {
+    "id": 1016.0,
+    "country_name": "Georgia",
+    "operator_name": "Geocell Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.1697447519689171"
+  },
+  {
+    "id": 1020.0,
+    "country_name": "Ghana",
+    "operator_name": "Airtel\/ZAIN",
+    "operator_type": "Mobile",
+    "probs": "0.003892824081144677"
+  },
+  {
+    "id": 1021.0,
+    "country_name": "Greece",
+    "operator_name": "Organismos Sidirodromon Ellados (OSE)",
+    "operator_type": "Mobile",
+    "probs": "0.003713762675712753"
+  },
+  {
+    "id": 1022.0,
+    "country_name": "Grenada",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.3033465787663997"
+  },
+  {
+    "id": 1023.0,
+    "country_name": "Guatemala",
+    "operator_name": "SERCOM",
+    "operator_type": "Mobile",
+    "probs": "0.33700374391671345"
+  },
+  {
+    "id": 1024.0,
+    "country_name": "Guinea-Bissau",
+    "operator_name": "GuineTel",
+    "operator_type": "Mobile",
+    "probs": "0.14847254531550763"
+  },
+  {
+    "id": 1025.0,
+    "country_name": "Honduras",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.0063485592786080075"
+  },
+  {
+    "id": 1026.0,
+    "country_name": "Iceland",
+    "operator_name": "Amitelo",
+    "operator_type": "Mobile",
+    "probs": "0.08951971335674017"
+  },
+  {
+    "id": 1028.0,
+    "country_name": "India",
+    "operator_name": "Aircel Digilink India",
+    "operator_type": "Mobile",
+    "probs": "0.0014159080749457376"
+  },
+  {
+    "id": 1035.0,
+    "country_name": "India",
+    "operator_name": "Spice",
+    "operator_type": "Mobile",
+    "probs": "0.0009414540416590125"
+  },
+  {
+    "id": 1036.0,
+    "country_name": "Indonesia",
+    "operator_name": "H3G CP",
+    "operator_type": "Mobile",
+    "probs": "0.006805445575273396"
+  },
+  {
+    "id": 1037.0,
+    "country_name": "Indonesia",
+    "operator_name": "Telkomsel",
+    "operator_type": "Mobile",
+    "probs": "0.005090422328319076"
+  },
+  {
+    "id": 1038.0,
+    "country_name": "Iraq",
+    "operator_name": "Asia Cell",
+    "operator_type": "Mobile",
+    "probs": "0.06523268616059963"
+  },
+  {
+    "id": 1039.0,
+    "country_name": "Ireland",
+    "operator_name": "Access Telecom Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.05509572105658534"
+  },
+  {
+    "id": 1040.0,
+    "country_name": "Ireland",
+    "operator_name": "Vodafone Eircell",
+    "operator_type": "Mobile",
+    "probs": "0.03532971978810197"
+  },
+  {
+    "id": 1041.0,
+    "country_name": "Israel",
+    "operator_name": "Pelephone",
+    "operator_type": "Mobile",
+    "probs": "0.012818617403534604"
+  },
+  {
+    "id": 1042.0,
+    "country_name": "Italy",
+    "operator_name": "IPSE 2000",
+    "operator_type": "Mobile",
+    "probs": "0.0023765458139039567"
+  },
+  {
+    "id": 1043.0,
+    "country_name": "Italy",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.002314106651038022"
+  },
+  {
+    "id": 1044.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "Comstar",
+    "operator_type": "Mobile",
+    "probs": "0.02573650293724602"
+  },
+  {
+    "id": 1045.0,
+    "country_name": "Japan",
+    "operator_name": "Y-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.002286178062822297"
+  },
+  {
+    "id": 1060.0,
+    "country_name": "Kazakhstan",
+    "operator_name": "Dalacom\/Altel",
+    "operator_type": "Mobile",
+    "probs": "0.2575965790173658"
+  },
+  {
+    "id": 1061.0,
+    "country_name": "Kuwait",
+    "operator_name": "Viva",
+    "operator_type": "Mobile",
+    "probs": "0.025423496907623216"
+  },
+  {
+    "id": 1062.0,
+    "country_name": "Latvia",
+    "operator_name": "Latvian Mobile Phone",
+    "operator_type": "Mobile",
+    "probs": "0.023925027047540043"
+  },
+  {
+    "id": 1063.0,
+    "country_name": "Lebanon",
+    "operator_name": "Cellis",
+    "operator_type": "Mobile",
+    "probs": "0.033762974809728445"
+  },
+  {
+    "id": 1065.0,
+    "country_name": "Libya",
+    "operator_name": "Al-Madar",
+    "operator_type": "Mobile",
+    "probs": "0.17812507579259446"
+  },
+  {
+    "id": 1066.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "Swisscom FL AG",
+    "operator_type": "Mobile",
+    "probs": "0.14010108552180914"
+  },
+  {
+    "id": 1067.0,
+    "country_name": "Luxembourg",
+    "operator_name": "VOXmobile S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.08243289597795106"
+  },
+  {
+    "id": 1068.0,
+    "country_name": "Madagascar",
+    "operator_name": "Telma",
+    "operator_type": "Mobile",
+    "probs": "0.11337867268204371"
+  },
+  {
+    "id": 1069.0,
+    "country_name": "Malaysia",
+    "operator_name": "Digi Telecommunications",
+    "operator_type": "Mobile",
+    "probs": "0.004280458626610165"
+  },
+  {
+    "id": 1070.0,
+    "country_name": "Malaysia",
+    "operator_name": "U Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.00248618284079942"
+  },
+  {
+    "id": 1071.0,
+    "country_name": "Malta",
+    "operator_name": "Melita",
+    "operator_type": "Mobile",
+    "probs": "0.548211875378268"
+  },
+  {
+    "id": 1072.0,
+    "country_name": "Mauritius",
+    "operator_name": "Orange\/Cellplus",
+    "operator_type": "Mobile",
+    "probs": "0.2598764355896573"
+  },
+  {
+    "id": 1074.0,
+    "country_name": "Micronesia",
+    "operator_name": "FSM Telecom",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1075.0,
+    "country_name": "Monaco",
+    "operator_name": "Monaco Telecom",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1076.0,
+    "country_name": "Montserrat",
+    "operator_name": "Cable & Wireless",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1077.0,
+    "country_name": "Namibia",
+    "operator_name": "MTC",
+    "operator_type": "Mobile",
+    "probs": "0.6647039412187157"
+  },
+  {
+    "id": 1078.0,
+    "country_name": "Netherlands",
+    "operator_name": "Intercity Mobile Communications BV",
+    "operator_type": "Mobile",
+    "probs": "0.01052826775410536"
+  },
+  {
+    "id": 1079.0,
+    "country_name": "Netherlands",
+    "operator_name": "NS Railinfrabeheer B.V.",
+    "operator_type": "Mobile",
+    "probs": "0.009568609085628647"
+  },
+  {
+    "id": 1080.0,
+    "country_name": "Netherlands",
+    "operator_name": "UPC Nederland BV",
+    "operator_type": "Mobile",
+    "probs": "0.007613566612447637"
+  },
+  {
+    "id": 1081.0,
+    "country_name": "New Zealand",
+    "operator_name": "Telstra",
+    "operator_type": "Mobile",
+    "probs": "0.02100495912723837"
+  },
+  {
+    "id": 1082.0,
+    "country_name": "Niger",
+    "operator_name": "Orange\/Sahelc.",
+    "operator_type": "Mobile",
+    "probs": "0.3498210198192475"
+  },
+  {
+    "id": 1083.0,
+    "country_name": "Nigeria",
+    "operator_name": "Starcomms",
+    "operator_type": "Mobile",
+    "probs": "0.03872716639682095"
+  },
+  {
+    "id": 1084.0,
+    "country_name": "Norway",
+    "operator_name": "Netcom",
+    "operator_type": "Mobile",
+    "probs": "0.006217012709350152"
+  },
+  {
+    "id": 1085.0,
+    "country_name": "Norway",
+    "operator_name": "Teletopia",
+    "operator_type": "Mobile",
+    "probs": "0.004353961571668535"
+  },
+  {
+    "id": 1086.0,
+    "country_name": "Pakistan",
+    "operator_name": "UFONE\/PAKTel",
+    "operator_type": "Mobile",
+    "probs": "0.012960163922976454"
+  },
+  {
+    "id": 1087.0,
+    "country_name": "Papua New Guinea",
+    "operator_name": "Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.28661495101883255"
+  },
+  {
+    "id": 1088.0,
+    "country_name": "Peru",
+    "operator_name": "Claro \/Amer.Mov.\/TIM",
+    "operator_type": "Mobile",
+    "probs": "0.022252143312218496"
+  },
+  {
+    "id": 1089.0,
+    "country_name": "Philippines",
+    "operator_name": "Fix Line",
+    "operator_type": "Mobile",
+    "probs": "0.00432451795147131"
+  },
+  {
+    "id": 1090.0,
+    "country_name": "Poland",
+    "operator_name": "AMD Telecom.",
+    "operator_type": "Mobile",
+    "probs": "0.011156406015935809"
+  },
+  {
+    "id": 1091.0,
+    "country_name": "Poland",
+    "operator_name": "NORDISK Polska",
+    "operator_type": "Mobile",
+    "probs": "0.009222034804044987"
+  },
+  {
+    "id": 1092.0,
+    "country_name": "Poland",
+    "operator_name": "Sferia",
+    "operator_type": "Mobile",
+    "probs": "0.007090661028097142"
+  },
+  {
+    "id": 1093.0,
+    "country_name": "Portugal",
+    "operator_name": "NOS\/Optimus",
+    "operator_type": "Mobile",
+    "probs": "0.10137646944509211"
+  },
+  {
+    "id": 1094.0,
+    "country_name": "Reunion",
+    "operator_name": "Outremer Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.5607075327615026"
+  },
+  {
+    "id": 1095.0,
+    "country_name": "Romania",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.02036582929131548"
+  },
+  {
+    "id": 1096.0,
+    "country_name": "Saint Lucia",
+    "operator_name": "Cable & Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.3500836925814089"
+  },
+  {
+    "id": 1097.0,
+    "country_name": "Saudi Arabia",
+    "operator_name": "STC\/Al Jawal",
+    "operator_type": "Mobile",
+    "probs": "0.328650181146337"
+  },
+  {
+    "id": 1098.0,
+    "country_name": "Serbia",
+    "operator_name": "Telenor\/Mobtel",
+    "operator_type": "Mobile",
+    "probs": "0.31016189805543526"
+  },
+  {
+    "id": 1100.0,
+    "country_name": "Singapore",
+    "operator_name": "Starhub",
+    "operator_type": "Mobile",
+    "probs": "0.009001820204841207"
+  },
+  {
+    "id": 1101.0,
+    "country_name": "Slovakia",
+    "operator_name": "T-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.08938522386347335"
+  },
+  {
+    "id": 1102.0,
+    "country_name": "Solomon Islands",
+    "operator_name": "BREEZE",
+    "operator_type": "Mobile",
+    "probs": "0.8827649551153591"
+  },
+  {
+    "id": 1103.0,
+    "country_name": "Somalia",
+    "operator_name": "Telesom",
+    "operator_type": "Mobile",
+    "probs": "0.0010344265038437761"
+  },
+  {
+    "id": 1104.0,
+    "country_name": "South Africa",
+    "operator_name": "Wireless Business Solutions (Pty) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.012207587140093006"
+  },
+  {
+    "id": 1105.0,
+    "country_name": "Spain",
+    "operator_name": "Lleida",
+    "operator_type": "Mobile",
+    "probs": "0.005939373742130386"
+  },
+  {
+    "id": 1106.0,
+    "country_name": "Spain",
+    "operator_name": "Simyo\/KPN",
+    "operator_type": "Mobile",
+    "probs": "0.005810948469118014"
+  },
+  {
+    "id": 1107.0,
+    "country_name": "Sri Lanka",
+    "operator_name": "H3G Hutchison",
+    "operator_type": "Mobile",
+    "probs": "0.05812199423384323"
+  },
+  {
+    "id": 1108.0,
+    "country_name": "Sudan",
+    "operator_name": "Vivacell",
+    "operator_type": "Mobile",
+    "probs": "0.012495488015982197"
+  },
+  {
+    "id": 1109.0,
+    "country_name": "Swaziland",
+    "operator_name": "Swazi MTN",
+    "operator_type": "Mobile",
+    "probs": "0.886745718417126"
+  },
+  {
+    "id": 1110.0,
+    "country_name": "Sweden",
+    "operator_name": "Eu Tel AB",
+    "operator_type": "Mobile",
+    "probs": "0.0030223521908310682"
+  },
+  {
+    "id": 1111.0,
+    "country_name": "Sweden",
+    "operator_name": "Lindholmen Science Park AB",
+    "operator_type": "Mobile",
+    "probs": "0.0025725390042343195"
+  },
+  {
+    "id": 1113.0,
+    "country_name": "Switzerland",
+    "operator_name": "Comfone AG",
+    "operator_type": "Mobile",
+    "probs": "0.013838268569739378"
+  },
+  {
+    "id": 1116.0,
+    "country_name": "Taiwan",
+    "operator_name": "Mobitai",
+    "operator_type": "Mobile",
+    "probs": "0.011061664864119363"
+  },
+  {
+    "id": 1117.0,
+    "country_name": "Tajikistan",
+    "operator_name": "MLT\/TT mobile",
+    "operator_type": "Mobile",
+    "probs": "0.07494576850090481"
+  },
+  {
+    "id": 1118.0,
+    "country_name": "Tanzania",
+    "operator_name": "Tri Telecomm. Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.009476501273950201"
+  },
+  {
+    "id": 1119.0,
+    "country_name": "Thailand",
+    "operator_name": "Digital Phone Co.",
+    "operator_type": "Mobile",
+    "probs": "0.021053134455798737"
+  },
+  {
+    "id": 1120.0,
+    "country_name": "Togo",
+    "operator_name": "Togo Telecom\/TogoCELL",
+    "operator_type": "Mobile",
+    "probs": "0.4069470850183919"
+  },
+  {
+    "id": 1121.0,
+    "country_name": "Tunisia",
+    "operator_name": "Oreedo\/Orascom",
+    "operator_type": "Mobile",
+    "probs": "0.9109112854353456"
+  },
+  {
+    "id": 1122.0,
+    "country_name": "Turks and Caicos Islands",
+    "operator_name": "Cable & Wireless (TCI) Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0697224527619262"
+  },
+  {
+    "id": 1123.0,
+    "country_name": "Uganda",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.013484299629789871"
+  },
+  {
+    "id": 1124.0,
+    "country_name": "Ukraine",
+    "operator_name": "Intertelecom Ltd (IT)",
+    "operator_type": "Mobile",
+    "probs": "0.010357496095405476"
+  },
+  {
+    "id": 1126.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Cable and Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.0024062693435584095"
+  },
+  {
+    "id": 1127.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Hutchinson 3G",
+    "operator_type": "Mobile",
+    "probs": "0.0017940831461933891"
+  },
+  {
+    "id": 1128.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Marthon Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.0017335873648824424"
+  },
+  {
+    "id": 1129.0,
+    "country_name": "United Kingdom",
+    "operator_name": "PMN\/Teleware",
+    "operator_type": "Mobile",
+    "probs": "0.0013493150693387331"
+  },
+  {
+    "id": 1131.0,
+    "country_name": "United States",
+    "operator_name": "Aeris Comm. Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0016401498250132574"
+  },
+  {
+    "id": 1133.0,
+    "country_name": "United States",
+    "operator_name": "Cable & Communications Corp.",
+    "operator_type": "Mobile",
+    "probs": "0.0015662409092063742"
+  },
+  {
+    "id": 1139.0,
+    "country_name": "United States",
+    "operator_name": "Cincinnati Bell Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0015432101233343993"
+  },
+  {
+    "id": 1140.0,
+    "country_name": "United States",
+    "operator_name": "Custer Telephone Cooperative Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0015073932923882105"
+  },
+  {
+    "id": 1141.0,
+    "country_name": "United States",
+    "operator_name": "Farmers",
+    "operator_type": "Mobile",
+    "probs": "0.0014403688864953015"
+  },
+  {
+    "id": 1142.0,
+    "country_name": "United States",
+    "operator_name": "Iowa Wireless Services LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0013761756672580861"
+  },
+  {
+    "id": 1143.0,
+    "country_name": "United States",
+    "operator_name": "Message Express Co. \/ Airlink PCS",
+    "operator_type": "Mobile",
+    "probs": "0.0013278916564900718"
+  },
+  {
+    "id": 1144.0,
+    "country_name": "United States",
+    "operator_name": "Mohave Cellular LP",
+    "operator_type": "Mobile",
+    "probs": "0.0013148901796601875"
+  },
+  {
+    "id": 1145.0,
+    "country_name": "United States",
+    "operator_name": "North Dakota Network Company",
+    "operator_type": "Mobile",
+    "probs": "0.0013021167240344824"
+  },
+  {
+    "id": 1146.0,
+    "country_name": "United States",
+    "operator_name": "PetroCom",
+    "operator_type": "Mobile",
+    "probs": "0.0012544417925194466"
+  },
+  {
+    "id": 1147.0,
+    "country_name": "United States",
+    "operator_name": "SIMMETRY",
+    "operator_type": "Mobile",
+    "probs": "0.0012179732856070946"
+  },
+  {
+    "id": 1151.0,
+    "country_name": "United States",
+    "operator_name": "Thumb Cellular Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.001206260462963485"
+  },
+  {
+    "id": 1152.0,
+    "country_name": "United States",
+    "operator_name": "United States Cellular Corp.",
+    "operator_type": "Mobile",
+    "probs": "0.0011637431808443116"
+  },
+  {
+    "id": 1154.0,
+    "country_name": "Uruguay",
+    "operator_name": "Claro\/AM Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.20648273931470615"
+  },
+  {
+    "id": 1155.0,
+    "country_name": "Vanuatu",
+    "operator_name": "SMILE",
+    "operator_type": "Mobile",
+    "probs": "0.9243496220041639"
+  },
+  {
+    "id": 1156.0,
+    "country_name": "Yemen",
+    "operator_name": "Sabaphone",
+    "operator_type": "Mobile",
+    "probs": "0.25817200409003815"
+  },
+  {
+    "id": 1157.0,
+    "country_name": "United States",
+    "operator_name": "AT&T",
+    "operator_type": "Fixed",
+    "probs": "0.0010357707590997545"
+  },
+  {
+    "id": 1158.0,
+    "country_name": "China",
+    "operator_name": "China Telecom",
+    "operator_type": "Fixed",
+    "probs": "0.008917684398239523"
+  },
+  {
+    "id": 1159.0,
+    "country_name": "South Korea",
+    "operator_name": "KT Corporation",
+    "operator_type": "Fixed",
+    "probs": "0.11503666819760779"
+  },
+  {
+    "id": 1160.0,
+    "country_name": "China",
+    "operator_name": "China Communications Services",
+    "operator_type": "Fixed",
+    "probs": "0.00614864966846226"
+  },
+  {
+    "id": 1161.0,
+    "country_name": "Netherlands",
+    "operator_name": "VimpelCom",
+    "operator_type": "Fixed",
+    "probs": "0.00659646048975897"
+  },
+  {
+    "id": 1162.0,
+    "country_name": "Taiwan",
+    "operator_name": "Chunghwa Telecom",
+    "operator_type": "Fixed",
+    "probs": "0.009989079643761674"
+  },
+  {
+    "id": 1163.0,
+    "country_name": "Turkey",
+    "operator_name": "Turkcell",
+    "operator_type": "Fixed",
+    "probs": "0.0025167863146433236"
+  },
+  {
+    "id": 1164.0,
+    "country_name": "Malaysia",
+    "operator_name": "Maxis",
+    "operator_type": "Fixed",
+    "probs": "0.002189617136049577"
+  },
+  {
+    "id": 1165.0,
+    "country_name": "Afghanistan",
+    "operator_name": "Roshan\/TDCA",
+    "operator_type": "Mobile",
+    "probs": "0.006081527246560426"
+  },
+  {
+    "id": 1166.0,
+    "country_name": "Algeria",
+    "operator_name": "Oreedo\/Wataniya \/ Nedjma",
+    "operator_type": "Mobile",
+    "probs": "0.04443474736554354"
+  },
+  {
+    "id": 1167.0,
+    "country_name": "Antigua and Barbuda",
+    "operator_name": "C & W",
+    "operator_type": "Mobile",
+    "probs": "0.036653897060701164"
+  },
+  {
+    "id": 1168.0,
+    "country_name": "Australia",
+    "operator_name": "AAPT Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.016224034032545947"
+  },
+  {
+    "id": 1169.0,
+    "country_name": "Australia",
+    "operator_name": "Lycamobile Pty Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.014848036179646949"
+  },
+  {
+    "id": 1172.0,
+    "country_name": "Austria",
+    "operator_name": "Spusu\/Mass Response",
+    "operator_type": "Mobile",
+    "probs": "0.02329087055818723"
+  },
+  {
+    "id": 1173.0,
+    "country_name": "Azerbaijan",
+    "operator_name": "J.V. Bakcell GSM 2000",
+    "operator_type": "Mobile",
+    "probs": "0.006985681487478334"
+  },
+  {
+    "id": 1174.0,
+    "country_name": "Bangladesh",
+    "operator_name": "Robi\/Aktel",
+    "operator_type": "Mobile",
+    "probs": "0.0010288470995383511"
+  },
+  {
+    "id": 1175.0,
+    "country_name": "Barbados",
+    "operator_name": "Cingular Wireless",
+    "operator_type": "Mobile",
+    "probs": "6.708140019073595e-05"
+  },
+  {
+    "id": 1176.0,
+    "country_name": "Belgium",
+    "operator_name": "Base\/KPN",
+    "operator_type": "Mobile",
+    "probs": "0.02294181139883996"
+  },
+  {
+    "id": 1177.0,
+    "country_name": "Benin",
+    "operator_name": "Bell Benin\/BBCOM",
+    "operator_type": "Mobile",
+    "probs": "0.018792744622672174"
+  },
+  {
+    "id": 1178.0,
+    "country_name": "Bermuda",
+    "operator_name": "M3 Wireless Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0042657561188406854"
+  },
+  {
+    "id": 1179.0,
+    "country_name": "Botswana",
+    "operator_name": "BeMOBILE",
+    "operator_type": "Mobile",
+    "probs": "0.06517315735768146"
+  },
+  {
+    "id": 1181.0,
+    "country_name": "Brazil",
+    "operator_name": "Amazonia Celular S\/A",
+    "operator_type": "Mobile",
+    "probs": "0.0005300748819001731"
+  },
+  {
+    "id": 1182.0,
+    "country_name": "Brazil",
+    "operator_name": "Unicel do Brasil Telecomunicacoes Ltda",
+    "operator_type": "Mobile",
+    "probs": "0.00017269247100039229"
+  },
+  {
+    "id": 1184.0,
+    "country_name": "Burundi",
+    "operator_name": "Lumitel\/Viettel",
+    "operator_type": "Mobile",
+    "probs": "0.07654247910647186"
+  },
+  {
+    "id": 1185.0,
+    "country_name": "Cambodia",
+    "operator_name": "MFone\/Camshin\/Cellcard",
+    "operator_type": "Mobile",
+    "probs": "0.004906878379338064"
+  },
+  {
+    "id": 1186.0,
+    "country_name": "Cameroon",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.07494642585001843"
+  },
+  {
+    "id": 1187.0,
+    "country_name": "Canada",
+    "operator_name": "DMTS Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.006743485138380796"
+  },
+  {
+    "id": 1188.0,
+    "country_name": "Canada",
+    "operator_name": "NB Tel Mobility",
+    "operator_type": "Mobile",
+    "probs": "0.005550701119138325"
+  },
+  {
+    "id": 1190.0,
+    "country_name": "Cayman Islands",
+    "operator_name": "LIME \/ Cable & Wirel.",
+    "operator_type": "Mobile",
+    "probs": "0.13744803387619622"
+  },
+  {
+    "id": 1191.0,
+    "country_name": "Chile",
+    "operator_name": "Claro",
+    "operator_type": "Mobile",
+    "probs": "0.00424903259643981"
+  },
+  {
+    "id": 1193.0,
+    "country_name": "China",
+    "operator_name": "China Space Mobile Satellite Telecommunications Co. Ltd (China Spacecom)",
+    "operator_type": "Mobile",
+    "probs": "0.0027696587324681442"
+  },
+  {
+    "id": 1195.0,
+    "country_name": "Comoros",
+    "operator_name": "HURI - SNPT",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1196.0,
+    "country_name": "Croatia",
+    "operator_name": "Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.07759915625161257"
+  },
+  {
+    "id": 1197.0,
+    "country_name": "Denmark",
+    "operator_name": "ApS KBUS",
+    "operator_type": "Mobile",
+    "probs": "0.002780349409355028"
+  },
+  {
+    "id": 1199.0,
+    "country_name": "Dominica",
+    "operator_name": "Cingular Wireless\/Digicel",
+    "operator_type": "Mobile",
+    "probs": "0.0018218429580055067"
+  },
+  {
+    "id": 1200.0,
+    "country_name": "Ecuador",
+    "operator_name": "Porta\/Conecel",
+    "operator_type": "Mobile",
+    "probs": "0.02060807866809446"
+  },
+  {
+    "id": 1201.0,
+    "country_name": "El Salvador",
+    "operator_name": "Telemovil",
+    "operator_type": "Mobile",
+    "probs": "0.032145239044128415"
+  },
+  {
+    "id": 1202.0,
+    "country_name": "Ethiopia",
+    "operator_name": "ETH\/MTN",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1204.0,
+    "country_name": "Finland",
+    "operator_name": "Nokia Oyj",
+    "operator_type": "Mobile",
+    "probs": "0.011601422300499382"
+  },
+  {
+    "id": 1208.0,
+    "country_name": "France",
+    "operator_name": "Tel\/Tel",
+    "operator_type": "Mobile",
+    "probs": "0.001506647255673325"
+  },
+  {
+    "id": 1209.0,
+    "country_name": "French Polynesia",
+    "operator_name": "Vini\/Tikiphone",
+    "operator_type": "Mobile",
+    "probs": "0.3127914857129652"
+  },
+  {
+    "id": 1210.0,
+    "country_name": "Gambia",
+    "operator_name": "Q-Cell",
+    "operator_type": "Mobile",
+    "probs": "0.0016719207256092573"
+  },
+  {
+    "id": 1211.0,
+    "country_name": "Germany",
+    "operator_name": "Debitel",
+    "operator_type": "Mobile",
+    "probs": "0.00728078450448007"
+  },
+  {
+    "id": 1212.0,
+    "country_name": "Germany",
+    "operator_name": "Mobilcom",
+    "operator_type": "Mobile",
+    "probs": "0.006272397676584201"
+  },
+  {
+    "id": 1213.0,
+    "country_name": "Germany",
+    "operator_name": "Telogic\/ViStream",
+    "operator_type": "Mobile",
+    "probs": "3.872859018279782e-06"
+  },
+  {
+    "id": 1214.0,
+    "country_name": "Ghana",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.0033710530583464793"
+  },
+  {
+    "id": 1215.0,
+    "country_name": "Greece",
+    "operator_name": "CyTa Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.001281553841794061"
+  },
+  {
+    "id": 1217.0,
+    "country_name": "Guam",
+    "operator_name": "Wave Runner LLC",
+    "operator_type": "Mobile",
+    "probs": "0.002982019599673498"
+  },
+  {
+    "id": 1218.0,
+    "country_name": "Guinea",
+    "operator_name": "SotelGui",
+    "operator_type": "Mobile",
+    "probs": "0.0020643126819348758"
+  },
+  {
+    "id": 1219.0,
+    "country_name": "Haiti",
+    "operator_name": "National Telecom SA (NatCom)",
+    "operator_type": "Mobile",
+    "probs": "0.0005722053326213891"
+  },
+  {
+    "id": 1220.0,
+    "country_name": "Hungary",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.020753495507927523"
+  },
+  {
+    "id": 1227.0,
+    "country_name": "India",
+    "operator_name": "Hexcom India",
+    "operator_type": "Mobile",
+    "probs": "0.0008013651680356995"
+  },
+  {
+    "id": 1228.0,
+    "country_name": "India",
+    "operator_name": "Reliable Internet Services",
+    "operator_type": "Mobile",
+    "probs": "0.0002998260201165088"
+  },
+  {
+    "id": 1229.0,
+    "country_name": "India",
+    "operator_name": "RPG Cellular",
+    "operator_type": "Mobile",
+    "probs": "2.745340135325583e-05"
+  },
+  {
+    "id": 1230.0,
+    "country_name": "Indonesia",
+    "operator_name": "Flexi (PT Telkom) (CDMA)",
+    "operator_type": "Mobile",
+    "probs": "0.0021987444444675746"
+  },
+  {
+    "id": 1231.0,
+    "country_name": "Indonesia",
+    "operator_name": "PT. Excelcom",
+    "operator_type": "Mobile",
+    "probs": "0.0013215022928864644"
+  },
+  {
+    "id": 1232.0,
+    "country_name": "Iran",
+    "operator_name": "TKC\/KFZO",
+    "operator_type": "Mobile",
+    "probs": "0.004640494204212279"
+  },
+  {
+    "id": 1233.0,
+    "country_name": "Iraq",
+    "operator_name": "Sanatel",
+    "operator_type": "Mobile",
+    "probs": "0.04078663070487012"
+  },
+  {
+    "id": 1234.0,
+    "country_name": "Ireland",
+    "operator_name": "Three\/O2\/Digifone",
+    "operator_type": "Mobile",
+    "probs": "0.023500277243164395"
+  },
+  {
+    "id": 1235.0,
+    "country_name": "Israel",
+    "operator_name": "Orange\/Partner Co. Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.004251750472249225"
+  },
+  {
+    "id": 1236.0,
+    "country_name": "Italy",
+    "operator_name": "Hi3G",
+    "operator_type": "Mobile",
+    "probs": "0.0018776778702545584"
+  },
+  {
+    "id": 1238.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "Comium",
+    "operator_type": "Mobile",
+    "probs": "0.013913211692479015"
+  },
+  {
+    "id": 1239.0,
+    "country_name": "Jamaica",
+    "operator_name": "DIGICEL\/Mossel",
+    "operator_type": "Mobile",
+    "probs": "0.11107627839994803"
+  },
+  {
+    "id": 1254.0,
+    "country_name": "Kazakhstan",
+    "operator_name": "Beeline\/KaR-Tel LLP",
+    "operator_type": "Mobile",
+    "probs": "0.11995049573209716"
+  },
+  {
+    "id": 1255.0,
+    "country_name": "Kiribati",
+    "operator_name": "Kiribati Frigate",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1256.0,
+    "country_name": "Latvia",
+    "operator_name": "Bite",
+    "operator_type": "Mobile",
+    "probs": "0.002799646515698454"
+  },
+  {
+    "id": 1259.0,
+    "country_name": "Liberia",
+    "operator_name": "Lonestar",
+    "operator_type": "Mobile",
+    "probs": "0.001681770476153343"
+  },
+  {
+    "id": 1260.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.1066123201784652"
+  },
+  {
+    "id": 1261.0,
+    "country_name": "Luxembourg",
+    "operator_name": "P+T\/Post LUXGSM",
+    "operator_type": "Mobile",
+    "probs": "0.057395938199116564"
+  },
+  {
+    "id": 1262.0,
+    "country_name": "Madagascar",
+    "operator_name": "Sacel",
+    "operator_type": "Mobile",
+    "probs": "0.04228248415812081"
+  },
+  {
+    "id": 1264.0,
+    "country_name": "Malaysia",
+    "operator_name": "Talk Focus Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.0019907030431199884"
+  },
+  {
+    "id": 1265.0,
+    "country_name": "Malta",
+    "operator_name": "GO\/Mobisle",
+    "operator_type": "Mobile",
+    "probs": "0.44885008140679794"
+  },
+  {
+    "id": 1270.0,
+    "country_name": "Montenegro",
+    "operator_name": "Telenor\/Promonte GSM",
+    "operator_type": "Mobile",
+    "probs": "0.01806490791560186"
+  },
+  {
+    "id": 1271.0,
+    "country_name": "Namibia",
+    "operator_name": "Leo \/ Orascom",
+    "operator_type": "Mobile",
+    "probs": "0.29923731651934155"
+  },
+  {
+    "id": 1272.0,
+    "country_name": "Netherlands",
+    "operator_name": "Elephant Talk Communications Premium Rate Services Netherlands BV",
+    "operator_type": "Mobile",
+    "probs": "0.0030849055449701057"
+  },
+  {
+    "id": 1273.0,
+    "country_name": "Netherlands",
+    "operator_name": "Mundio\/Vectone Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.00303613714209612"
+  },
+  {
+    "id": 1274.0,
+    "country_name": "Netherlands",
+    "operator_name": "Unify Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.003032961974480427"
+  },
+  {
+    "id": 1276.0,
+    "country_name": "Niger",
+    "operator_name": "Etisalat\/TeleCel",
+    "operator_type": "Mobile",
+    "probs": "0.203190973772411"
+  },
+  {
+    "id": 1277.0,
+    "country_name": "Nigeria",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.006363439965333189"
+  },
+  {
+    "id": 1278.0,
+    "country_name": "Norway",
+    "operator_name": "Lycamobile Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0003485261904474903"
+  },
+  {
+    "id": 1280.0,
+    "country_name": "Pakistan",
+    "operator_name": "Telenor",
+    "operator_type": "Mobile",
+    "probs": "0.004822741282896108"
+  },
+  {
+    "id": 1282.0,
+    "country_name": "Paraguay",
+    "operator_name": "Tigo\/Telecel",
+    "operator_type": "Mobile",
+    "probs": "0.00044560821593362646"
+  },
+  {
+    "id": 1283.0,
+    "country_name": "Peru",
+    "operator_name": "Viettel Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.00457754477078531"
+  },
+  {
+    "id": 1284.0,
+    "country_name": "Poland",
+    "operator_name": "Aero2 SP.",
+    "operator_type": "Mobile",
+    "probs": "0.006834916461859651"
+  },
+  {
+    "id": 1288.0,
+    "country_name": "Reunion",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.34020160712387326"
+  },
+  {
+    "id": 1289.0,
+    "country_name": "Romania",
+    "operator_name": "Telemobil\/Zapp",
+    "operator_type": "Mobile",
+    "probs": "0.0025394330504953486"
+  },
+  {
+    "id": 1290.0,
+    "country_name": "Saint Kitts and Nevis",
+    "operator_name": "UTS Cariglobe",
+    "operator_type": "Mobile",
+    "probs": "0.00046624309961061113"
+  },
+  {
+    "id": 1291.0,
+    "country_name": "Saudi Arabia",
+    "operator_name": "Etihad\/Etisalat\/Mobily",
+    "operator_type": "Mobile",
+    "probs": "0.13390651623617708"
+  },
+  {
+    "id": 1293.0,
+    "country_name": "Sierra Leone",
+    "operator_name": "Comium",
+    "operator_type": "Mobile",
+    "probs": "0.027165591835738485"
+  },
+  {
+    "id": 1296.0,
+    "country_name": "Solomon Islands",
+    "operator_name": "bemobile",
+    "operator_type": "Mobile",
+    "probs": "0.11723504488464086"
+  },
+  {
+    "id": 1297.0,
+    "country_name": "Somalia",
+    "operator_name": "Telcom Mobile Somalia",
+    "operator_type": "Mobile",
+    "probs": "0.0007976139723268582"
+  },
+  {
+    "id": 1298.0,
+    "country_name": "South Africa",
+    "operator_name": "Vodacom",
+    "operator_type": "Mobile",
+    "probs": "0.00327516448119569"
+  },
+  {
+    "id": 1299.0,
+    "country_name": "Spain",
+    "operator_name": "Jazz Telecom SAU",
+    "operator_type": "Mobile",
+    "probs": "0.004957800224095929"
+  },
+  {
+    "id": 1300.0,
+    "country_name": "Spain",
+    "operator_name": "R Cable y Telec. Galicia SA",
+    "operator_type": "Mobile",
+    "probs": "0.0049092161062317145"
+  },
+  {
+    "id": 1301.0,
+    "country_name": "Sri Lanka",
+    "operator_name": "Etisalat\/Tigo",
+    "operator_type": "Mobile",
+    "probs": "0.03502996027827815"
+  },
+  {
+    "id": 1303.0,
+    "country_name": "Suriname",
+    "operator_name": "UNIQA",
+    "operator_type": "Mobile",
+    "probs": "0.012358211443983656"
+  },
+  {
+    "id": 1304.0,
+    "country_name": "Sweden",
+    "operator_name": "Digitel Mobile Srl",
+    "operator_type": "Mobile",
+    "probs": "0.0021923269665201353"
+  },
+  {
+    "id": 1305.0,
+    "country_name": "Sweden",
+    "operator_name": "Infobip Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.0016779550739498307"
+  },
+  {
+    "id": 1306.0,
+    "country_name": "Sweden",
+    "operator_name": "Tele2 Sverige AB",
+    "operator_type": "Mobile",
+    "probs": "0.001078754877516517"
+  },
+  {
+    "id": 1307.0,
+    "country_name": "Switzerland",
+    "operator_name": "BebbiCell AG",
+    "operator_type": "Mobile",
+    "probs": "0.006451665567516222"
+  },
+  {
+    "id": 1310.0,
+    "country_name": "Taiwan",
+    "operator_name": "Taiwan Cellular",
+    "operator_type": "Mobile",
+    "probs": "0.004566460594084525"
+  },
+  {
+    "id": 1311.0,
+    "country_name": "Tajikistan",
+    "operator_name": "Tcell\/JC Somoncom",
+    "operator_type": "Mobile",
+    "probs": "0.006342582429657325"
+  },
+  {
+    "id": 1312.0,
+    "country_name": "Tanzania",
+    "operator_name": "TIGO\/MIC",
+    "operator_type": "Mobile",
+    "probs": "0.008301170795776634"
+  },
+  {
+    "id": 1313.0,
+    "country_name": "Thailand",
+    "operator_name": "AIS\/Advanced Info Service",
+    "operator_type": "Mobile",
+    "probs": "0.014085099547765363"
+  },
+  {
+    "id": 1315.0,
+    "country_name": "Tunisia",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.08276837139374454"
+  },
+  {
+    "id": 1316.0,
+    "country_name": "Turkmenistan",
+    "operator_name": "Altyn Asyr\/TM-Cell",
+    "operator_type": "Mobile",
+    "probs": "0.35714535636559597"
+  },
+  {
+    "id": 1317.0,
+    "country_name": "Uganda",
+    "operator_name": "MTN Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.01032574086949092"
+  },
+  {
+    "id": 1321.0,
+    "country_name": "United Kingdom",
+    "operator_name": "HaySystems",
+    "operator_type": "Mobile",
+    "probs": "0.001307967063228627"
+  },
+  {
+    "id": 1322.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Mapesbury C. Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0012464651990265118"
+  },
+  {
+    "id": 1325.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Wave Telecom Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0007573798028337771"
+  },
+  {
+    "id": 1335.0,
+    "country_name": "United States",
+    "operator_name": "Elkhart TelCo. \/ Epic Touch Co.",
+    "operator_type": "Mobile",
+    "probs": "0.0009717372444498469"
+  },
+  {
+    "id": 1337.0,
+    "country_name": "United States",
+    "operator_name": "Matanuska Tel. Assn. Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0008093263164432521"
+  },
+  {
+    "id": 1340.0,
+    "country_name": "United States",
+    "operator_name": "PCS ONE",
+    "operator_type": "Mobile",
+    "probs": "0.0007765858510654155"
+  },
+  {
+    "id": 1341.0,
+    "country_name": "United States",
+    "operator_name": "Sagebrush Cellular Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0007258173366071348"
+  },
+  {
+    "id": 1345.0,
+    "country_name": "United States",
+    "operator_name": "Texas RSA 15B2 Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.000718778693175902"
+  },
+  {
+    "id": 1346.0,
+    "country_name": "United States",
+    "operator_name": "Union Telephone Co.",
+    "operator_type": "Mobile",
+    "probs": "0.0007122755493674122"
+  },
+  {
+    "id": 1349.0,
+    "country_name": "Vanuatu",
+    "operator_name": "DigiCel",
+    "operator_type": "Mobile",
+    "probs": "0.07565037799583613"
+  },
+  {
+    "id": 1350.0,
+    "country_name": "Yemen",
+    "operator_name": "MTN\/Spacetel",
+    "operator_type": "Mobile",
+    "probs": "0.16920039600369627"
+  },
+  {
+    "id": 1351.0,
+    "country_name": "Zimbabwe",
+    "operator_name": "Telecel",
+    "operator_type": "Mobile",
+    "probs": "0.2454083456102441"
+  },
+  {
+    "id": 1352.0,
+    "country_name": "Mexico",
+    "operator_name": "Am\u00e9rica M\u00f3vil",
+    "operator_type": "Fixed",
+    "probs": "0.002160548466044283"
+  },
+  {
+    "id": 1353.0,
+    "country_name": "Australia",
+    "operator_name": "Telstra",
+    "operator_type": "Fixed",
+    "probs": "0.009178124913031672"
+  },
+  {
+    "id": 1354.0,
+    "country_name": "Saudi Arabia",
+    "operator_name": "Saudi Telecom",
+    "operator_type": "Fixed",
+    "probs": "0.050926203091982446"
+  },
+  {
+    "id": 1355.0,
+    "country_name": "Canada",
+    "operator_name": "Rogers Communications",
+    "operator_type": "Fixed",
+    "probs": "0.004847275404872876"
+  },
+  {
+    "id": 1356.0,
+    "country_name": "Indonesia",
+    "operator_name": "Telkom Indonesia",
+    "operator_type": "Fixed",
+    "probs": "1.2232206182085371e-05"
+  },
+  {
+    "id": 1357.0,
+    "country_name": "Russia",
+    "operator_name": "MegaFon",
+    "operator_type": "Fixed",
+    "probs": "0.43690779264596846"
+  },
+  {
+    "id": 1359.0,
+    "country_name": "Albania",
+    "operator_name": "AMC\/Cosmote",
+    "operator_type": "Mobile",
+    "probs": "0.025446143451671475"
+  },
+  {
+    "id": 1360.0,
+    "country_name": "Andorra",
+    "operator_name": "Mobiland",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1361.0,
+    "country_name": "Armenia",
+    "operator_name": "ArmenTel\/Beeline",
+    "operator_type": "Mobile",
+    "probs": "0.0012581651601981515"
+  },
+  {
+    "id": 1362.0,
+    "country_name": "Australia",
+    "operator_name": "Airnet Commercial Australia Ltd..",
+    "operator_type": "Mobile",
+    "probs": "0.005559741385875063"
+  },
+  {
+    "id": 1364.0,
+    "country_name": "Australia",
+    "operator_name": "The Ozitel Network Pty.",
+    "operator_type": "Mobile",
+    "probs": "0.0048900653022980085"
+  },
+  {
+    "id": 1370.0,
+    "country_name": "Belgium",
+    "operator_name": "Lycamobile Belgium",
+    "operator_type": "Mobile",
+    "probs": "0.012982551070385658"
+  },
+  {
+    "id": 1371.0,
+    "country_name": "Benin",
+    "operator_name": "GloMobile",
+    "operator_type": "Mobile",
+    "probs": "0.014161932581586385"
+  },
+  {
+    "id": 1372.0,
+    "country_name": "Bhutan",
+    "operator_name": "B-Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.18685501167425195"
+  },
+  {
+    "id": 1373.0,
+    "country_name": "Botswana",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.012178374817487436"
+  },
+  {
+    "id": 1375.0,
+    "country_name": "Brazil",
+    "operator_name": "Sercontel Cel",
+    "operator_type": "Mobile",
+    "probs": "1.7246349741818782e-05"
+  },
+  {
+    "id": 1377.0,
+    "country_name": "Bulgaria",
+    "operator_name": "Telenor\/Cosmo\/Globul",
+    "operator_type": "Mobile",
+    "probs": "0.08087002686032034"
+  },
+  {
+    "id": 1378.0,
+    "country_name": "Burundi",
+    "operator_name": "Smart Mobile \/ LACELL",
+    "operator_type": "Mobile",
+    "probs": "0.028775873824104462"
+  },
+  {
+    "id": 1379.0,
+    "country_name": "Cambodia",
+    "operator_name": "QB\/Cambodia Adv. Comms.",
+    "operator_type": "Mobile",
+    "probs": "0.0031822467429060883"
+  },
+  {
+    "id": 1380.0,
+    "country_name": "Canada",
+    "operator_name": "Bell Aliant",
+    "operator_type": "Mobile",
+    "probs": "0.0022975571368450526"
+  },
+  {
+    "id": 1381.0,
+    "country_name": "Canada",
+    "operator_name": "Latitude Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.001889784099402727"
+  },
+  {
+    "id": 1382.0,
+    "country_name": "Canada",
+    "operator_name": "Public Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0015875062406025538"
+  },
+  {
+    "id": 1383.0,
+    "country_name": "Canada",
+    "operator_name": "Videotron",
+    "operator_type": "Mobile",
+    "probs": "0.0010567850513457542"
+  },
+  {
+    "id": 1384.0,
+    "country_name": "Chad",
+    "operator_name": "Tchad Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.06861225185422376"
+  },
+  {
+    "id": 1385.0,
+    "country_name": "Chile",
+    "operator_name": "Entel Telefonia Mov",
+    "operator_type": "Mobile",
+    "probs": "0.0007598033418619885"
+  },
+  {
+    "id": 1386.0,
+    "country_name": "Chile",
+    "operator_name": "TESAM SA",
+    "operator_type": "Mobile",
+    "probs": "8.261498245455629e-05"
+  },
+  {
+    "id": 1388.0,
+    "country_name": "Colombia",
+    "operator_name": "Edatel S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.026677954359527065"
+  },
+  {
+    "id": 1389.0,
+    "country_name": "Costa Rica",
+    "operator_name": "Claro",
+    "operator_type": "Mobile",
+    "probs": "0.09516313664500366"
+  },
+  {
+    "id": 1390.0,
+    "country_name": "Cuba",
+    "operator_name": "C-COM",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1391.0,
+    "country_name": "Denmark",
+    "operator_name": "CoolTEL ApS",
+    "operator_type": "Mobile",
+    "probs": "0.002530201575386109"
+  },
+  {
+    "id": 1393.0,
+    "country_name": "Dominican Republic",
+    "operator_name": "Claro",
+    "operator_type": "Mobile",
+    "probs": "0.05873603725965001"
+  },
+  {
+    "id": 1394.0,
+    "country_name": "Egypt",
+    "operator_name": "ETISALAT",
+    "operator_type": "Mobile",
+    "probs": "0.0929868046216923"
+  },
+  {
+    "id": 1395.0,
+    "country_name": "Equatorial Guinea",
+    "operator_name": "ORANGE\/GETESA",
+    "operator_type": "Mobile",
+    "probs": "0.09993697333512787"
+  },
+  {
+    "id": 1396.0,
+    "country_name": "Faroe Islands",
+    "operator_name": "Faroese Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.13212122120600817"
+  },
+  {
+    "id": 1398.0,
+    "country_name": "Finland",
+    "operator_name": "TeliaSonera",
+    "operator_type": "Mobile",
+    "probs": "4.925771103265097e-05"
+  },
+  {
+    "id": 1402.0,
+    "country_name": "French Guiana",
+    "operator_name": "Bouygues\/DigiCel",
+    "operator_type": "Mobile",
+    "probs": "0.019939153284777314"
+  },
+  {
+    "id": 1403.0,
+    "country_name": "Gabon",
+    "operator_name": "Libertis S.A.",
+    "operator_type": "Mobile",
+    "probs": "0.0019359673530782286"
+  },
+  {
+    "id": 1404.0,
+    "country_name": "Georgia",
+    "operator_name": "Iberiatel Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.07128210458461896"
+  },
+  {
+    "id": 1408.0,
+    "country_name": "Gibraltar",
+    "operator_name": "CTS Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0733285646377985"
+  },
+  {
+    "id": 1409.0,
+    "country_name": "Greece",
+    "operator_name": "OTE Hellenic Telecommunications Organization SA",
+    "operator_type": "Mobile",
+    "probs": "0.001093860657358992"
+  },
+  {
+    "id": 1410.0,
+    "country_name": "Guadeloupe",
+    "operator_name": "Dauphin Telecom SU (Guadeloupe Telecom)",
+    "operator_type": "Mobile",
+    "probs": "1.0"
+  },
+  {
+    "id": 1411.0,
+    "country_name": "Guatemala",
+    "operator_name": "Telefonica",
+    "operator_type": "Mobile",
+    "probs": "0.033733244942213435"
+  },
+  {
+    "id": 1412.0,
+    "country_name": "Guinea-Bissau",
+    "operator_name": "Orange",
+    "operator_type": "Mobile",
+    "probs": "0.13371528427684562"
+  },
+  {
+    "id": 1413.0,
+    "country_name": "Honduras",
+    "operator_name": "HonduTel",
+    "operator_type": "Mobile",
+    "probs": "0.0016940852256913169"
+  },
+  {
+    "id": 1414.0,
+    "country_name": "Iceland",
+    "operator_name": "IceCell",
+    "operator_type": "Mobile",
+    "probs": "0.02582795439628645"
+  },
+  {
+    "id": 1425.0,
+    "country_name": "Iran",
+    "operator_name": "Mobile Telecommunications Company of Esfahan JV-PJS (MTCE)",
+    "operator_type": "Mobile",
+    "probs": "0.004102249422953089"
+  },
+  {
+    "id": 1426.0,
+    "country_name": "Iraq",
+    "operator_name": "Itisaluna and Kalemat",
+    "operator_type": "Mobile",
+    "probs": "0.0034768613459372944"
+  },
+  {
+    "id": 1427.0,
+    "country_name": "Ireland",
+    "operator_name": "Clever Communications Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.007331574172918726"
+  },
+  {
+    "id": 1428.0,
+    "country_name": "Israel",
+    "operator_name": "Alon Cellular Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0037832019416749233"
+  },
+  {
+    "id": 1429.0,
+    "country_name": "Israel",
+    "operator_name": "Rami Levy Hashikma Marketing Communications Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0018421496366342097"
+  },
+  {
+    "id": 1430.0,
+    "country_name": "Italy",
+    "operator_name": "Lycamobile Srl",
+    "operator_type": "Mobile",
+    "probs": "0.001499691462782742"
+  },
+  {
+    "id": 1432.0,
+    "country_name": "Ivory Coast",
+    "operator_name": "MTN",
+    "operator_type": "Mobile",
+    "probs": "0.000801567229609893"
+  },
+  {
+    "id": 1448.0,
+    "country_name": "Kazakhstan",
+    "operator_name": "K-Cell",
+    "operator_type": "Mobile",
+    "probs": "0.015635356766463517"
+  },
+  {
+    "id": 1449.0,
+    "country_name": "Kuwait",
+    "operator_name": "Wataniya",
+    "operator_type": "Mobile",
+    "probs": "0.0030643880678952085"
+  },
+  {
+    "id": 1450.0,
+    "country_name": "Latvia",
+    "operator_name": "SIA Camel Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0014522883061238955"
+  },
+  {
+    "id": 1452.0,
+    "country_name": "Lesotho",
+    "operator_name": "Econet\/Ezi-cel",
+    "operator_type": "Mobile",
+    "probs": "0.4037628155543924"
+  },
+  {
+    "id": 1454.0,
+    "country_name": "Liechtenstein",
+    "operator_name": "Alpmobile\/Tele2",
+    "operator_type": "Mobile",
+    "probs": "0.04029002563049336"
+  },
+  {
+    "id": 1456.0,
+    "country_name": "Malawi",
+    "operator_name": "TNM\/Telekom Network Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.4934931545372434"
+  },
+  {
+    "id": 1457.0,
+    "country_name": "Malaysia",
+    "operator_name": "Electcoms Wireless Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.0014196272769712145"
+  },
+  {
+    "id": 1458.0,
+    "country_name": "Malaysia",
+    "operator_name": "XOX Com Sdn Bhd",
+    "operator_type": "Mobile",
+    "probs": "0.00016376554089754162"
+  },
+  {
+    "id": 1459.0,
+    "country_name": "Malta",
+    "operator_name": "Vodafone",
+    "operator_type": "Mobile",
+    "probs": "0.002938043214933975"
+  },
+  {
+    "id": 1462.0,
+    "country_name": "Moldova",
+    "operator_name": "Eventis Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0011995559830177362"
+  },
+  {
+    "id": 1463.0,
+    "country_name": "Mongolia",
+    "operator_name": "G-Mobile Corporation Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.002913369070813742"
+  },
+  {
+    "id": 1464.0,
+    "country_name": "Morocco",
+    "operator_name": "IAM\/Itissallat",
+    "operator_type": "Mobile",
+    "probs": "0.25535749020105486"
+  },
+  {
+    "id": 1465.0,
+    "country_name": "Namibia",
+    "operator_name": "Switch\/Nam. Telec.",
+    "operator_type": "Mobile",
+    "probs": "0.03605874226194284"
+  },
+  {
+    "id": 1467.0,
+    "country_name": "Netherlands",
+    "operator_name": "Private Mobility Nederland BV",
+    "operator_type": "Mobile",
+    "probs": "0.0015526009396612508"
+  },
+  {
+    "id": 1468.0,
+    "country_name": "Netherlands",
+    "operator_name": "Vodafone Libertel",
+    "operator_type": "Mobile",
+    "probs": "0.0004461656641941236"
+  },
+  {
+    "id": 1469.0,
+    "country_name": "New Zealand",
+    "operator_name": "Two Degrees Mobile Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.014317697459661445"
+  },
+  {
+    "id": 1474.0,
+    "country_name": "Pakistan",
+    "operator_name": "Warid Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.003824858599452911"
+  },
+  {
+    "id": 1475.0,
+    "country_name": "Papua New Guinea",
+    "operator_name": "GreenCom PNG Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.2123717864221875"
+  },
+  {
+    "id": 1478.0,
+    "country_name": "Poland",
+    "operator_name": "CallFreedom Sp. z o.o.",
+    "operator_type": "Mobile",
+    "probs": "0.0002033850626686478"
+  },
+  {
+    "id": 1481.0,
+    "country_name": "Portugal",
+    "operator_name": "MEO\/TMN",
+    "operator_type": "Mobile",
+    "probs": "0.023671978916948756"
+  },
+  {
+    "id": 1482.0,
+    "country_name": "Reunion",
+    "operator_name": "SFR",
+    "operator_type": "Mobile",
+    "probs": "0.09909086011462408"
+  },
+  {
+    "id": 1484.0,
+    "country_name": "Saint Lucia",
+    "operator_name": "Cingular Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.13732703048681025"
+  },
+  {
+    "id": 1485.0,
+    "country_name": "Saudi Arabia",
+    "operator_name": "Virgin Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0033295617590248525"
+  },
+  {
+    "id": 1486.0,
+    "country_name": "Serbia",
+    "operator_name": "VIP Mobile",
+    "operator_type": "Mobile",
+    "probs": "0.0206728263150161"
+  },
+  {
+    "id": 1487.0,
+    "country_name": "Sierra Leone",
+    "operator_name": "Tigo\/Millicom",
+    "operator_type": "Mobile",
+    "probs": "0.02310479826828688"
+  },
+  {
+    "id": 1489.0,
+    "country_name": "Slovakia",
+    "operator_name": "Zeleznice Slovenskej republiky (ZSR)",
+    "operator_type": "Mobile",
+    "probs": "0.024920172862847863"
+  },
+  {
+    "id": 1491.0,
+    "country_name": "South Africa",
+    "operator_name": "8.ta",
+    "operator_type": "Mobile",
+    "probs": "0.001253815750869932"
+  },
+  {
+    "id": 1492.0,
+    "country_name": "Spain",
+    "operator_name": "Lycamobile SL",
+    "operator_type": "Mobile",
+    "probs": "0.003646673628641837"
+  },
+  {
+    "id": 1494.0,
+    "country_name": "Spain",
+    "operator_name": "Telecable de Asturias SA",
+    "operator_type": "Mobile",
+    "probs": "0.003642621369968195"
+  },
+  {
+    "id": 1495.0,
+    "country_name": "Sri Lanka",
+    "operator_name": "Mobitel Ltd.",
+    "operator_type": "Mobile",
+    "probs": "0.0012559822375775485"
+  },
+  {
+    "id": 1497.0,
+    "country_name": "Swaziland",
+    "operator_name": "SwaziTelecom",
+    "operator_type": "Mobile",
+    "probs": "0.11325428158287393"
+  },
+  {
+    "id": 1498.0,
+    "country_name": "Sweden",
+    "operator_name": "Fogg Mobile AB",
+    "operator_type": "Mobile",
+    "probs": "0.0008430263848424578"
+  },
+  {
+    "id": 1499.0,
+    "country_name": "Sweden",
+    "operator_name": "Lycamobile Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.000406183221082465"
+  },
+  {
+    "id": 1504.0,
+    "country_name": "Taiwan",
+    "operator_name": "TransAsia",
+    "operator_type": "Mobile",
+    "probs": "0.0040717099646551975"
+  },
+  {
+    "id": 1506.0,
+    "country_name": "Tanzania",
+    "operator_name": "Vodacom Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.005454599282583356"
+  },
+  {
+    "id": 1507.0,
+    "country_name": "Thailand",
+    "operator_name": "Hutch\/CAT CDMA",
+    "operator_type": "Mobile",
+    "probs": "0.013335846079593348"
+  },
+  {
+    "id": 1508.0,
+    "country_name": "Tonga",
+    "operator_name": "Shoreline Communication",
+    "operator_type": "Mobile",
+    "probs": "0.022652004206674615"
+  },
+  {
+    "id": 1509.0,
+    "country_name": "Tunisia",
+    "operator_name": "TuniCell\/Tunisia Telecom",
+    "operator_type": "Mobile",
+    "probs": "0.006320343170909854"
+  },
+  {
+    "id": 1510.0,
+    "country_name": "Turks and Caicos Islands",
+    "operator_name": "Digicel TCI Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.030952363789419342"
+  },
+  {
+    "id": 1511.0,
+    "country_name": "Uganda",
+    "operator_name": "Smile Communications Uganda Ltd",
+    "operator_type": "Mobile",
+    "probs": "0.0066880975715009295"
+  },
+  {
+    "id": 1513.0,
+    "country_name": "United Arab Emirates",
+    "operator_name": "DU",
+    "operator_type": "Mobile",
+    "probs": "0.02189160072753067"
+  },
+  {
+    "id": 1517.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Railtrack Plc",
+    "operator_type": "Mobile",
+    "probs": "0.0005610158727270075"
+  },
+  {
+    "id": 1518.0,
+    "country_name": "United Kingdom",
+    "operator_name": "Tismi",
+    "operator_type": "Mobile",
+    "probs": "0.0002257031725660592"
+  },
+  {
+    "id": 1519.0,
+    "country_name": "United States",
+    "operator_name": "Airtel Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0006395022173913237"
+  },
+  {
+    "id": 1521.0,
+    "country_name": "United States",
+    "operator_name": "California RSA No. 3 Limited Partnership",
+    "operator_type": "Mobile",
+    "probs": "0.0005550613596292587"
+  },
+  {
+    "id": 1527.0,
+    "country_name": "United States",
+    "operator_name": "Cingular Wireless",
+    "operator_type": "Mobile",
+    "probs": "0.0004971223446017368"
+  },
+  {
+    "id": 1528.0,
+    "country_name": "United States",
+    "operator_name": "Dobson Cellular Systems",
+    "operator_type": "Mobile",
+    "probs": "0.0004630152282535645"
+  },
+  {
+    "id": 1529.0,
+    "country_name": "United States",
+    "operator_name": "Fisher Wireless Services Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0004625406946603705"
+  },
+  {
+    "id": 1530.0,
+    "country_name": "United States",
+    "operator_name": "Jasper",
+    "operator_type": "Mobile",
+    "probs": "0.00041740664420036877"
+  },
+  {
+    "id": 1531.0,
+    "country_name": "United States",
+    "operator_name": "Michigan Wireless LLC",
+    "operator_type": "Mobile",
+    "probs": "0.0003866665929442565"
+  },
+  {
+    "id": 1532.0,
+    "country_name": "United States",
+    "operator_name": "MTPCS LLC",
+    "operator_type": "Mobile",
+    "probs": "0.00036907920430593753"
+  },
+  {
+    "id": 1533.0,
+    "country_name": "United States",
+    "operator_name": "Northeast Colorado Cellular Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.0003541954328992556"
+  },
+  {
+    "id": 1534.0,
+    "country_name": "United States",
+    "operator_name": "Pine Belt Cellular Inc.",
+    "operator_type": "Mobile",
+    "probs": "0.00032473853157053215"
+  },
+  {
+    "id": 1535.0,
+    "country_name": "United States",
+    "operator_name": "SLO Cellular Inc \/ Cellular One of San Luis",
+    "operator_type": "Mobile",
+    "probs": "0.00030407256736278914"
+  },
+  {
+    "id": 1541.0,
+    "country_name": "United States",
+    "operator_name": "West Virginia Wireless",
+    "operator_type": "Mobile",
+    "probs": "7.714425482220075e-05"
+  },
+  {
+    "id": 1542.0,
+    "country_name": "Uruguay",
+    "operator_name": "MOVISTAR",
+    "operator_type": "Mobile",
+    "probs": "0.16128095844503787"
+  },
+  {
+    "id": 1544.0,
+    "country_name": "Yemen",
+    "operator_name": "Yemen Mob. CDMA",
+    "operator_type": "Mobile",
+    "probs": "0.09168834406103132"
+  },
+  {
+    "id": 1545.0,
+    "country_name": "United States",
+    "operator_name": "Verizon Communications",
+    "operator_type": "Fixed",
+    "probs": "7.555736138454551e-05"
+  },
+  {
+    "id": 1546.0,
+    "country_name": "Spain",
+    "operator_name": "Telef\u00f3nica",
+    "operator_type": "Fixed",
+    "probs": "0.0030725819966094426"
+  },
+  {
+    "id": 1547.0,
+    "country_name": "United States",
+    "operator_name": "CenturyLink",
+    "operator_type": "Fixed",
+    "probs": "5.1655531716839835e-05"
+  },
+  {
+    "id": 1548.0,
+    "country_name": "Singapore",
+    "operator_name": "SingTel",
+    "operator_type": "Fixed",
+    "probs": "0.0034870709912911808"
+  },
+  {
+    "id": 1549.0,
+    "country_name": "Canada",
+    "operator_name": "TELUS",
+    "operator_type": "Fixed",
+    "probs": "6.943733460031504e-05"
+  },
+  {
+    "id": 1550.0,
+    "country_name": "Australia",
+    "operator_name": "Optus",
+    "operator_type": "Fixed",
+    "probs": "0.0003896289533702287"
+  },
+  {
+    "id": 1551.0,
+    "country_name": "Thailand",
+    "operator_name": "Advanced Info Service",
+    "operator_type": "Fixed",
+    "probs": "0.003974121727400023"
+  },
+  {
+    "id": 1552.0,
+    "country_name": "United States",
+    "operator_name": "NII Holdings",
+    "operator_type": "Fixed",
+    "probs": "4.053560703614653e-05"
+  }
+]
