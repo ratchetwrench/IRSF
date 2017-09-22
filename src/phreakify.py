@@ -15,7 +15,8 @@ Example:
     ... Done.
 """
 import sys
-import random
+from numpy.random import randint
+from numpy import random
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import os
@@ -23,7 +24,6 @@ import psycopg2
 import numpy as np
 import pandas as pd
 from psycopg2.extras import execute_batch
-
 
 # database connection variables
 HOST = os.getenv("")
@@ -39,8 +39,43 @@ SCHEMA = None
 TEMP_FILE = "data/temp.csv"
 DATA = pd.read_csv("data/data.csv")
 
+df = pd.DataFrame()
 
-class CDR(object):
+
+def country_generator():
+    yield df["country_name"].sample(n=1, replace=True, weights=df["country_proba"])
+
+
+def emerging_country_generator():
+    yield df["country_name"].sample(n=1, replace=True, weights=df["bbva_proba"])
+
+
+def operator_generator(country):
+    yield df["operator_name"].sample(n=1, replace=True, weights=df["operator_proba"])
+
+
+def datetime_generator():
+    return "{}-{}-{} {:02d}:{:02d}:{:02d}".format(randint(2000, 2017 + 1),
+                                                  randint(1, 12 + 1),
+                                                  randint(1, 31 + 1),
+                                                  randint(1, 24 + 1),
+                                                  randint(0, 59 + 1),
+                                                  randint(0, 59 + 1))
+
+
+def phonenumber_generator(country):
+    prefix = df[df.country_name == country.values[0]]
+    if prefix == 1:
+        # [2–9] for the first digit, and [0–9] all remaining digits
+        sn = np.random.randint(2000000000, 9999999999)
+        yield "+{}{}".format(prefix, sn)
+    else:
+        # [2–9] for the first digit, and [0–9] all remaining digits (11 to 15)
+        sn = random.randrange(20000, 999999999)
+        yield "+{}{}".format(prefix, sn)
+
+
+class CDR():
     """Fake data generating class"""
     def __init__(self, count=1000, schema='cdr', fraud=False):
         self.values = SCHEMA[schema]._fields  # get the field names
@@ -62,9 +97,9 @@ class CDR(object):
         self.national = self.count - self.international
 
         # default CDR fields
-        self.date_called = self.random_datetime_generator()
+        self.date_called = datetime_generator()
         self.to_country = random.choice()
-        self.to_number = self.random_phonenumber_generator()
+        self.to_number = phonenumber_generator()
         self.to_operator = random.choice()
         self.to_phone_type = random.choice()
         self.from_country = random.choice()
@@ -82,13 +117,13 @@ class CDR(object):
             self.national = self.count - self.international
 
             # overwrite CDR fields
-            self.date_called = self.random_datetime_generator()
+            self.date_called = datetime_generator()
             self.to_country = random.choice()
-            self.to_number = self.random_phonenumber_generator()
+            self.to_number = phonenumber_generator()
             self.to_operator = random.choice()
             self.to_phone_type = random.choice()
             self.from_country = random.choice()
-            self.from_number = self.random_phonenumber_generator()
+            self.from_number = phonenumber_generator()
             self.advanced = random.choice()
             self.from_operator_name = np.random.choice([])
             self.call_duration = np.random.poisson(lam=4.0)
@@ -99,129 +134,46 @@ class CDR(object):
 
         :return: None
         """
-        for record in self.count:
-            print(CDR())
-        # try:
-        #     print(f"Trying to connect to {DATABASE} Database...")
-        #     with psycopg2.connect(host=HOST, database=DATABASE, user=USER,
-        #                           password=PASSWORD) as connection:
-        #         print(f"Connected to {DATABASE}.")
-        #         cursor = connection.cursor()
-        #         try:
-        #             print(f"Inserting {self.count} records into {self.schema}...")
-        #             cursor.execute(
-        #                 f"PREPARE stmt AS INSERT INTO {self.schema} VALUES {record._fields}")
-        #             execute_batch(cursor, "EXECUTE stmt ()", record)
-        #             cursor.execute("DEALLOCATE stmt")
-        #             print(f"Finished inserting {self.count} records.")
-        #             cursor.commit()
-        #         except Exception as e:
-        #             print(f"Failed to insert into {self.schema}.")
-        #             print(f"Rolling back commits...")
-        #             cursor.rollback()
-        #             print(e)
-        # except Exception as e:
-        #     print(f"Failed to connect to {DATABASE}.")
-        #     print(e)
-        # finally:
-        #     print("Done.")
-
-    @staticmethod
-    def random_datetime_generator():
-        Y = random.choice(range(2000, 2017))
-        m = random.choice(range(1, 13))
-        d = random.choice(range(1, 31))
-        H = random.choice(range(0, 24))
-        M = random.choice(range(00, 59))
-        S = random.choice(range(00, 59))
-
-        yield datetime.strptime(f"{Y}-{m}-{d} {H}:{M}:{S}", "%Y-%m-%d %H:%M:%S")
-
-    @staticmethod
-    def random_phonenumber_generator():
-        """
-        given a country_name from the caller (calling function)
-        if the COUNTRY_INFO.prefix starts with a '1' use 11 digits. No more, no less.
-        else use between 11 and 15 digits. Minus
-
-        :return A random phonenumber loosely based on NANPA and other countries.:
-        """
-        cc = random.choices(COUNTRY_INFO,
-                            weights=COUNTRY_INFO.get("proba"),
-                            k=1)
-        prefix = int(cc.get("prefix"))
-        if cc[0] == 1:
-            # [2–9] for the first digit, and [0–9] all remaining digits
-            sn = random.randrange(2000000, 9999999)
-            yield f"+1{prefix}{sn}"
-        else:
-            # [2–9] for the first digit, and [0–9] all remaining digits (11 to 15)
-            sn = random.randrange(20000, 999999999)
-            yield f"+{cc}{prefix}{sn}"
-
-        def cfca(self):
-            """Communication Fraud Control Association
-
-        Description:
-
-        Schema:
-                        cfca_id: '8dbf79f9-af8f-4422-ae27-db3db261fbed'   # GUID
-            terminating_country: 'GB'                                     # DATA_IPRN.country_name
-                   phone_number: '+28475284523'                           # DATA_IPRN.dialing_prefix
-                     date_added: '2016-03-27T04:27:11Z'                   # DATA_IPRN.date_added
-        """
-
-            for record in range(self.count):
-                self.values.update()
-
-            self.cfca_id = uuid.uuid4()
-            # TODO: CFCA.country_iso should be a drawn froma unique set of IPRN countries. (Power Rule Distribution)
-            self.country_iso = random.choices(IPRN_COUNTRIES.keys(),
-                                              weights=IPRN_COUNTRIES['country_weight'],
-                                              k=1)
-            self.phone_number = self.mimesis.personal.telephone()
-            self.e164_phonenumber = ''.join([x for x in self.phone_number if x.isnumeric()])
-            self.date_added = ' '.join(
-                [self.mimesis.datetime.date(start=2000, end=2017, fmt='%Y-%m-%d'),
-                 self.mimesis.datetime.time()])
-            self.days_since_date_added = (datetime.now() - self.date_added)
-
-    # TODO: Icebox
-    def iprn(self):
-        """International Premium Rate Numbers
-
-        Description:
-            Given IPRN data take a sample from an IPRN specific distribution:
-                Country     Power(Unique(country_name))
-                Payout      Norm(Mean(payout_rate))
-
-        Schema:
-                        iprn_id: '8dbf79f9-af8f-4422-ae27-db3db261fbed'   # GUID
-            terminating_country: 'Albania - Mobile'                       # DATA_IPRN.country_name
-                 dialing_prefix: '363 675'                                # DATA_IPRN.dialing_prefix
-                     date_added: '2016-03-27T04:27:11Z'                   # DATA_IPRN.date_added
-                     payout_usd: 0.0345                                   # DATA_IPRN.payout_rate
-        """
-
-    # TODO: Icebox
-    def pstn(self):
-        """Public Switched Telephone Network
-
-        Description:
-            Randomly select from 10 to 70 as a percentage of the fraud calls.
-        """
         for record in range(self.count):
-            # pstn = PSTN(date_called=self.random_datetime_generator(),
-            #             to_country=random.choice(COUNTRY_INFO.name, COUNTRY_INFO.power),
-            #             to_number=self.random_phonenumber_generator()),
-            #             to_phone_type = random.choice(PHONE_INFO.type, PHONE_INFO.proba),
-            #             from_country = mimesis.address.country(),
-            #             from_number = mimesis.personal.telephone(mask='+###########'),
-            #             from_phone_type = np.random.choice([]),
-            #             operator_name = np.random.choice([]),
-            #             call_duration = np.random.exponential(scale=2.0),
-            #             call_charge = np.random.exponential(scale=0.5))
-            yield pstn
+            print(CDR())
+            try:
+                print(f"Trying to connect to {DATABASE} Database...")
+                with psycopg2.connect(host=HOST, database=DATABASE, user=USER,
+                                      password=PASSWORD) as connection:
+                    print(f"Connected to {DATABASE}.")
+                    cursor = connection.cursor()
+                    try:
+                        print(f"Inserting {self.count} records into {self.schema}...")
+                        cursor.execute(
+                            f"PREPARE stmt AS INSERT INTO {self.schema} VALUES {record._fields}")
+                        execute_batch(cursor, "EXECUTE stmt ()", record)
+                        cursor.execute("DEALLOCATE stmt")
+                        print(f"Finished inserting {self.count} records.")
+                        cursor.commit()
+                    except Exception as e:
+                        print(f"Failed to insert into {self.schema}.")
+                        print(f"Rolling back commits...")
+                        cursor.rollback()
+                        print(e)
+            except Exception as e:
+                print(f"Failed to connect to {DATABASE}.")
+                print(e)
+            finally:
+                print("Done.")
+
+
+def pstn():
+    """Public Switched Telephone Network
+
+    Description:
+        Randomly select from 10 to 70 as a percentage of the fraud calls.
+    """
+    pass
+
+
+def cfca():
+    """Communication Fraud COntrol Association"""
+    pass
 
 
 if __name__ == '__main__':
