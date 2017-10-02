@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import csv
-import shutil
 from datetime import datetime
 import pandas as pd
 import numpy as np
@@ -9,7 +8,6 @@ from numpy.random import normal
 import calendar
 from scipy.stats import expon
 import time
-import gzip
 
 # Load Data
 CDR_SAMPLES = pd.read_csv('src/data/cdr.csv', usecols=["from_country", "from_number"], index_col="from_country")
@@ -48,8 +46,8 @@ class CDR(object):
             self.advanced_to_emerging = self.emerging_to_advanced  # swapped with self.advanced
             self.emerging_to_advanced = self.advanced_to_emerging  # swapped with self.emerging
             self.national = count - self.international
-            CALL_CHARGE = expon(loc=4.)
-            CALL_DURATION = expon(loc=1.)
+            CALL_CHARGE = expon(loc=7.)
+            CALL_DURATION = expon(loc=5.)
 
     def writer(self):
         with open('src/data/cdr.csv', 'wb') as f:
@@ -88,12 +86,13 @@ class CDR(object):
         M = np.random.randint(0, 60)
         S = np.random.randint(0, 60)
         # datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
-        return datetime(year=Y, month=m, day=d, hour=H, minute=M, second=S).isoformat()
+        return datetime(Y, m, d, H, M, S).isoformat()
         # return "{}-{}-{} {:02d}:{:02d}:{:4f}".format(Y, m, d, H, M, S)
 
     @staticmethod
     def country_generator(emerging_to_advanced=False):
         # df.loc["<index 0 value>, <index 1 value>, ...][<column name>]
+        # sample(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None)
         if emerging_to_advanced:
             return np.random.choice(EMERGING_COUNTRIES.index.get_level_values('country_name'))
         else:
@@ -176,6 +175,7 @@ class CDR(object):
 
 if __name__ == '__main__':
     start = time.time()
-    x = CDR(count=100000, fraud=False)
+    record_count = np.random.randint(10000, 100000)
+    x = CDR(count=record_count, fraud=True)
     x.bootstrap()
     print("--- %s seconds ---" % (time.time() - start))
