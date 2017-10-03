@@ -13,7 +13,7 @@ import time
 CDR_SAMPLES = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
                           usecols=["from_country", "from_number"], index_col="from_country")
 
-CDR_PROBAS = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/iprn.csv',
+CDR_PROBAS = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/iprn_data.csv',
                          usecols=["country_name",
                                   "country_proba",
                                   "bbva_proba",

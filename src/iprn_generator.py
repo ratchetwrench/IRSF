@@ -9,64 +9,76 @@ from numpy.random import randint
 from numpy.random import normal
 import calendar
 
+
 # Recipe inputs
-iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_proba.csv")
-cdr_data = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv")
-cdr = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv")
+iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_data.csv", index_col="country_name").fillna(0)
+cdr_data = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv", index_col=["country_name"])
+cdr = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv", index_col="from_country")
 records = []
 
 
 def writer():
-    with open('/Users/davidwrench/Galvanize/irsf/src/data/iprn.csv', 'wb') as f:
-        keys = records[0].keys()
-        w = csv.DictWriter(f, keys)
+    print(records[0])
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/iprn.csv', 'w') as f:
+        fieldnames = records[:,0].keys()
+        print(type(fieldnames))
+        w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         for record in records:
             w.writerow(record)
 
 
 def iprn_country_generator():
-    return iprn["country_name"].sample()
+    print(f"Generating IRPN Country...")
+    return np.random.choice(cdr_data.index.values)
 
 
 def iprn_block_generator(country_name):
-    try:
-        prefix = int(iprn["prefix"][iprn["country_name"] == country_name].sample(n=1, replace=True,
-                                                                             weights=iprn[
-                                                                                 "iprn_proba"]))
-    except KeyError:
-        prefix = int(iprn["prefix"][iprn["country_name"] == country_name])
-
+    print(f"IPRN Block Generator for: {country_name}")
+    prefix = np.random.choice(cdr_data.loc[country_name]["prefix"])
+    print(f"Using prefix: {prefix} to generate block...")
     sn = random.randrange(2000000000, 9999999999)
-    # Fill in the back part of the number minus the prefix
     block_range = []
     for _ in range(randint(9, 99)):
         sn += 1
         number_format = "+{}{}".format(prefix, sn)
         block_range.append(number_format)
+    print(f"Created: {len(block_range)} phone numbers...")
     return block_range
 
 
 def emerging_country_generator():
-    return cdr_data["country_name"].sample(n=1, replace=True, weights=cdr_data["bbva_proba"]).values[0]
+    x = cdr_data.reset_index().drop_duplicates(subset=["country_name", "bbva_proba"])
+    choices = x["country_name"]
+    p = x["bbva_proba"]
+    return np.random.choice(choices, p=p)
 
 
 def country_generator():
-    return cdr_data["country_name"].sample(n=1, replace=True, weights=cdr_data["country_proba"]).values[0]
+    print(f"Country Generator...")
+    x = cdr_data.reset_index().drop_duplicates(subset=["country_name", "country_proba"])
+    choices = x["country_name"]
+    p = x["country_proba"]
+    return np.random.choice(choices, p=p)
 
 
 def iprn_operator_generator(country_name):
-    try:
-        return iprn["operator_name"][iprn["country_name"] == country_name]
-    except KeyError:
-        return iprn["operator_name"].sample()
+    print(f"Generating IPRN Operator for: {country_name}")
+    choices = cdr_data.loc[country_name]["operator_name"]
+    p = cdr_data.loc[country_name]["operator_proba"]
+    print(f"Operator Probability sum = {p.sum()}")
+    if len(choices) == 1:
+        return choices
+    else:
+        return np.random.choice(choices, p=p)
 
 
 def operator_generator(country_name):
-    try:
-        return cdr_data["operator_name"][cdr_data["country_name"] == country_name].sample()
-    except KeyError:
-        return cdr_data["operator_name"].sample(n=1)
+    print(f"Generating Operator for: {country_name}")
+    choices = list(cdr_data.loc[country_name]["operator_name"])
+    p = cdr_data.loc[country_name]["operator_proba"]
+    print(f"Operator Probability sum = {p.sum()}")
+    return np.random.choice(choices, p=p)
 
 
 def datetime_generator():
@@ -84,16 +96,25 @@ block_range = iprn_block_generator(iprn_country_generator())
 
 def fraud_phonenumber_generator():
     # Return a random number from the created block
-    return np.random.choice(block_range, size=1, replace=True, p=None)[0]
+    return np.random.choice(block_range)
 
 
 def target_country_generator():
-    return cdr_data["country_name"].sample(n=1, replace=True, weights=cdr_data["country_proba"]).values[0]
+    print(f"Generating Target Country...")
+    x = cdr_data.reset_index().drop_duplicates(subset=["country_name", "country_proba"])
+    choices = x["country_name"]
+    print(f"Target Country Choices: {len(choices)}")
+    p = x["country_proba"]
+    print(f"Target Country Probability = {p}")
+    return np.random.choice(choices, p=p)
 
 
 def target_number_generator(country_name):
-    return cdr["to_number"][cdr["to_country"] == country_name].sample(n=1, replace=True).values[0]
+    return np.random.choice(cdr.loc[country_name]["to_number"])
 
+
+def extension_generator():
+    return ''.join(['x', str(random.randrange(10000, 9999999))])
 
 iprn_country = iprn_country_generator()
 iprn_operator = iprn_operator_generator(iprn_country)
@@ -118,6 +139,10 @@ def international_cdr(to_emerging=False, to_advanced=False):
     else:
         record["to_country"] = target_country
     record["to_number"] = target_number
+    if np.random.random() >= 0.8:
+        record["to_extension"] = extension_generator()
+    else:
+        record["to_extension"] = None
     record["to_operator"] = target_operator
     record["call_duration"] = np.random.exponential(14)
     record["call_charge"] = np.random.exponential(10)
