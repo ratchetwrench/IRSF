@@ -44,8 +44,6 @@ def phonenumber_generator(country_name=None):
     # get known phone numbers 80% of the time, otherwise generate a new one
     try:
         prefix = cdr_data.loc[country_name]["prefix"]
-        print(type(prefix))
-        print(prefix)
         if prefix == 1:
             sn = randrange(2000000000, 9999999999)
             return "+{}{}".format(prefix, sn)

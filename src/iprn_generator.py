@@ -1,7 +1,8 @@
 """International Premium Rate Number Generator"""
 # -*- coding: utf-8 -*-
+import csv
 import pandas as pd
-from datetime import timedelta
+from datetime import timedelta, time
 import numpy as np
 import random
 from numpy.random import randint
@@ -9,20 +10,33 @@ from numpy.random import normal
 import calendar
 
 # Recipe inputs
-iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_proba.csv").dropna()
+iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_proba.csv")
 cdr_data = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv")
 cdr = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv")
+records = []
+
+
+def writer():
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/iprn.csv', 'wb') as f:
+        keys = records[0].keys()
+        w = csv.DictWriter(f, keys)
+        w.writeheader()
+        for record in records:
+            w.writerow(record)
 
 
 def iprn_country_generator():
-    return iprn["country_name"].sample(n=1, replace=True, weights=iprn["iprn_proba"]).values[0]
+    return iprn["country_name"].sample()
 
 
 def iprn_block_generator(country_name):
-    #     iprn_sample = iprn.sample(n=1, replace=True, weights=iprn["iprn_proba"])
-    prefix = int(iprn["prefix"][iprn["country_name"] == country_name].sample(n=1, replace=True,
+    try:
+        prefix = int(iprn["prefix"][iprn["country_name"] == country_name].sample(n=1, replace=True,
                                                                              weights=iprn[
                                                                                  "iprn_proba"]))
+    except KeyError:
+        prefix = int(iprn["prefix"][iprn["country_name"] == country_name])
+
     sn = random.randrange(2000000000, 9999999999)
     # Fill in the back part of the number minus the prefix
     block_range = []
@@ -34,25 +48,25 @@ def iprn_block_generator(country_name):
 
 
 def emerging_country_generator():
-    return df["country_name"].sample(n=1, replace=True, weights=df["bbva_proba"]).values[0]
+    return cdr_data["country_name"].sample(n=1, replace=True, weights=cdr_data["bbva_proba"]).values[0]
 
 
 def country_generator():
-    return df["country_name"].sample(n=1, replace=True, weights=df["country_proba"]).values[0]
+    return cdr_data["country_name"].sample(n=1, replace=True, weights=cdr_data["country_proba"]).values[0]
 
 
 def iprn_operator_generator(country_name):
-    return iprn_df["operator_name"][iprn_df["country_name"] == country_name].sample(n=1,
-                                                                                    weights=iprn_df[
-                                                                                        "iprn_iprn_proba"],
-                                                                                    replace=True).values[
-        0]
+    try:
+        return iprn["operator_name"][iprn["country_name"] == country_name]
+    except KeyError:
+        return iprn["operator_name"].sample()
 
 
 def operator_generator(country_name):
-    return \
-    df["operator_name"][df["country_name"] == country_name].sample(n=1, weights=df["country_proba"],
-                                                                   replace=True).values[0]
+    try:
+        return cdr_data["operator_name"][cdr_data["country_name"] == country_name].sample()
+    except KeyError:
+        return cdr_data["operator_name"].sample(n=1)
 
 
 def datetime_generator():
@@ -78,13 +92,11 @@ def target_country_generator():
 
 
 def target_number_generator(country_name):
-    return \
-    cdr["to_number"][cdr["to_country"] == country_name].sample(n=1, replace=True).values[0]
+    return cdr["to_number"][cdr["to_country"] == country_name].sample(n=1, replace=True).values[0]
 
 
 iprn_country = iprn_country_generator()
 iprn_operator = iprn_operator_generator(iprn_country)
-
 target_timefame = datetime_generator()
 target_country = target_country_generator()
 target_operator = operator_generator(target_country)
@@ -111,18 +123,17 @@ def international_cdr(to_emerging=False, to_advanced=False):
     record["call_charge"] = np.random.exponential(10)
     record["is_fraud"] = "True"
 
-    return record
+    records.append(record)
 
 
 # CDR Generator
-def bootstrap(count=100):
-    records = []
-
+def bootstrap():
+    record_count = randint(1000, 10000)
     # Set defaults
-    to_emerging = int(round(count * normal(loc=0.09, scale=0.03)))
-    to_advanced = int(round(count * normal(loc=0.41, scale=0.05)))
-    international = count - (to_emerging + to_advanced)
-    print("Generating {} records...".format(count))
+    to_emerging = int(round(record_count * normal(loc=0.09, scale=0.03)))
+    to_advanced = int(round(record_count * normal(loc=0.41, scale=0.05)))
+    international = record_count - (to_emerging + to_advanced)
+    print("Generating {} records...".format(record_count))
     print("{} International records...".format(international))
     print("{} Emerging records...".format(to_emerging))
     print("{} Advanced records...".format(to_advanced))
@@ -139,12 +150,10 @@ def bootstrap(count=100):
     for _ in range(to_emerging):
         records.append(international_cdr(to_emerging=True))
 
-    return pd.DataFrame(records)
+    writer()
 
 
-count = randint(100, 1000)
-pandas_dataframe = bootstrap(count=count)
-
-# Recipe outputs
-iprn_fraud = dataiku.Dataset("iprn_fraud")
-iprn_fraud.write_with_schema(pandas_dataframe)
+if __name__ == '__main__':
+    start = time()
+    bootstrap()
+    print("--- %s seconds ---" % (time() - start))
