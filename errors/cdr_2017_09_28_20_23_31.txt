@@ -1,0 +1,2 @@
+101737:48: conversion failed: "call_duration" to numeric
+102759:48: conversion failed: "call_duration" to numeric
