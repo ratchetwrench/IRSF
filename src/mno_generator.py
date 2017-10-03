@@ -19,10 +19,8 @@ import calendar
 import time
 from scipy.stats import expon
 
-
 df = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
                  usecols=['from_number', 'from_operator'])
-
 
 # Constant device tenures
 ANNUAL = expon(loc=.1)
@@ -38,7 +36,7 @@ records = []
 
 
 def writer():
-    with open('/Users/davidwrench/Galvanize/irsf/src/data/mno.csv', 'wb') as f:
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/mno.csv', 'a') as f:
         keys = records[0].keys()
         writer = csv.DictWriter(f, keys)
         writer.writeheader()
@@ -94,7 +92,8 @@ def mno(fraud=False):
     if fraud == 'device':
         record["device_tenure_days"] = DEVICE_TENURE.rvs(loc=.01) * 365
     else:
-        record["device_tenure_days"] = np.random.choice([ANNUAL.rvs(), BI_ANNUAL.rvs(), EVENTUAL.rvs()])
+        record["device_tenure_days"] = np.random.choice(
+            [ANNUAL.rvs(), BI_ANNUAL.rvs(), EVENTUAL.rvs()])
     record["device_velocity"] = 90 / record["device_tenure_days"]
 
     # SIM fraud

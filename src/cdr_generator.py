@@ -10,14 +10,16 @@ from scipy.stats import expon
 import time
 
 # Load Data
-CDR_SAMPLES = pd.read_csv('src/data/cdr.csv', usecols=["from_country", "from_number"], index_col="from_country")
+CDR_SAMPLES = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
+                          usecols=["from_country", "from_number"], index_col="from_country")
 
-CDR_PROBAS = pd.read_csv('src/data/cdr_data.csv', usecols=["country_name",
-                                                           "country_proba",
-                                                           "bbva_proba",
-                                                           "operator_proba",
-                                                           "operator_name",
-                                                           "prefix"])
+CDR_PROBAS = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/iprn.csv',
+                         usecols=["country_name",
+                                  "country_proba",
+                                  "bbva_proba",
+                                  "operator_proba",
+                                  "operator_name",
+                                  "prefix"])
 
 CDR_PROBAS.set_index(["country_name", "operator_name"], inplace=True)
 ADVANCED_COUNTRIES = CDR_PROBAS[CDR_PROBAS["bbva_proba"].isnull()]

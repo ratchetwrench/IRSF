@@ -144,8 +144,7 @@ class CDR():
                     cursor = connection.cursor()
                     try:
                         print(f"Inserting {self.count} records into {self.schema}...")
-                        cursor.execute(
-                            f"PREPARE stmt AS INSERT INTO {self.schema} VALUES {record._fields}")
+                        cursor.execute(f"PREPARE stmt AS INSERT INTO {schema} VALUES {record}")
                         execute_batch(cursor, "EXECUTE stmt ()", record)
                         cursor.execute("DEALLOCATE stmt")
                         print(f"Finished inserting {self.count} records.")

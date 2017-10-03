@@ -1,30 +1,28 @@
 """Communications Fraud Control Association Record Generator"""
 # -*- coding: utf-8 -*-
 import csv
-from datetime import datetime
 from time import time
 import numpy as np
 from numpy.random import randint
+from random import randrange
 import calendar
 import pandas as pd
 
+
 # Recipe inputs
-iprn = pd.read_csv("src/data/iprn.csv")
-df = pd.read_csv("src/data/cdr_data.csv")
-cdr = pd.read_csv("src/data/cdr.csv", usecols=['to_country', 'to_number']).sample(frac=1)
-cdr.set_index("country_name", inplace=True)
-# Helper Functions
-iprn_df = df.query('iprn_iprn_proba > 0')
+iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_proba.csv")
+cdr_data = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv").set_index(["country_name", "prefix"])
+
 
 records = []
 
 
 def iprn_country_generator():
-    return iprn_df["country_name"].sample(n=1, replace=True, weights=iprn["iprn_proba"]).values[0]
+    return iprn["country_name"].sample(n=1, replace=True, weights=iprn["iprn_proba"]).values[0]
 
 
 def writer():
-    with open('src/data/cfca.csv', 'wb') as f:
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/cfca.csv', 'wb') as f:
         keys = records[0].keys()
         w = csv.DictWriter(f, keys)
         w.writeheader()
@@ -33,38 +31,51 @@ def writer():
 
 
 def datetime_generator():
-    # Datetime ranges
-    y = np.random.randint(2015, 2017)
+    Y = np.random.randint(2015, 2017)
     m = np.random.randint(1, 12)
-    d = np.random.randint(1, calendar.monthrange(y, m)[1])
-    h = np.random.randint(0, 24)
-    m = np.random.randint(0, 60)
-    s = np.random.randint(0, 60)
-    return datetime(s, m, d, h, m, s).isoformat()
+    d = np.random.randint(1, calendar.monthrange(Y, m)[1])
+    H = np.random.randint(0, 23)
+    M = np.random.randint(0, 59)
+    S = np.random.uniform(low=0.0, high=59.0)
+    return pd.to_datetime("{}-{}-{} {:02d}:{:02d}:{:4f}".format(Y, m, d, H, M, S))
 
 
-def fraud_phonenumber_generator(country_name=None):
-    # Return a random number from the created block
-    return cdr.loc[country_name]["from_number"].sample(n=1, replace=True).values[0]
+def phonenumber_generator(country_name=None):
+    # get known phone numbers 80% of the time, otherwise generate a new one
+    try:
+        prefix = cdr_data.loc[country_name]["prefix"]
+        print(type(prefix))
+        print(prefix)
+        if prefix == 1:
+            sn = randrange(2000000000, 9999999999)
+            return "+{}{}".format(prefix, sn)
+        else:
+            sn = randrange(2000000000, 999999999999)
+            return "+{}{}".format(prefix, sn)
+    except KeyError:
+        prefix = randrange(1, 973)
+        sn = randrange(2000000000, 999999999999)
+        return "+{}{}".format(prefix, sn)
 
 
 # Main Functionality
 def cfca():
-    record = {"date_added": datetime_generator(),
-              "phone_number": fraud_phonenumber_generator(iprn_country_generator())}
+    record = {}
+    record["date_added"] = datetime_generator()
+    record["phone_number"] = phonenumber_generator(iprn_country_generator())
     records.append(record)
 
 
 # CDR Generator
-def bootstrap(count=100):
-    print("Generating {} CFCA records...".format(count))
-    for record in range(count):
+def bootstrap():
+    record_count = randint(100, 1000)
+    print(f"Generating {record_count} CFCA records...")
+    for record in range(record_count):
         cfca()
     writer()
 
 
 if __name__ == '__main__':
     start = time()
-    record_count = randint(100, 1000)
-    bootstrap(count=record_count)
+    bootstrap()
     print("--- %s seconds ---" % (time() - start))
