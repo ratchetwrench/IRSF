@@ -36,7 +36,7 @@ records = []
 
 
 def writer():
-    with open('/Users/davidwrench/Galvanize/irsf/src/data/mno.csv', 'a') as f:
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/mno.csv', 'w') as f:
         keys = records[0].keys()
         writer = csv.DictWriter(f, keys)
         writer.writeheader()

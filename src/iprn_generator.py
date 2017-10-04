@@ -186,7 +186,7 @@ def bootstrap():
     to_emerging = int(round(record_count * normal(loc=0.09, scale=0.03)))
     to_advanced = int(round(record_count * normal(loc=0.41, scale=0.05)))
     international = record_count - (to_emerging + to_advanced)
-    print("Generating {} records...".format(record_count))
+    print("\nGenerating {} records...".format(record_count))
     print("{} International records...".format(international))
     print("{} Emerging records...".format(to_emerging))
     print("{} Advanced records...".format(to_advanced))

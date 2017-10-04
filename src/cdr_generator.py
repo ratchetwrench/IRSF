@@ -180,4 +180,7 @@ if __name__ == '__main__':
     record_count = np.random.randint(10000, 100000)
     x = CDR(count=record_count, fraud=True)
     x.bootstrap()
-    print("--- %s seconds ---" % (time.time() - start))
+    stop = time.time()
+    run_time = stop - start
+    print(f"Created {record_count} records in {run_time} seconds")
+    print(f"{record_count / run_time} records per second")
