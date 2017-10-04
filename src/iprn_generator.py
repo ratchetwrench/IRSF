@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import csv
 import pandas as pd
-from datetime import timedelta, time
+from datetime import timedelta
+from time import time
 import numpy as np
 import random
 from numpy.random import randint
@@ -180,8 +181,8 @@ def international_cdr(to_emerging=False, to_advanced=False):
 
 
 # CDR Generator
-def bootstrap():
-    record_count = randint(1000, 10000)
+def bootstrap(count=1000):
+    record_count = count
     # Set defaults
     to_emerging = int(round(record_count * normal(loc=0.09, scale=0.03)))
     to_advanced = int(round(record_count * normal(loc=0.41, scale=0.05)))
@@ -207,6 +208,11 @@ def bootstrap():
 
 
 if __name__ == '__main__':
-    # start = time()
-    bootstrap()
-    # print("--- %s seconds ---" % (time() - start))
+    start = time()
+    record_count = np.random.randint(1000, 10000)
+    print(f"Generating {record_count} IPRN records...")
+    bootstrap(count=record_count)
+    stop = time()
+    run_time = stop - start
+    print(f"Created {record_count} records in {run_time} seconds")
+    print(f"{record_count / run_time} records per second")

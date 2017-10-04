@@ -22,7 +22,7 @@ def iprn_country_generator():
 
 
 def writer():
-    with open('/Users/davidwrench/Galvanize/irsf/src/data/cfca.csv', 'wb') as f:
+    with open('/Users/davidwrench/Galvanize/irsf/src/data/cfca.csv', 'w') as f:
         keys = records[0].keys()
         w = csv.DictWriter(f, keys)
         w.writeheader()
@@ -65,8 +65,8 @@ def cfca():
 
 
 # CDR Generator
-def bootstrap():
-    record_count = randint(100, 1000)
+def bootstrap(count=1000):
+    record_count = count
     print(f"Generating {record_count} CFCA records...")
     for record in range(record_count):
         cfca()
@@ -75,5 +75,10 @@ def bootstrap():
 
 if __name__ == '__main__':
     start = time()
-    bootstrap()
-    print("--- %s seconds ---" % (time() - start))
+    record_count = np.random.randint(1000, 10000)
+    print(f"Generating {record_count} CFCA records...")
+    bootstrap(count=record_count)
+    stop = time()
+    run_time = stop - start
+    print(f"Created {record_count} records in {run_time} seconds")
+    print(f"{record_count / run_time} records per second")

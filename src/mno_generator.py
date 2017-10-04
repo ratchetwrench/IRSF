@@ -16,8 +16,8 @@ import csv
 import pandas as pd
 import numpy as np
 import calendar
-import time
 from scipy.stats import expon
+from time import time
 
 df = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
                  usecols=['from_number', 'from_operator'])
@@ -115,7 +115,6 @@ def mno(fraud=False):
 
 
 def bootstrap(count=100):
-    print("Generating {} Records...".format(count))
     fraud_count = int(round(count * np.random.uniform(0.01, 0.05)))
     print("{} Non-Fraud Records...".format(count - fraud_count))
     print("{} Fraud Records...".format(fraud_count))
@@ -129,7 +128,11 @@ def bootstrap(count=100):
 
 
 if __name__ == '__main__':
-    start = time.time()
+    start = time()
     record_count = np.random.randint(10000, 100000)
+    print(f"Generating {record_count} MNO records...")
     bootstrap(count=record_count)
-    print("--- %s seconds ---" % (time.time() - start))
+    stop = time()
+    run_time = stop - start
+    print(f"Created {record_count} records in {run_time} seconds")
+    print(f"{record_count / run_time} records per second")

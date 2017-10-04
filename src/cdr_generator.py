@@ -10,18 +10,10 @@ from scipy.stats import expon
 import time
 
 # Load Data
-CDR_SAMPLES = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
-                          usecols=["from_country", "from_number"], index_col="from_country")
-
-CDR_PROBAS = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/iprn_data.csv',
-                         usecols=["country_name",
-                                  "country_proba",
-                                  "bbva_proba",
-                                  "operator_proba",
-                                  "operator_name",
-                                  "prefix"])
-
-CDR_PROBAS.set_index(["country_name", "operator_name"], inplace=True)
+CDR_SAMPLES = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr_sample.csv',
+                          index_col="from_country")
+CDR_PROBAS = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv',
+                         index_col=["country_name", "operator_name"])
 ADVANCED_COUNTRIES = CDR_PROBAS[CDR_PROBAS["bbva_proba"].isnull()]
 EMERGING_COUNTRIES = CDR_PROBAS.dropna()
 
@@ -52,7 +44,7 @@ class CDR(object):
             CALL_DURATION = expon(loc=5.)
 
     def writer(self):
-        with open('src/data/cdr.csv', 'wb') as f:
+        with open('src/data/cdr.csv', 'w') as f:
             keys = self.records[0].keys()
             writer = csv.DictWriter(f, keys)
             writer.writeheader()
@@ -148,7 +140,7 @@ class CDR(object):
         :return: dictionary of call detail records
         """
         record = {}
-        record["date_called"] = self.datetime_generator()
+        record["call_date"] = self.datetime_generator()
         record["from_country"] = self.country_generator()
 
         if international:
@@ -178,7 +170,8 @@ class CDR(object):
 if __name__ == '__main__':
     start = time.time()
     record_count = np.random.randint(10000, 100000)
-    x = CDR(count=record_count, fraud=True)
+    print(f"Generating {record_count} CDR records...")
+    x = CDR(count=record_count, fraud=False)
     x.bootstrap()
     stop = time.time()
     run_time = stop - start
