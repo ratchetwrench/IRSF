@@ -66,9 +66,7 @@ def cfca():
 
 # CDR Generator
 def bootstrap(count=1000):
-    record_count = count
-    print(f"Generating {record_count} CFCA records...")
-    for record in range(record_count):
+    for record in range(count):
         cfca()
     writer()
 

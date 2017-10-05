@@ -40,8 +40,8 @@ class CDR(object):
             self.advanced_to_emerging = self.emerging_to_advanced  # swapped with self.advanced
             self.emerging_to_advanced = self.advanced_to_emerging  # swapped with self.emerging
             self.national = count - self.international
-            CALL_CHARGE = expon(loc=7.)
-            CALL_DURATION = expon(loc=5.)
+            CALL_CHARGE = expon(loc=.17)
+            CALL_DURATION = expon(loc=.015)
 
     def writer(self):
         with open('src/data/cdr.csv', 'w') as f:
@@ -102,7 +102,7 @@ class CDR(object):
     @staticmethod
     def phonenumber_generator(country_name=None):
         # get known phone numbers 80% of the time, otherwise generate a new one
-        if CDR_SAMPLES.notnull and np.random.random() >= 0.8:
+        if np.random.random() >= 0.8:
             return np.random.choice(CDR_SAMPLES.loc[country_name]["from_number"], size=1)
         else:
             prefix = CDR_PROBAS.loc[country_name]["prefix"].values[0]
@@ -169,7 +169,7 @@ class CDR(object):
 
 if __name__ == '__main__':
     start = time.time()
-    record_count = np.random.randint(10000, 100000)
+    record_count = np.random.randint(100000, 1000000)
     print(f"Generating {record_count} CDR records...")
     x = CDR(count=record_count, fraud=False)
     x.bootstrap()

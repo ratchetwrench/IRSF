@@ -16,19 +16,24 @@ import csv
 import pandas as pd
 import numpy as np
 import calendar
+import psycopg2
 from scipy.stats import expon
 from time import time
 
-df = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv',
-                 usecols=['from_number', 'from_operator'])
+
+con = psycopg2.connect("dbname=irsf user=postgres")
+sql = 'SELECT from_number, from_operator FROM cdr;'
+df = pd.read_sql(sql=sql, con=con, columns=["from_number", "from_operator"])
+# df = pd.read_csv('/Users/davidwrench/Galvanize/irsf/src/data/cdr_sample.csv',
+#                  usecols=['from_number', 'from_operator'])
 
 # Constant device tenures
-ANNUAL = expon(loc=.1)
-BI_ANNUAL = expon(loc=.2)
-EVENTUAL = expon(loc=.4)
+ANNUAL = expon(loc=.01)
+BI_ANNUAL = expon(loc=.02)
+EVENTUAL = expon(loc=.04)
 
 PHONE_TENURE = expon(loc=.05)
-DEVICE_TENURE = expon(loc=.1)
+DEVICE_TENURE = expon(loc=.01)
 SIM_TENURE = expon(loc=.05)
 MNO_TENURE = expon(loc=.05)
 
@@ -83,14 +88,14 @@ def mno(fraud=False):
 
     # Number fraud
     if fraud == 'number':
-        record["phone_number_tenure_days"] = PHONE_TENURE.rvs(loc=.005) * 365
+        record["phone_number_tenure_days"] = PHONE_TENURE.rvs(loc=.035) * 365
     else:
         record["phone_number_tenure_days"] = PHONE_TENURE.rvs() * 365
     record["phone_number_velocity"] = 90 / record["phone_number_tenure_days"]
 
     # Device fraud
     if fraud == 'device':
-        record["device_tenure_days"] = DEVICE_TENURE.rvs(loc=.01) * 365
+        record["device_tenure_days"] = DEVICE_TENURE.rvs(loc=.085) * 365
     else:
         record["device_tenure_days"] = np.random.choice(
             [ANNUAL.rvs(), BI_ANNUAL.rvs(), EVENTUAL.rvs()])
@@ -98,7 +103,7 @@ def mno(fraud=False):
 
     # SIM fraud
     if fraud == 'sim':
-        record["sim_tenure_days"] = SIM_TENURE.rvs(loc=.1) * 365
+        record["sim_tenure_days"] = SIM_TENURE.rvs(loc=.025) * 365
     else:
         record["sim_tenure_days"] = SIM_TENURE.rvs() * 365
 

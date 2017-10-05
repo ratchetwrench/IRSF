@@ -6,15 +6,19 @@ from datetime import timedelta
 from time import time
 import numpy as np
 import random
+import psycopg2
 from numpy.random import randint
 from numpy.random import normal
 import calendar
 
-
+con = psycopg2.connect("dbname=irsf user=postgres")
 # Recipe inputs
 iprn = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/iprn_data.csv", index_col="country_name").fillna(0)
 cdr_data = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr_data.csv", index_col=["country_name"]).fillna(0)
-cdr = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv", index_col="from_country")
+
+sql = 'SELECT * FROM cdr LIMIT 1000;'
+cdr = pd.read_sql(sql=sql, con=con, index_col="from_country")
+# cdr = pd.read_csv("/Users/davidwrench/Galvanize/irsf/src/data/cdr.csv", index_col="from_country")
 records = []
 
 EMERGING_COUNTRIES = cdr_data[cdr_data["bbva_proba"] > 0]
